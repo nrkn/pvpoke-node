@@ -41,10 +41,10 @@ your code by refactoring types etc and the compiler will tell you what you need
 to fix
 
 Don't use classes - JavaScript classes, prototypes, `this` etc are a pain to
-work with, and they don't add anything useful except familiary for people from a
-traditional OO background, you can organise and scope things more simply with
-closures and modules. You can ensure that your data is the shape you want it
-to be using TypeScript types.
+work with, and they don't add anything useful except familiarity for people from
+a traditional OO background, you can organise and scope things more simply with
+function closures and modules. You can ensure that your data is the shape you
+want it to be using TypeScript types.
 
 Just use simple typed objects and arrays (eg JSON serializable) for data, and
 then have functions for working with the data
