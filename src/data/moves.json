@@ -1,0 +1,2012 @@
+[
+  {
+    "moveId": "ACID",
+    "name": "Acid",
+    "type": "poison",
+    "power": 6,
+    "cooldown": 1000,
+    "energyGain": 5
+  },
+  {
+    "moveId": "ACID_SPRAY",
+    "name": "Acid Spray",
+    "type": "poison",
+    "power": 20,
+    "cooldown": 500,
+    "energy": 50,
+    "buffs": {
+      "atk": 0,
+      "def": -2
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "AERIAL_ACE",
+    "name": "Aerial Ace",
+    "type": "flying",
+    "power": 55,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "AIR_CUTTER",
+    "name": "Air Cutter",
+    "type": "flying",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "AIR_SLASH",
+    "name": "Air Slash",
+    "type": "flying",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 9
+  },
+  {
+    "moveId": "ANCIENT_POWER",
+    "name": "Ancient Power",
+    "type": "rock",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 45,
+    "buffs": {
+      "atk": 2,
+      "def": 2
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 0.1
+  },
+  {
+    "moveId": "AQUA_JET",
+    "name": "Aqua Jet",
+    "type": "water",
+    "power": 45,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "AQUA_TAIL",
+    "name": "Aqua Tail",
+    "type": "water",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "ASTONISH",
+    "name": "Astonish",
+    "type": "ghost",
+    "power": 5,
+    "cooldown": 1500,
+    "energyGain": 9
+  },
+  {
+    "moveId": "AURA_SPHERE",
+    "name": "Aura Sphere",
+    "type": "fighting",
+    "power": 100,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "AURORA_BEAM",
+    "name": "Aurora Beam",
+    "type": "ice",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "AVALANCHE",
+    "name": "Avalanche",
+    "type": "ice",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "BITE",
+    "name": "Bite",
+    "type": "dark",
+    "power": 4,
+    "cooldown": 500,
+    "energyGain": 2
+  },
+  {
+    "moveId": "BLAST_BURN",
+    "name": "Blast Burn",
+    "type": "fire",
+    "power": 110,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "BLIZZARD",
+    "name": "Blizzard",
+    "type": "ice",
+    "power": 130,
+    "cooldown": 500,
+    "energy": 75
+  },
+  {
+    "moveId": "BODY_SLAM",
+    "name": "Body Slam",
+    "type": "normal",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "BONE_CLUB",
+    "name": "Bone Club",
+    "type": "ground",
+    "power": 40,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "BRAVE_BIRD",
+    "name": "Brave Bird",
+    "type": "flying",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "BRICK_BREAK",
+    "name": "Brick Break",
+    "type": "fighting",
+    "power": 40,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "BRINE",
+    "name": "Brine",
+    "type": "water",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "BUBBLE",
+    "name": "Bubble",
+    "type": "water",
+    "power": 8,
+    "cooldown": 1500,
+    "energyGain": 11
+  },
+  {
+    "moveId": "BUBBLE_BEAM",
+    "name": "Bubble Beam",
+    "type": "water",
+    "power": 25,
+    "cooldown": 500,
+    "energy": 40,
+    "buffs": {
+      "atk": -1,
+      "def": 0
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "BUG_BITE",
+    "name": "Bug Bite",
+    "type": "bug",
+    "power": 3,
+    "cooldown": 500,
+    "energyGain": 3
+  },
+  {
+    "moveId": "BUG_BUZZ",
+    "name": "Bug Buzz",
+    "type": "bug",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "BULLDOZE",
+    "name": "Bulldoze",
+    "type": "ground",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "BULLET_PUNCH",
+    "name": "Bullet Punch",
+    "type": "steel",
+    "power": 6,
+    "cooldown": 1000,
+    "energyGain": 7
+  },
+  {
+    "moveId": "BULLET_SEED",
+    "name": "Bullet Seed",
+    "type": "grass",
+    "power": 5,
+    "cooldown": 1500,
+    "energyGain": 11
+  },
+  {
+    "moveId": "CHARGE_BEAM",
+    "name": "Charge Beam",
+    "type": "electric",
+    "power": 5,
+    "cooldown": 1500,
+    "energyGain": 11
+  },
+  {
+    "moveId": "CHARM",
+    "name": "Charm",
+    "type": "fairy",
+    "power": 16,
+    "cooldown": 1500,
+    "energyGain": 6
+  },
+  {
+    "moveId": "CLOSE_COMBAT",
+    "name": "Close Combat",
+    "type": "fighting",
+    "power": 100,
+    "cooldown": 500,
+    "energy": 45,
+    "buffs": {
+      "atk": 0,
+      "def": -2
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "CONFUSION",
+    "name": "Confusion",
+    "type": "psychic",
+    "power": 16,
+    "cooldown": 2000,
+    "energyGain": 12
+  },
+  {
+    "moveId": "COUNTER",
+    "name": "Counter",
+    "type": "fighting",
+    "power": 8,
+    "cooldown": 1000,
+    "energyGain": 7
+  },
+  {
+    "moveId": "CRABHAMMER",
+    "name": "Crabhammer",
+    "type": "water",
+    "power": 75,
+    "cooldown": 500,
+    "energy": 50,
+    "buffs": {
+      "atk": 2,
+      "def": 0
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 0.125
+  },
+  {
+    "moveId": "CROSS_CHOP",
+    "name": "Cross Chop",
+    "type": "fighting",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "CROSS_POISON",
+    "name": "Cross Poison",
+    "type": "poison",
+    "power": 40,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "CRUNCH",
+    "name": "Crunch",
+    "type": "dark",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "CUT",
+    "name": "Cut",
+    "type": "normal",
+    "power": 3,
+    "cooldown": 500,
+    "energyGain": 2
+  },
+  {
+    "moveId": "DARK_PULSE",
+    "name": "Dark Pulse",
+    "type": "dark",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "DAZZLING_GLEAM",
+    "name": "Dazzling Gleam",
+    "type": "fairy",
+    "power": 110,
+    "cooldown": 500,
+    "energy": 70
+  },
+  {
+    "moveId": "DIG",
+    "name": "Dig",
+    "type": "ground",
+    "power": 100,
+    "cooldown": 500,
+    "energy": 80
+  },
+  {
+    "moveId": "DISARMING_VOICE",
+    "name": "Disarming Voice",
+    "type": "fairy",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "DISCHARGE",
+    "name": "Discharge",
+    "type": "electric",
+    "power": 65,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "DOOM_DESIRE",
+    "name": "Doom Desire",
+    "type": "steel",
+    "power": 75,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "DRACO_METEOR",
+    "name": "Draco Meteor",
+    "type": "dragon",
+    "power": 150,
+    "cooldown": 500,
+    "energy": 65,
+    "buffs": {
+      "atk": -2,
+      "def": 0
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "DRAGON_BREATH",
+    "name": "Dragon Breath",
+    "type": "dragon",
+    "power": 4,
+    "cooldown": 500,
+    "energyGain": 3
+  },
+  {
+    "moveId": "DRAGON_CLAW",
+    "name": "Dragon Claw",
+    "type": "dragon",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "DRAGON_PULSE",
+    "name": "Dragon Pulse",
+    "type": "dragon",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "DRAGON_TAIL",
+    "name": "Dragon Tail",
+    "type": "dragon",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 10
+  },
+  {
+    "moveId": "DRAINING_KISS",
+    "name": "Draining Kiss",
+    "type": "fairy",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "DRILL_PECK",
+    "name": "Drill Peck",
+    "type": "flying",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "DRILL_RUN",
+    "name": "Drill Run",
+    "type": "ground",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "DYNAMIC_PUNCH",
+    "name": "Dynamic Punch",
+    "type": "fighting",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "EARTHQUAKE",
+    "name": "Earthquake",
+    "type": "ground",
+    "power": 120,
+    "cooldown": 500,
+    "energy": 65
+  },
+  {
+    "moveId": "EARTH_POWER",
+    "name": "Earth Power",
+    "type": "ground",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 55,
+    "buffs": {
+      "atk": 0,
+      "def": -1
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 0.1
+  },
+  {
+    "moveId": "EMBER",
+    "name": "Ember",
+    "type": "fire",
+    "power": 6,
+    "cooldown": 1000,
+    "energyGain": 6
+  },
+  {
+    "moveId": "ENERGY_BALL",
+    "name": "Energy Ball",
+    "type": "grass",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "EXTRASENSORY",
+    "name": "Extrasensory",
+    "type": "psychic",
+    "power": 8,
+    "cooldown": 1500,
+    "energyGain": 10
+  },
+  {
+    "moveId": "FEINT_ATTACK",
+    "name": "Feint Attack",
+    "type": "dark",
+    "power": 6,
+    "cooldown": 1000,
+    "energyGain": 6
+  },
+  {
+    "moveId": "FELL_STINGER",
+    "name": "Fell Stinger",
+    "type": "bug",
+    "power": 20,
+    "cooldown": 500,
+    "energy": 35,
+    "buffs": {
+      "atk": 1,
+      "def": 0
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "FIRE_BLAST",
+    "name": "Fire Blast",
+    "type": "fire",
+    "power": 140,
+    "cooldown": 500,
+    "energy": 80
+  },
+  {
+    "moveId": "FIRE_FANG",
+    "name": "Fire Fang",
+    "type": "fire",
+    "power": 8,
+    "cooldown": 1000,
+    "energyGain": 5
+  },
+  {
+    "moveId": "FIRE_PUNCH",
+    "name": "Fire Punch",
+    "type": "fire",
+    "power": 55,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "BLAZE_KICK",
+    "name": "Blaze Kick",
+    "type": "fire",
+    "power": 55,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "FIRE_SPIN",
+    "name": "Fire Spin",
+    "type": "fire",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 10
+  },
+  {
+    "moveId": "FLAME_BURST",
+    "name": "Flame Burst",
+    "type": "fire",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "FLAME_CHARGE",
+    "name": "Flame Charge",
+    "type": "fire",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "FLAME_WHEEL",
+    "name": "Flame Wheel",
+    "type": "fire",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "FLAMETHROWER",
+    "name": "Flamethrower",
+    "type": "fire",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "FLASH_CANNON",
+    "name": "Flash Cannon",
+    "type": "steel",
+    "power": 110,
+    "cooldown": 500,
+    "energy": 65
+  },
+  {
+    "moveId": "FOCUS_BLAST",
+    "name": "Focus Blast",
+    "type": "fighting",
+    "power": 150,
+    "cooldown": 500,
+    "energy": 75
+  },
+  {
+    "moveId": "FOUL_PLAY",
+    "name": "Foul Play",
+    "type": "dark",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "FRENZY_PLANT",
+    "name": "Frenzy Plant",
+    "type": "grass",
+    "power": 100,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "FROST_BREATH",
+    "name": "Frost Breath",
+    "type": "ice",
+    "power": 7,
+    "cooldown": 1000,
+    "energyGain": 5
+  },
+  {
+    "moveId": "FRUSTRATION",
+    "name": "Frustration",
+    "type": "normal",
+    "power": 10,
+    "cooldown": 500,
+    "energy": 70
+  },
+  {
+    "moveId": "FURY_CUTTER",
+    "name": "Fury Cutter",
+    "type": "bug",
+    "power": 2,
+    "cooldown": 500,
+    "energyGain": 4
+  },
+  {
+    "moveId": "FUTURE_SIGHT",
+    "name": "Future Sight",
+    "type": "psychic",
+    "power": 120,
+    "cooldown": 500,
+    "energy": 65
+  },
+  {
+    "moveId": "GIGA_DRAIN",
+    "name": "Giga Drain",
+    "type": "grass",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 80
+  },
+  {
+    "moveId": "GIGA_IMPACT",
+    "name": "Giga Impact",
+    "type": "normal",
+    "power": 150,
+    "cooldown": 500,
+    "energy": 80
+  },
+  {
+    "moveId": "GRASS_KNOT",
+    "name": "Grass Knot",
+    "type": "grass",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "GUNK_SHOT",
+    "name": "Gunk Shot",
+    "type": "poison",
+    "power": 130,
+    "cooldown": 500,
+    "energy": 75
+  },
+  {
+    "moveId": "GYRO_BALL",
+    "name": "Gyro Ball",
+    "type": "steel",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "HEART_STAMP",
+    "name": "Heart Stamp",
+    "type": "psychic",
+    "power": 40,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "HEAT_WAVE",
+    "name": "Heat Wave",
+    "type": "fire",
+    "power": 95,
+    "cooldown": 500,
+    "energy": 75
+  },
+  {
+    "moveId": "HEAVY_SLAM",
+    "name": "Heavy Slam",
+    "type": "steel",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "HEX",
+    "name": "Hex",
+    "type": "ghost",
+    "power": 6,
+    "cooldown": 1500,
+    "energyGain": 11
+  },
+  {
+    "moveId": "HIDDEN_POWER_BUG",
+    "name": "Hidden Power (Bug)",
+    "type": "bug",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_DARK",
+    "name": "Hidden Power (Dark)",
+    "type": "dark",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_DRAGON",
+    "name": "Hidden Power (Dragon)",
+    "type": "dragon",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_ELECTRIC",
+    "name": "Hidden Power (Electric)",
+    "type": "electric",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_FIGHTING",
+    "name": "Hidden Power (Fighting)",
+    "type": "fighting",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_FIRE",
+    "name": "Hidden Power (Fire)",
+    "type": "fire",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_FLYING",
+    "name": "Hidden Power (Flying)",
+    "type": "flying",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_GHOST",
+    "name": "Hidden Power (Ghost)",
+    "type": "ghost",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_GRASS",
+    "name": "Hidden Power (Grass)",
+    "type": "grass",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_GROUND",
+    "name": "Hidden Power (Ground)",
+    "type": "ground",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_ICE",
+    "name": "Hidden Power (Ice)",
+    "type": "ice",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_POISON",
+    "name": "Hidden Power (Poison)",
+    "type": "poison",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_PSYCHIC",
+    "name": "Hidden Power (Psychic)",
+    "type": "psychic",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_ROCK",
+    "name": "Hidden Power (Rock)",
+    "type": "rock",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_STEEL",
+    "name": "Hidden Power (Steel)",
+    "type": "steel",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HIDDEN_POWER_WATER",
+    "name": "Hidden Power (Water)",
+    "type": "water",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "HORN_ATTACK",
+    "name": "Horn Attack",
+    "type": "normal",
+    "power": 40,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "HURRICANE",
+    "name": "Hurricane",
+    "type": "flying",
+    "power": 110,
+    "cooldown": 500,
+    "energy": 65
+  },
+  {
+    "moveId": "HYDRO_CANNON",
+    "name": "Hydro Cannon",
+    "type": "water",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "HYDRO_PUMP",
+    "name": "Hydro Pump",
+    "type": "water",
+    "power": 130,
+    "cooldown": 500,
+    "energy": 75
+  },
+  {
+    "moveId": "HYDRO_PUMP_BLASTOISE",
+    "name": "Hydro Pump Blastoise",
+    "type": "water",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 80
+  },
+  {
+    "moveId": "HYPER_BEAM",
+    "name": "Hyper Beam",
+    "type": "normal",
+    "power": 150,
+    "cooldown": 500,
+    "energy": 80
+  },
+  {
+    "moveId": "HYPER_FANG",
+    "name": "Hyper Fang",
+    "type": "normal",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "ICE_BEAM",
+    "name": "Ice Beam",
+    "type": "ice",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "ICE_FANG",
+    "name": "Ice Fang",
+    "type": "ice",
+    "power": 8,
+    "cooldown": 1000,
+    "energyGain": 5
+  },
+  {
+    "moveId": "ICE_PUNCH",
+    "name": "Ice Punch",
+    "type": "ice",
+    "power": 55,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "ICE_SHARD",
+    "name": "Ice Shard",
+    "type": "ice",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 10
+  },
+  {
+    "moveId": "ICY_WIND",
+    "name": "Icy Wind",
+    "type": "ice",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 45,
+    "buffs": {
+      "atk": -1,
+      "def": 0
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "INFESTATION",
+    "name": "Infestation",
+    "type": "bug",
+    "power": 6,
+    "cooldown": 1500,
+    "energyGain": 11
+  },
+  {
+    "moveId": "IRON_HEAD",
+    "name": "Iron Head",
+    "type": "steel",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "IRON_TAIL",
+    "name": "Iron Tail",
+    "type": "steel",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 6
+  },
+  {
+    "moveId": "KARATE_CHOP",
+    "name": "Karate Chop",
+    "type": "fighting",
+    "power": 5,
+    "cooldown": 1000,
+    "energyGain": 7
+  },
+  {
+    "moveId": "LAST_RESORT",
+    "name": "Last Resort",
+    "type": "normal",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "LEAF_BLADE",
+    "name": "Leaf Blade",
+    "type": "grass",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "LEAF_TORNADO",
+    "name": "Leaf Tornado",
+    "type": "grass",
+    "power": 45,
+    "cooldown": 500,
+    "energy": 40,
+    "buffs": {
+      "atk": -1,
+      "def": 0
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 0.5
+  },
+  {
+    "moveId": "LICK",
+    "name": "Lick",
+    "type": "ghost",
+    "power": 3,
+    "cooldown": 500,
+    "energyGain": 3
+  },
+  {
+    "moveId": "LOCK_ON",
+    "name": "Lock On",
+    "type": "normal",
+    "power": 1,
+    "cooldown": 500,
+    "energyGain": 5
+  },
+  {
+    "moveId": "LOW_KICK",
+    "name": "Low Kick",
+    "type": "fighting",
+    "power": 4,
+    "cooldown": 1000,
+    "energyGain": 5
+  },
+  {
+    "moveId": "LOW_SWEEP",
+    "name": "Low Sweep",
+    "type": "fighting",
+    "power": 40,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "MAGNET_BOMB",
+    "name": "Magnet Bomb",
+    "type": "steel",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "MEGA_DRAIN",
+    "name": "Mega Drain",
+    "type": "grass",
+    "power": 25,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "MEGAHORN",
+    "name": "Megahorn",
+    "type": "bug",
+    "power": 100,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "METAL_CLAW",
+    "name": "Metal Claw",
+    "type": "steel",
+    "power": 5,
+    "cooldown": 1000,
+    "energyGain": 6
+  },
+  {
+    "moveId": "METEOR_MASH",
+    "name": "Meteor Mash",
+    "type": "steel",
+    "power": 100,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "MIRROR_COAT",
+    "name": "Mirror Coat",
+    "type": "psychic",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "MIRROR_SHOT",
+    "name": "Mirror Shot",
+    "type": "steel",
+    "power": 35,
+    "cooldown": 500,
+    "energy": 35,
+    "buffs": {
+      "atk": -1,
+      "def": 0
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 0.3
+  },
+  {
+    "moveId": "MOONBLAST",
+    "name": "Moonblast",
+    "type": "fairy",
+    "power": 130,
+    "cooldown": 500,
+    "energy": 70
+  },
+  {
+    "moveId": "MUD_BOMB",
+    "name": "Mud Bomb",
+    "type": "ground",
+    "power": 55,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "MUDDY_WATER",
+    "name": "Muddy Water",
+    "type": "water",
+    "power": 35,
+    "cooldown": 1000,
+    "energy": 35,
+    "buffs": {
+      "atk": -1,
+      "def": 0
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 0.3
+  },
+  {
+    "moveId": "MUD_SHOT",
+    "name": "Mud Shot",
+    "type": "ground",
+    "power": 3,
+    "cooldown": 1000,
+    "energyGain": 9
+  },
+  {
+    "moveId": "MUD_SLAP",
+    "name": "Mud Slap",
+    "type": "ground",
+    "power": 11,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "NIGHT_SHADE",
+    "name": "Night Shade",
+    "type": "ghost",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "NIGHT_SLASH",
+    "name": "Night Slash",
+    "type": "dark",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 35,
+    "buffs": {
+      "atk": 2,
+      "def": 0
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 0.125
+  },
+  {
+    "moveId": "OCTAZOOKA",
+    "name": "Octazooka",
+    "type": "water",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 50,
+    "buffs": {
+      "atk": -2,
+      "def": 0
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 0.5
+  },
+  {
+    "moveId": "OMINOUS_WIND",
+    "name": "Ominous Wind",
+    "type": "ghost",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 40,
+    "buffs": {
+      "atk": 2,
+      "def": 2
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 0.1
+  },
+  {
+    "moveId": "ORIGIN_PULSE",
+    "name": "Origin Pulse",
+    "type": "water",
+    "power": 130,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "OUTRAGE",
+    "name": "Outrage",
+    "type": "dragon",
+    "power": 110,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "OVERHEAT",
+    "name": "Overheat",
+    "type": "fire",
+    "power": 130,
+    "cooldown": 500,
+    "energy": 55,
+    "buffs": {
+      "atk": -2,
+      "def": 0
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "PARABOLIC_CHARGE",
+    "name": "Parabolic Charge",
+    "type": "electric",
+    "power": 25,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "PECK",
+    "name": "Peck",
+    "type": "flying",
+    "power": 6,
+    "cooldown": 1000,
+    "energyGain": 5
+  },
+  {
+    "moveId": "PETAL_BLIZZARD",
+    "name": "Petal Blizzard",
+    "type": "grass",
+    "power": 110,
+    "cooldown": 500,
+    "energy": 65
+  },
+  {
+    "moveId": "PLAY_ROUGH",
+    "name": "Play Rough",
+    "type": "fairy",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "POISON_FANG",
+    "name": "Poison Fang",
+    "type": "poison",
+    "power": 40,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "POISON_JAB",
+    "name": "Poison Jab",
+    "type": "poison",
+    "power": 6,
+    "cooldown": 1000,
+    "energyGain": 7
+  },
+  {
+    "moveId": "POISON_STING",
+    "name": "Poison Sting",
+    "type": "poison",
+    "power": 3,
+    "cooldown": 1000,
+    "energyGain": 6
+  },
+  {
+    "moveId": "POUND",
+    "name": "Pound",
+    "type": "normal",
+    "power": 5,
+    "cooldown": 1000,
+    "energyGain": 4
+  },
+  {
+    "moveId": "POWDER_SNOW",
+    "name": "Powder Snow",
+    "type": "ice",
+    "power": 4,
+    "cooldown": 1000,
+    "energyGain": 8
+  },
+  {
+    "moveId": "POWER_GEM",
+    "name": "Power Gem",
+    "type": "rock",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "POWER_UP_PUNCH",
+    "name": "Power-Up Punch",
+    "type": "fighting",
+    "power": 20,
+    "cooldown": 500,
+    "energy": 35,
+    "buffs": {
+      "atk": 1,
+      "def": 0
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "POWER_WHIP",
+    "name": "Power Whip",
+    "type": "grass",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "PRECIPICE_BLADES",
+    "name": "Precipice Blades",
+    "type": "ground",
+    "power": 130,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "PRESENT",
+    "name": "Present",
+    "type": "normal",
+    "power": 3,
+    "cooldown": 1500,
+    "energyGain": 12
+  },
+  {
+    "moveId": "PSYBEAM",
+    "name": "Psybeam",
+    "type": "psychic",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "PSYCHIC",
+    "name": "Psychic",
+    "type": "psychic",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 55,
+    "buffs": {
+      "atk": 0,
+      "def": -1
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 0.1
+  },
+  {
+    "moveId": "PSYCHO_BOOST",
+    "name": "Psycho Boost",
+    "type": "psychic",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 35,
+    "buffs": {
+      "atk": -2,
+      "def": 0
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "PSYCHO_CUT",
+    "name": "Psycho Cut",
+    "type": "psychic",
+    "power": 3,
+    "cooldown": 1000,
+    "energyGain": 9
+  },
+  {
+    "moveId": "PSYSHOCK",
+    "name": "Psyshock",
+    "type": "psychic",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "PSYSTRIKE",
+    "name": "Psystrike",
+    "type": "psychic",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "QUICK_ATTACK",
+    "name": "Quick Attack",
+    "type": "normal",
+    "power": 5,
+    "cooldown": 1000,
+    "energyGain": 7
+  },
+  {
+    "moveId": "RAZOR_LEAF",
+    "name": "Razor Leaf",
+    "type": "grass",
+    "power": 11,
+    "cooldown": 1000,
+    "energyGain": 4
+  },
+  {
+    "moveId": "REST",
+    "name": "Rest",
+    "type": "normal",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "RETURN",
+    "name": "Return",
+    "type": "normal",
+    "power": 130,
+    "cooldown": 500,
+    "energy": 70
+  },
+  {
+    "moveId": "ROCK_BLAST",
+    "name": "Rock Blast",
+    "type": "rock",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "ROCK_SLIDE",
+    "name": "Rock Slide",
+    "type": "rock",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "ROCK_SMASH",
+    "name": "Rock Smash",
+    "type": "fighting",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 7
+  },
+  {
+    "moveId": "ROCK_THROW",
+    "name": "Rock Throw",
+    "type": "rock",
+    "power": 8,
+    "cooldown": 1000,
+    "energyGain": 5
+  },
+  {
+    "moveId": "ROCK_TOMB",
+    "name": "Rock Tomb",
+    "type": "rock",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "SAND_TOMB",
+    "name": "Sand Tomb",
+    "type": "ground",
+    "power": 25,
+    "cooldown": 500,
+    "energy": 40,
+    "buffs": {
+      "atk": 0,
+      "def": -1
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "SCALD",
+    "name": "Scald",
+    "type": "water",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "SCALD_BLASTOISE",
+    "name": "Scald Blastoise",
+    "type": "water",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 80
+  },
+  {
+    "moveId": "SCRATCH",
+    "name": "Scratch",
+    "type": "normal",
+    "power": 4,
+    "cooldown": 500,
+    "energyGain": 2
+  },
+  {
+    "moveId": "SEED_BOMB",
+    "name": "Seed Bomb",
+    "type": "grass",
+    "power": 55,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "SHADOW_BALL",
+    "name": "Shadow Ball",
+    "type": "ghost",
+    "power": 100,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "SHADOW_CLAW",
+    "name": "Shadow Claw",
+    "type": "ghost",
+    "power": 6,
+    "cooldown": 1000,
+    "energyGain": 8
+  },
+  {
+    "moveId": "SHADOW_PUNCH",
+    "name": "Shadow Punch",
+    "type": "ghost",
+    "power": 40,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "SHADOW_SNEAK",
+    "name": "Shadow Sneak",
+    "type": "ghost",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "SIGNAL_BEAM",
+    "name": "Signal Beam",
+    "type": "bug",
+    "power": 75,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "SILVER_WIND",
+    "name": "Silver Wind",
+    "type": "bug",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 45,
+    "buffs": {
+      "atk": 2,
+      "def": 2
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 0.1
+  },
+  {
+    "moveId": "SKULL_BASH",
+    "name": "Skull Bash",
+    "type": "normal",
+    "power": 130,
+    "cooldown": 500,
+    "energy": 75,
+    "buffs": {
+      "atk": 0,
+      "def": 1
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "SKY_ATTACK",
+    "name": "Sky Attack",
+    "type": "flying",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "SLUDGE",
+    "name": "Sludge",
+    "type": "poison",
+    "power": 50,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "SLUDGE_BOMB",
+    "name": "Sludge Bomb",
+    "type": "poison",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "SLUDGE_WAVE",
+    "name": "Sludge Wave",
+    "type": "poison",
+    "power": 110,
+    "cooldown": 500,
+    "energy": 65
+  },
+  {
+    "moveId": "SMACK_DOWN",
+    "name": "Smack Down",
+    "type": "rock",
+    "power": 12,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "SNARL",
+    "name": "Snarl",
+    "type": "dark",
+    "power": 5,
+    "cooldown": 1500,
+    "energyGain": 13
+  },
+  {
+    "moveId": "SOLAR_BEAM",
+    "name": "Solar Beam",
+    "type": "grass",
+    "power": 150,
+    "cooldown": 500,
+    "energy": 80
+  },
+  {
+    "moveId": "SPARK",
+    "name": "Spark",
+    "type": "electric",
+    "power": 4,
+    "cooldown": 1000,
+    "energyGain": 8
+  },
+  {
+    "moveId": "SPLASH",
+    "name": "Splash",
+    "type": "water",
+    "power": 0,
+    "cooldown": 2000,
+    "energyGain": 12
+  },
+  {
+    "moveId": "STEEL_WING",
+    "name": "Steel Wing",
+    "type": "steel",
+    "power": 7,
+    "cooldown": 1000,
+    "energyGain": 5
+  },
+  {
+    "moveId": "STOMP",
+    "name": "Stomp",
+    "type": "normal",
+    "power": 55,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "STONE_EDGE",
+    "name": "Stone Edge",
+    "type": "rock",
+    "power": 100,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "STRUGGLE",
+    "name": "Struggle",
+    "type": "normal",
+    "power": 35,
+    "cooldown": 500,
+    "energy": 100
+  },
+  {
+    "moveId": "STRUGGLE_BUG",
+    "name": "Struggle Bug",
+    "type": "bug",
+    "power": 9,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "SUBMISSION",
+    "name": "Submission",
+    "type": "fighting",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "SUCKER_PUNCH",
+    "name": "Sucker Punch",
+    "type": "dark",
+    "power": 5,
+    "cooldown": 1000,
+    "energyGain": 7
+  },
+  {
+    "moveId": "SUPER_POWER",
+    "name": "Superpower",
+    "type": "fighting",
+    "power": 85,
+    "cooldown": 500,
+    "energy": 40,
+    "buffs": {
+      "atk": -1,
+      "def": -1
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 1
+  },
+  {
+    "moveId": "SURF",
+    "name": "Surf",
+    "type": "water",
+    "power": 65,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "SWIFT",
+    "name": "Swift",
+    "type": "normal",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "SYNCHRONOISE",
+    "name": "Synchronoise",
+    "type": "psychic",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "TACKLE",
+    "name": "Tackle",
+    "type": "normal",
+    "power": 3,
+    "cooldown": 500,
+    "energyGain": 2
+  },
+  {
+    "moveId": "TAKE_DOWN",
+    "name": "Take Down",
+    "type": "normal",
+    "power": 5,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "THUNDER",
+    "name": "Thunder",
+    "type": "electric",
+    "power": 100,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "THUNDER_FANG",
+    "name": "Thunder Fang",
+    "type": "electric",
+    "power": 8,
+    "cooldown": 1000,
+    "energyGain": 5
+  },
+  {
+    "moveId": "THUNDER_PUNCH",
+    "name": "Thunder Punch",
+    "type": "electric",
+    "power": 55,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "THUNDER_SHOCK",
+    "name": "Thunder Shock",
+    "type": "electric",
+    "power": 3,
+    "cooldown": 1000,
+    "energyGain": 9
+  },
+  {
+    "moveId": "THUNDERBOLT",
+    "name": "Thunderbolt",
+    "type": "electric",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 55
+  },
+  {
+    "moveId": "TRANSFORM",
+    "name": "Transform",
+    "type": "normal",
+    "power": 0,
+    "cooldown": 1500,
+    "energyGain": 0
+  },
+  {
+    "moveId": "TRANSFORM",
+    "name": "Transform",
+    "type": "normal",
+    "power": 0,
+    "cooldown": 1500,
+    "energy": 0
+  },
+  {
+    "moveId": "TWISTER",
+    "name": "Twister",
+    "type": "dragon",
+    "power": 45,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "VICE_GRIP",
+    "name": "Vise Grip",
+    "type": "normal",
+    "power": 40,
+    "cooldown": 500,
+    "energy": 40
+  },
+  {
+    "moveId": "VINE_WHIP",
+    "name": "Vine Whip",
+    "type": "grass",
+    "power": 5,
+    "cooldown": 1000,
+    "energyGain": 8
+  },
+  {
+    "moveId": "VOLT_SWITCH",
+    "name": "Volt Switch",
+    "type": "electric",
+    "power": 12,
+    "cooldown": 2000,
+    "energyGain": 16
+  },
+  {
+    "moveId": "WATER_GUN",
+    "name": "Water Gun",
+    "type": "water",
+    "power": 3,
+    "cooldown": 500,
+    "energyGain": 3
+  },
+  {
+    "moveId": "WATER_GUN_FAST_BLASTOISE",
+    "name": "Water Gun Fast Blastoise",
+    "type": "water",
+    "power": 6,
+    "cooldown": 1000,
+    "energyGain": 4
+  },
+  {
+    "moveId": "WATER_PULSE",
+    "name": "Water Pulse",
+    "type": "water",
+    "power": 70,
+    "cooldown": 500,
+    "energy": 60
+  },
+  {
+    "moveId": "WATERFALL",
+    "name": "Waterfall",
+    "type": "water",
+    "power": 12,
+    "cooldown": 1500,
+    "energyGain": 8
+  },
+  {
+    "moveId": "WEATHER_BALL_FIRE",
+    "name": "Weather Ball (Fire)",
+    "type": "fire",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "WEATHER_BALL_ICE",
+    "name": "Weather Ball (Ice)",
+    "type": "ice",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "WEATHER_BALL_ROCK",
+    "name": "Weather Ball (Normal)",
+    "type": "normal",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "WEATHER_BALL_WATER",
+    "name": "Weather Ball (Water)",
+    "type": "water",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "WILD_CHARGE",
+    "name": "Wild Charge",
+    "type": "electric",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "WING_ATTACK",
+    "name": "Wing Attack",
+    "type": "flying",
+    "power": 5,
+    "cooldown": 1000,
+    "energyGain": 7
+  },
+  {
+    "moveId": "WRAP",
+    "name": "Wrap",
+    "type": "normal",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "WRAP_GREEN",
+    "name": "Wrap Green",
+    "type": "normal",
+    "power": 25,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "WRAP_PINK",
+    "name": "Wrap Pink",
+    "type": "normal",
+    "power": 25,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "X_SCISSOR",
+    "name": "X-Scissor",
+    "type": "bug",
+    "power": 45,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
+    "moveId": "YAWN",
+    "name": "Yawn",
+    "type": "normal",
+    "power": 0,
+    "cooldown": 2000,
+    "energyGain": 12
+  },
+  {
+    "moveId": "ZAP_CANNON",
+    "name": "Zap Cannon",
+    "type": "electric",
+    "power": 150,
+    "cooldown": 500,
+    "energy": 80
+  },
+  {
+    "moveId": "ZEN_HEADBUTT",
+    "name": "Zen Headbutt",
+    "type": "psychic",
+    "power": 8,
+    "cooldown": 1500,
+    "energyGain": 6
+  }
+]

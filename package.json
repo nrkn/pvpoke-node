@@ -1,0 +1,21 @@
+{
+  "name": "pvpoke-node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrkn/pvpoke-node.git"
+  },
+  "keywords": [],
+  "author": "Nik Coughlin <nrkn.com@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrkn/pvpoke-node/issues"
+  },
+  "homepage": "https://github.com/nrkn/pvpoke-node#readme"
+}
