@@ -5,11 +5,15 @@ own programs
 
 The original code is very well separated in terms of logic and presentation,
 the main challenge is separating that logic out from some very interdependant
-classes, reducing redundancy etc
+classes, reducing redundancy, dependency on jQuery etc
 
 Apart from the obvious advantage of being usable outside of the browser, this
 also more easily allows things like testing and refactoring, profiling for
 performance etc
+
+## installing
+
+This is in early prototyping stage, it is not published to `npm` yet
 
 ## building
 
