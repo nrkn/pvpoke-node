@@ -8,11 +8,9 @@ export const createBattlePokemon = ( pokemon: Pokemon ) => {
   const energy = 0
   const buffs: Buff = { atk: 0, def: 0 }
 
-  const battlePokemon: BattlePokemon = Object.assign(
-    {},
-    pokemon,
-    { hp, cooldown, energy, buffs }
-  )
+  const battlePokemon: BattlePokemon = {
+    ...pokemon, hp, cooldown, energy, buffs
+  }
 
   return battlePokemon
 }
