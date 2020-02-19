@@ -114,7 +114,8 @@ export const getIvCombinations = (
 }
 
 const untradables = [
-  'mew', 'celebi', 'deoxys_attack', 'deoxys_defense', 'deoxys_speed', 'deoxys', 'jirachi', 'darkrai'
+  'mew', 'celebi', 'deoxys_attack', 'deoxys_defense', 'deoxys_speed', 'deoxys',
+  'jirachi', 'darkrai'
 ]
 
 const maxNear1500 = [ 'bastiodon' ]
