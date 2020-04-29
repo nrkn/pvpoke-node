@@ -2,21 +2,21 @@ import { Move, FastMove, ChargeMove, BuffedChargeMove } from './types'
 import { isFastMove, isChargeMove, isBuffedChargeMove } from './predicates'
 import * as movesData from '../../data/moves.json'
 
-export const getMoves = () => movesData as readonly Move[]
+export const getMoves = () => movesData as Move[];
 
-export const getFastMoves = () => fastMoves as readonly FastMove[]
+export const getFastMoves = () => fastMoves as FastMove[];
 
-export const getChargeMoves = () => chargeMoves as readonly ChargeMove[]
+export const getChargeMoves = () => chargeMoves as ChargeMove[];
 
 export const getBuffedChargeMoves = () =>
-  buffedChargeMoves as readonly BuffedChargeMove[]
+  buffedChargeMoves as BuffedChargeMove[];
 
-export const getMoveById = ( id: string ) => idToMoveMap.get( id )
+export const getMoveById = ( id: string ) => idToMoveMap.get( id );
 
-const idToMoveMap = new Map<string, Move>()
-const fastMoves: FastMove[] = []
-const chargeMoves: ChargeMove[] = []
-const buffedChargeMoves: BuffedChargeMove[] = []
+const idToMoveMap = new Map<string, Move>();
+const fastMoves: FastMove[] = [];
+const chargeMoves: ChargeMove[] = [];
+const buffedChargeMoves: BuffedChargeMove[] = [];
 
 getMoves().forEach( m => {
   idToMoveMap.set( m.moveId, m )
@@ -30,4 +30,4 @@ getMoves().forEach( m => {
       buffedChargeMoves.push( m )
     }
   }
-} )
+} );
