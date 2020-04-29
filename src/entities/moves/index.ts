@@ -2,14 +2,14 @@ import { Move, FastMove, ChargeMove, BuffedChargeMove } from './types'
 import { isFastMove, isChargeMove, isBuffedChargeMove } from './predicates'
 import * as movesData from '../../data/moves.json'
 
-export const getMoves = () => movesData as Move[];
+export const getMoves = () => movesData as readonly Move[];
 
-export const getFastMoves = () => fastMoves as FastMove[];
+export const getFastMoves = () => fastMoves as readonly FastMove[];
 
-export const getChargeMoves = () => chargeMoves as ChargeMove[];
+export const getChargeMoves = () => chargeMoves as readonly ChargeMove[];
 
 export const getBuffedChargeMoves = () =>
-  buffedChargeMoves as BuffedChargeMove[];
+  buffedChargeMoves as readonly BuffedChargeMove[];
 
 export const getMoveById = ( id: string ) => idToMoveMap.get( id );
 
