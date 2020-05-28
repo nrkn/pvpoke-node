@@ -31,7 +31,7 @@ This currently fails to match, the generated ivs are slightly different - not
 sure if error in my porting, error in the JSON data or error in the function I
 ported over
 
-## stategy
+## strategy
 
 Use TypeScript - catches a lot of errors at development time, plus users get
 full intellisense etc in their editor. The transpiled javascript is exported for
