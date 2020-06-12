@@ -1,19 +1,23 @@
+import { Maybe } from '@typed/maybe';
 import { PokedexEntry } from './types'
 import * as pokedexData from '../../data/pokedex.json'
 
-export const getPokedex = (): readonly PokedexEntry[] =>
-  pokedexData as PokedexEntry[]
+export function getPokedex(): readonly PokedexEntry[] {
+  return pokedexData as PokedexEntry[];
+}
 
-export const getPokedexEntryById = ( id: string ) => idToEntryMap.get( id )
+const idToEntryMap = new Map<string, PokedexEntry>();
+const idToShadowMap = new Map<string, boolean>();
 
-export const isShadowPokemon = ( id: string ) =>
-  idToShadowMap.get( id ) === true
+export function getPokedexEntryById( id: string ): Maybe<PokedexEntry> {
+  return Maybe.of<PokedexEntry>( idToEntryMap.get( id ) );
+}
 
-const idToEntryMap = new Map<string, PokedexEntry>()
-
-const idToShadowMap = new Map<string,boolean>()
+export function isShadowPokemon( id: string ): boolean {
+  return idToShadowMap.get( id ) === true;
+}
 
 getPokedex().forEach( p => {
   idToEntryMap.set( p.speciesId, p )
   idToShadowMap.set( p.speciesId, p.tags.includes( 'shadow' ) )
-} )
+} );
