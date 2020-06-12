@@ -20,6 +20,14 @@
   "homepage": "https://github.com/nrkn/pvpoke-node#readme",
   "dependencies": {
     "@typed/maybe": "^10.1.0",
+    "file-saver": "^2.0.2",
+    "fs": "0.0.1-security",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
     "tslib": "^1.11.1"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.1",
+    "@types/node": "^14.0.13"
   }
 }
