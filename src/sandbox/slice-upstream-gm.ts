@@ -7,15 +7,21 @@
  *  from the app's APK.
  * ========================================================================= */
 
-import { saveAs } from 'file-saver';
 import * as fs from 'fs';
+import * as http from 'http';
 import * as path from 'path';
 import { tmpdir } from 'os';
 
-const pvpokeGMURL : string = 'https://raw.githubusercontent.com/' +
+const pvpokeGMURL : string = 'http://raw.githubusercontent.com/' +
                              'pvpoke/pvpoke/master/src/data/gamemaster.json';
 
-const downloadGM = ( outfile : string ) => saveAs( pvpokeGMURL, outfile );
+const downloadGM = ( outfile : string ) => {
+  var f = fs.createWriteStream( outfile );
+  http.get( pvpokeGMURL, ( resp ) => {
+    resp.pipe( f );
+    f.on( 'finish', () => f.close() );
+  });
+};
 
 const sliceKeyToFile = ( gmFile : string, key : string, outfile : string ) => {
   fs.readFile( gmFile, ( err, data ) => {
@@ -28,16 +34,18 @@ const sliceKeyToFile = ( gmFile : string, key : string, outfile : string ) => {
   } );
 };
 
-fs.mkdtemp( path.join( tmpdir(), 'gm-' ), ( err, dir ) => {
+fs.mkdtemp( path.join( tmpdir(), 'gm-' ), ( err, workDir ) => {
   if ( err ) throw err;
-  const workDir = dir;
+  console.log( workDir );
   const gmPath = path.join( workDir, 'gamemaster.json' );
   downloadGM( gmPath );
   const targetKeys : string[] = [ 'moves', 'pokemon' ];
-  for ( let k in targetKeys ) {
-    sliceKeyToFile( gmPath, k, path.join( '../../data/' + k + '.json' ) );
+  for ( let k of targetKeys ) {
+    /* FIXME make path absolute */
+    sliceKeyToFile( gmPath, k, path.join( 'dist/data/' + k + '.json' ) );
   }
-  fs.unlink( workDir, ( err ) => { if ( err ) throw err; } );
+  fs.unlink( gmPath,  ( err ) => { if ( err ) throw err;} );
+  fs.rmdir( workDir, ( err ) => { if ( err ) throw err; } );
 } );
 
 
