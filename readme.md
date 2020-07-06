@@ -54,6 +54,10 @@ doesn't need to contain default ivs for instance, we have a function to get
 those - if we want to precompute them for performance, use the function and
 save the output to a cache separate to the dex
 
+## testing
+
+This uses `ts-jest`, run with `npm test`
+
 ## license
 
 MIT License
