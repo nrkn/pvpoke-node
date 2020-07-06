@@ -19,6 +19,56 @@ The most important file here is `gamemaster.json` - I see there is also
 This file contains all the useful raw data - notably, the pokedex (stored as an 
 array under `pokemon`) and the moves data (`moves`)
 
+### gamemaster.pokemon
+
+A single Pokedex entry looks like this in the raw data:
+
+```json
+{
+  "dex": 3,
+  "speciesName": "Venusaur",
+  "speciesId": "venusaur",
+  "baseStats": {
+    "atk": 198,
+    "def": 189,
+    "hp": 190
+  },
+  "types": [ "grass", "poison" ],
+  "fastMoves": [ "RAZOR_LEAF", "VINE_WHIP" ],
+  "chargedMoves": [ 
+    "FRENZY_PLANT", "PETAL_BLIZZARD", "SLUDGE_BOMB", "SOLAR_BEAM" 
+  ],
+  "tags": [ "starter", "shadoweligible" ],
+  "defaultIVs": {
+    "cp1500": [ 20.5, 6, 14, 8 ],
+    "cp2500": [ 39, 5, 9, 12 ]
+  },
+  "level25CP": 1673,
+  "eliteMoves": [ "FRENZY_PLANT" ]
+}
+```
+
+We have this typed under 
+[src/entities/pokedex/types.ts](src/entities/pokedex/types.ts) as:
+
+```ts
+export type PokedexEntry = {
+  dex: number
+  speciesName: string
+  speciesId: string
+  baseStats: Stats,
+  types: SpeciesTypes,
+  fastMoves: string[],
+  chargedMoves: string[],
+  legacyMoves: string[],
+  tags: string[]
+}
+```
+
+It looks like pvpoke has renamed legacyMoves to eliteMoves since this was done,
+which makes more sense. We are currently ignoring the `defaultIVs` and 
+`level25CP` properties, as they can be calculated.
+
 ## `src/js`
 
 - `src/js/GameMaster.js` - almost every other useful class holds an instance of this
