@@ -129,7 +129,8 @@ properties appears all of them must
 
 pvpoke for some reason uses a string for the `buffApplyChance`
 
-We use the raw data essentially as-is except `buffApplyChance` is a number
+We use the raw data essentially as-is except `buffApplyChance` is a number, 
+and we use an object like `{ atk: 0, def: -2 }` for the buffs instead of a tuple
 
 The moves are exported for use by other code here:
 
