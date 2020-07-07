@@ -1,7 +1,7 @@
 import { sliceUpstreamGamemaster } from './slice-upstream-gamemaster'
-import { transformPvpokePokedexEntry } from './transform-pvpoke-pokedex-entry'
-import { transformPvpokeMove } from './transform-pvpoke-move'
-import { writeObjAsJson } from './util'
+import { transformPvpokePokedexEntry } from '../transforms/transform-pvpoke-pokedex-entry'
+import { transformPvpokeMove } from '../transforms/transform-pvpoke-move'
+import { writeObjAsJson } from '../util'
 
 export const buildDataFromUpstream = async () => {
   const { 

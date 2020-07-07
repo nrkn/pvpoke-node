@@ -1,6 +1,6 @@
 import { 
   BuffedChargeMove, FastMove, ChargeMove, BuffTarget 
-} from '../entities/moves/types'
+} from '../../entities/moves/types'
 
 export const transformPvpokeMove = ( m: any ) => {
   const {

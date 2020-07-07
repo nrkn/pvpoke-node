@@ -1,4 +1,4 @@
-import { PokedexEntry } from '../entities/pokedex/types'
+import { PokedexEntry } from '../../entities/pokedex/types'
 
 export const transformPvpokePokedexEntry = ( d: any ) => {
   const {
