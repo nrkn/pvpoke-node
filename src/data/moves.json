@@ -49,7 +49,7 @@
     "moveId": "ANCIENT_POWER",
     "name": "Ancient Power",
     "type": "rock",
-    "power": 70,
+    "power": 45,
     "cooldown": 500,
     "energy": 45,
     "buffs": {
@@ -231,7 +231,7 @@
     "type": "grass",
     "power": 5,
     "cooldown": 1500,
-    "energyGain": 11
+    "energyGain": 13
   },
   {
     "moveId": "CHARGE_BEAM",
@@ -441,7 +441,7 @@
     "type": "ground",
     "power": 80,
     "cooldown": 500,
-    "energy": 55
+    "energy": 45
   },
   {
     "moveId": "DYNAMIC_PUNCH",
@@ -487,7 +487,13 @@
     "type": "grass",
     "power": 90,
     "cooldown": 500,
-    "energy": 60
+    "energy": 55,
+    "buffs": {
+      "atk": 0,
+      "def": -1
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 0.1
   },
   {
     "moveId": "EXTRASENSORY",
@@ -598,6 +604,22 @@
     "power": 110,
     "cooldown": 500,
     "energy": 65
+  },
+  {
+    "moveId": "FLY",
+    "name": "Fly",
+    "type": "flying",
+    "power": 80,
+    "cooldown": 500,
+    "energy": 45
+  },
+  {
+    "moveId": "FLYING_PRESS",
+    "name": "Flying Press",
+    "type": "fighting",
+    "power": 90,
+    "cooldown": 500,
+    "energy": 40
   },
   {
     "moveId": "FOCUS_BLAST",
@@ -1013,7 +1035,7 @@
     "cooldown": 500,
     "energy": 40,
     "buffs": {
-      "atk": -1,
+      "atk": -2,
       "def": 0
     },
     "buffTarget": "opponent",
@@ -1117,9 +1139,15 @@
     "moveId": "MOONBLAST",
     "name": "Moonblast",
     "type": "fairy",
-    "power": 130,
+    "power": 110,
     "cooldown": 500,
-    "energy": 70
+    "energy": 60,
+    "buffs": {
+      "atk": -1,
+      "def": 0
+    },
+    "buffTarget": "opponent",
+    "buffApplyChance": 0.3
   },
   {
     "moveId": "MUD_BOMB",
@@ -1199,9 +1227,9 @@
     "moveId": "OMINOUS_WIND",
     "name": "Ominous Wind",
     "type": "ghost",
-    "power": 50,
+    "power": 45,
     "cooldown": 500,
-    "energy": 40,
+    "energy": 45,
     "buffs": {
       "atk": 2,
       "def": 2
@@ -1490,6 +1518,22 @@
     "energy": 60
   },
   {
+    "moveId": "ROCK_WRECKER",
+    "name": "Rock Wrecker",
+    "type": "rock",
+    "power": 110,
+    "cooldown": 500,
+    "energy": 50
+  },
+  {
+    "moveId": "SACRED_SWORD",
+    "name": "Sacred Sword",
+    "type": "fighting",
+    "power": 60,
+    "cooldown": 500,
+    "energy": 35
+  },
+  {
     "moveId": "SAND_TOMB",
     "name": "Sand Tomb",
     "type": "ground",
@@ -1579,7 +1623,7 @@
     "moveId": "SILVER_WIND",
     "name": "Silver Wind",
     "type": "bug",
-    "power": 70,
+    "power": 45,
     "cooldown": 500,
     "energy": 45,
     "buffs": {
@@ -1834,14 +1878,6 @@
     "energyGain": 0
   },
   {
-    "moveId": "TRANSFORM",
-    "name": "Transform",
-    "type": "normal",
-    "power": 0,
-    "cooldown": 1500,
-    "energy": 0
-  },
-  {
     "moveId": "TWISTER",
     "name": "Twister",
     "type": "dragon",
@@ -1941,9 +1977,15 @@
     "moveId": "WILD_CHARGE",
     "name": "Wild Charge",
     "type": "electric",
-    "power": 90,
+    "power": 100,
     "cooldown": 500,
-    "energy": 50
+    "energy": 45,
+    "buffs": {
+      "atk": 0,
+      "def": -2
+    },
+    "buffTarget": "self",
+    "buffApplyChance": 1
   },
   {
     "moveId": "WING_ATTACK",

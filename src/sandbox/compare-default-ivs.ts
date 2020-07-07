@@ -1,4 +1,4 @@
-import * as legacyPokedex from './data/pvpoke-pokedex.json'
+import * as pvpokePokedex from './data/pvpoke-pokedex.json'
 import { getPokedexEntryById } from '../entities/pokedex/index.js'
 import { getDefaultIvs } from '../calculator/ivs.js'
 import { LevelStats } from '../entities/pokedex/types.js'
@@ -12,11 +12,11 @@ const compare = ( values: number[], stats: LevelStats ) => {
   if ( stats.hp !== hp ) return [ 'hp', hp ]
 }
 
-for( let i = 0; i < legacyPokedex.length; i++ ){
-  const p = legacyPokedex[ i ]
+for( let i = 0; i < pvpokePokedex.length; i++ ){
+  const p = pvpokePokedex[ i ]
 
   console.log(
-    `Checking ${ p.speciesName }, ${ i + 1 }/${ legacyPokedex.length }`
+    `Checking ${ p.speciesName }, ${ i + 1 }/${ pvpokePokedex.length }`
   )
 
   const { defaultIVs } = p

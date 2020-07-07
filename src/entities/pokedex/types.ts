@@ -8,7 +8,7 @@ export type PokedexEntry = {
   types: SpeciesTypes,
   fastMoves: string[],
   chargedMoves: string[],
-  legacyMoves: string[],
+  eliteMoves: string[],
   tags: string[]
 }
 

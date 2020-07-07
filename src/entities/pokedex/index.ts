@@ -15,5 +15,5 @@ const idToShadowMap = new Map<string,boolean>()
 
 getPokedex().forEach( p => {
   idToEntryMap.set( p.speciesId, p )
-  idToShadowMap.set( p.speciesId, p.tags.includes( 'shadow' ) )
+  idToShadowMap.set( p.speciesId, p.tags.includes( 'shadoweligible' ) )
 } )

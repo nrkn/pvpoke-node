@@ -21,8 +21,37 @@
       "SEED_BOMB",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 1,
+    "speciesName": "Bulbasaur (Shadow)",
+    "speciesId": "bulbasaur_shadow",
+    "baseStats": {
+      "atk": 118,
+      "def": 111,
+      "hp": 128
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "fastMoves": [
+      "TACKLE",
+      "VINE_WHIP"
+    ],
+    "chargedMoves": [
+      "POWER_WHIP",
+      "SEED_BOMB",
+      "SLUDGE_BOMB"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -48,8 +77,37 @@
       "SLUDGE_BOMB",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 2,
+    "speciesName": "Ivysaur (Shadow)",
+    "speciesId": "ivysaur_shadow",
+    "baseStats": {
+      "atk": 151,
+      "def": 143,
+      "hp": 155
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "fastMoves": [
+      "RAZOR_LEAF",
+      "VINE_WHIP"
+    ],
+    "chargedMoves": [
+      "POWER_WHIP",
+      "SLUDGE_BOMB",
+      "SOLAR_BEAM"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -76,10 +134,42 @@
       "SLUDGE_BOMB",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "FRENZY_PLANT"
     ],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 3,
+    "speciesName": "Venusaur (Shadow)",
+    "speciesId": "venusaur_shadow",
+    "baseStats": {
+      "atk": 198,
+      "def": 189,
+      "hp": 190
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "fastMoves": [
+      "RAZOR_LEAF",
+      "VINE_WHIP"
+    ],
+    "chargedMoves": [
+      "FRENZY_PLANT",
+      "PETAL_BLIZZARD",
+      "SLUDGE_BOMB",
+      "SOLAR_BEAM"
+    ],
+    "eliteMoves": [
+      "FRENZY_PLANT"
+    ],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -105,8 +195,37 @@
       "FLAME_CHARGE",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 4,
+    "speciesName": "Charmander (Shadow)",
+    "speciesId": "charmander_shadow",
+    "baseStats": {
+      "atk": 116,
+      "def": 93,
+      "hp": 118
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "EMBER",
+      "SCRATCH"
+    ],
+    "chargedMoves": [
+      "FLAME_BURST",
+      "FLAME_CHARGE",
+      "FLAMETHROWER"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -133,10 +252,42 @@
       "FLAME_BURST",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "SCRATCH"
     ],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 5,
+    "speciesName": "Charmeleon (Shadow)",
+    "speciesId": "charmeleon_shadow",
+    "baseStats": {
+      "atk": 158,
+      "def": 126,
+      "hp": 151
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "EMBER",
+      "FIRE_FANG",
+      "SCRATCH"
+    ],
+    "chargedMoves": [
+      "FIRE_PUNCH",
+      "FLAME_BURST",
+      "FLAMETHROWER"
+    ],
+    "eliteMoves": [
+      "SCRATCH"
+    ],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -166,13 +317,51 @@
       "FLAMETHROWER",
       "OVERHEAT"
     ],
-    "legacyMoves": [
-      "BLAST_BURN",
+    "eliteMoves": [
       "EMBER",
-      "FLAMETHROWER",
-      "WING_ATTACK"
+      "WING_ATTACK",
+      "BLAST_BURN",
+      "FLAMETHROWER"
     ],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 6,
+    "speciesName": "Charizard (Shadow)",
+    "speciesId": "charizard_shadow",
+    "baseStats": {
+      "atk": 223,
+      "def": 173,
+      "hp": 186
+    },
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "fastMoves": [
+      "AIR_SLASH",
+      "EMBER",
+      "FIRE_SPIN",
+      "WING_ATTACK"
+    ],
+    "chargedMoves": [
+      "BLAST_BURN",
+      "DRAGON_CLAW",
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "OVERHEAT"
+    ],
+    "eliteMoves": [
+      "EMBER",
+      "WING_ATTACK",
+      "BLAST_BURN",
+      "FLAMETHROWER"
+    ],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -198,8 +387,37 @@
       "AQUA_TAIL",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 7,
+    "speciesName": "Squirtle (Shadow)",
+    "speciesId": "squirtle_shadow",
+    "baseStats": {
+      "atk": 94,
+      "def": 121,
+      "hp": 127
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "BUBBLE",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "AQUA_TAIL",
+      "WATER_PULSE"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -225,8 +443,37 @@
       "HYDRO_PUMP",
       "ICE_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 8,
+    "speciesName": "Wartortle (Shadow)",
+    "speciesId": "wartortle_shadow",
+    "baseStats": {
+      "atk": 126,
+      "def": 155,
+      "hp": 153
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "HYDRO_PUMP",
+      "ICE_BEAM"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -254,10 +501,43 @@
       "ICE_BEAM",
       "SKULL_BASH"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "HYDRO_CANNON"
     ],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 9,
+    "speciesName": "Blastoise (Shadow)",
+    "speciesId": "blastoise_shadow",
+    "baseStats": {
+      "atk": 171,
+      "def": 207,
+      "hp": 188
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "FLASH_CANNON",
+      "HYDRO_CANNON",
+      "HYDRO_PUMP",
+      "ICE_BEAM",
+      "SKULL_BASH"
+    ],
+    "eliteMoves": [
+      "HYDRO_CANNON"
+    ],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -281,7 +561,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -304,7 +584,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -330,7 +610,7 @@
       "PSYCHIC",
       "SIGNAL_BEAM"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "BUG_BITE"
     ],
     "tags": []
@@ -355,7 +635,32 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 13,
+    "speciesName": "Weedle (Shadow)",
+    "speciesId": "weedle_shadow",
+    "baseStats": {
+      "atk": 63,
+      "def": 50,
+      "hp": 120
+    },
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "POISON_STING"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -380,7 +685,32 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 14,
+    "speciesName": "Kakuna (Shadow)",
+    "speciesId": "kakuna_shadow",
+    "baseStats": {
+      "atk": 46,
+      "def": 75,
+      "hp": 128
+    },
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "POISON_STING"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -407,10 +737,45 @@
       "AERIAL_ACE",
       "SLUDGE_BOMB",
       "X_SCISSOR",
-      "FELL_STINGER"
+      "FELL_STINGER",
+      "DRILL_RUN"
     ],
-    "legacyMoves": [
-      "BUG_BITE"
+    "eliteMoves": [
+      "BUG_BITE",
+      "DRILL_RUN"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 15,
+    "speciesName": "Beedrill (Shadow)",
+    "speciesId": "beedrill_shadow",
+    "baseStats": {
+      "atk": 169,
+      "def": 130,
+      "hp": 163
+    },
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "INFESTATION",
+      "POISON_JAB"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "SLUDGE_BOMB",
+      "X_SCISSOR",
+      "FELL_STINGER",
+      "DRILL_RUN"
+    ],
+    "eliteMoves": [
+      "BUG_BITE",
+      "DRILL_RUN"
     ],
     "tags": [
       "shadow"
@@ -438,7 +803,7 @@
       "AIR_CUTTER",
       "TWISTER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -463,7 +828,7 @@
       "AIR_CUTTER",
       "TWISTER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -490,9 +855,9 @@
       "BRAVE_BIRD",
       "HURRICANE"
     ],
-    "legacyMoves": [
-      "AIR_CUTTER",
-      "WING_ATTACK"
+    "eliteMoves": [
+      "WING_ATTACK",
+      "AIR_CUTTER"
     ],
     "tags": []
   },
@@ -518,9 +883,9 @@
       "DIG",
       "HYPER_FANG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -545,9 +910,36 @@
       "HYPER_FANG",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 19,
+    "speciesName": "Rattata (Shadow)",
+    "speciesId": "rattata_shadow",
+    "baseStats": {
+      "atk": 103,
+      "def": 70,
+      "hp": 102
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "QUICK_ATTACK",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "DIG",
+      "HYPER_FANG"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -572,9 +964,9 @@
       "HYPER_BEAM",
       "HYPER_FANG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -599,9 +991,36 @@
       "HYPER_BEAM",
       "HYPER_FANG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 20,
+    "speciesName": "Raticate (Shadow)",
+    "speciesId": "raticate_shadow",
+    "baseStats": {
+      "atk": 161,
+      "def": 139,
+      "hp": 146
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "HYPER_BEAM",
+      "HYPER_FANG"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -627,7 +1046,7 @@
       "SKY_ATTACK",
       "TWISTER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "TWISTER"
     ],
     "tags": []
@@ -655,7 +1074,7 @@
       "SKY_ATTACK",
       "TWISTER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "TWISTER"
     ],
     "tags": []
@@ -683,12 +1102,10 @@
       "SLUDGE_BOMB",
       "WRAP"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "GUNK_SHOT"
     ],
-    "tags": [
-      "shadow"
-    ]
+    "tags": []
   },
   {
     "dex": 24,
@@ -714,10 +1131,8 @@
       "SLUDGE_WAVE",
       "ACID_SPRAY"
     ],
-    "legacyMoves": [],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 25,
@@ -744,11 +1159,62 @@
       "THUNDERBOLT",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "PRESENT",
       "SURF",
       "THUNDER"
     ],
+    "tags": []
+  },
+  {
+    "dex": 25,
+    "speciesName": "Pikachu (Libre)",
+    "speciesId": "pikachu_libre",
+    "baseStats": {
+      "atk": 112,
+      "def": 96,
+      "hp": 111
+    },
+    "types": [
+      "electric",
+      "none"
+    ],
+    "fastMoves": [
+      "THUNDER_SHOCK",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "FLYING_PRESS",
+      "PLAY_ROUGH",
+      "THUNDER_PUNCH"
+    ],
+    "eliteMoves": [],
+    "tags": []
+  },
+  {
+    "dex": 25,
+    "speciesName": "Pikachu (Flying)",
+    "speciesId": "pikachu_flying",
+    "baseStats": {
+      "atk": 112,
+      "def": 96,
+      "hp": 111
+    },
+    "types": [
+      "electric",
+      "none"
+    ],
+    "fastMoves": [
+      "QUICK_ATTACK",
+      "THUNDER_SHOCK"
+    ],
+    "chargedMoves": [
+      "DISCHARGE",
+      "THUNDERBOLT",
+      "WILD_CHARGE",
+      "FLY"
+    ],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -777,7 +1243,7 @@
       "WILD_CHARGE",
       "SKULL_BASH"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "THUNDER"
     ],
     "tags": []
@@ -806,7 +1272,7 @@
       "WILD_CHARGE",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
     ]
@@ -834,11 +1300,11 @@
       "ROCK_TOMB",
       "SAND_TOMB"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "ROCK_TOMB"
     ],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -863,9 +1329,39 @@
       "GYRO_BALL",
       "NIGHT_SLASH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 27,
+    "speciesName": "Sandshrew (Shadow)",
+    "speciesId": "sandshrew_shadow",
+    "baseStats": {
+      "atk": 126,
+      "def": 120,
+      "hp": 137
+    },
+    "types": [
+      "ground",
+      "none"
+    ],
+    "fastMoves": [
+      "MUD_SHOT",
+      "SCRATCH"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "ROCK_SLIDE",
+      "ROCK_TOMB",
+      "SAND_TOMB"
+    ],
+    "eliteMoves": [
+      "ROCK_TOMB"
+    ],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -890,9 +1386,9 @@
       "EARTHQUAKE",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -918,9 +1414,36 @@
       "GYRO_BALL",
       "ICE_PUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 28,
+    "speciesName": "Sandslash (Shadow)",
+    "speciesId": "sandslash_shadow",
+    "baseStats": {
+      "atk": 182,
+      "def": 175,
+      "hp": 181
+    },
+    "types": [
+      "ground",
+      "none"
+    ],
+    "fastMoves": [
+      "METAL_CLAW",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "BULLDOZE",
+      "EARTHQUAKE",
+      "ROCK_TOMB"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -945,7 +1468,7 @@
       "POISON_FANG",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -970,7 +1493,7 @@
       "POISON_FANG",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -996,7 +1519,7 @@
       "STONE_EDGE",
       "EARTH_POWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -1021,7 +1544,7 @@
       "HORN_ATTACK",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -1046,7 +1569,7 @@
       "HORN_ATTACK",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -1073,7 +1596,7 @@
       "SLUDGE_WAVE",
       "EARTH_POWER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "FURY_CUTTER"
     ],
     "tags": []
@@ -1100,7 +1623,7 @@
       "DISARMING_VOICE",
       "MOONBLAST"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -1128,7 +1651,7 @@
       "MOONBLAST",
       "PSYCHIC"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "POUND"
     ],
     "tags": []
@@ -1155,9 +1678,9 @@
       "FLAME_CHARGE",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -1182,9 +1705,36 @@
       "DARK_PULSE",
       "ICE_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 37,
+    "speciesName": "Vulpix (Shadow)",
+    "speciesId": "vulpix_shadow",
+    "baseStats": {
+      "atk": 96,
+      "def": 109,
+      "hp": 116
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "EMBER",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "FLAME_CHARGE",
+      "FLAMETHROWER"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -1213,13 +1763,13 @@
       "PSYSHOCK",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "EMBER",
       "FIRE_BLAST",
       "FLAMETHROWER"
     ],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -1246,9 +1796,44 @@
       "ICE_BEAM",
       "PSYSHOCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 38,
+    "speciesName": "Ninetales (Shadow)",
+    "speciesId": "ninetales_shadow",
+    "baseStats": {
+      "atk": 169,
+      "def": 190,
+      "hp": 177
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "EMBER",
+      "FEINT_ATTACK",
+      "FIRE_SPIN"
+    ],
+    "chargedMoves": [
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "HEAT_WAVE",
+      "OVERHEAT",
+      "PSYSHOCK",
+      "SOLAR_BEAM"
+    ],
+    "eliteMoves": [
+      "EMBER",
+      "FIRE_BLAST",
+      "FLAMETHROWER"
+    ],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -1275,9 +1860,9 @@
       "GYRO_BALL",
       "PLAY_ROUGH"
     ],
-    "legacyMoves": [
-      "BODY_SLAM",
-      "PLAY_ROUGH"
+    "eliteMoves": [
+      "PLAY_ROUGH",
+      "BODY_SLAM"
     ],
     "tags": []
   },
@@ -1305,7 +1890,7 @@
       "ICE_BEAM",
       "PLAY_ROUGH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -1331,7 +1916,37 @@
       "SLUDGE_BOMB",
       "SWIFT"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "SLUDGE_BOMB"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 41,
+    "speciesName": "Zubat (Shadow)",
+    "speciesId": "zubat_shadow",
+    "baseStats": {
+      "atk": 83,
+      "def": 73,
+      "hp": 120
+    },
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "fastMoves": [
+      "BITE",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "AIR_CUTTER",
+      "POISON_FANG",
+      "SLUDGE_BOMB",
+      "SWIFT"
+    ],
+    "eliteMoves": [
       "SLUDGE_BOMB"
     ],
     "tags": [
@@ -1361,7 +1976,37 @@
       "POISON_FANG",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "OMINOUS_WIND"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 42,
+    "speciesName": "Golbat (Shadow)",
+    "speciesId": "golbat_shadow",
+    "baseStats": {
+      "atk": 161,
+      "def": 150,
+      "hp": 181
+    },
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "fastMoves": [
+      "BITE",
+      "WING_ATTACK"
+    ],
+    "chargedMoves": [
+      "AIR_CUTTER",
+      "OMINOUS_WIND",
+      "POISON_FANG",
+      "SHADOW_BALL"
+    ],
+    "eliteMoves": [
       "OMINOUS_WIND"
     ],
     "tags": [
@@ -1390,7 +2035,34 @@
       "SEED_BOMB",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 43,
+    "speciesName": "Oddish (Shadow)",
+    "speciesId": "oddish_shadow",
+    "baseStats": {
+      "atk": 131,
+      "def": 112,
+      "hp": 128
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "fastMoves": [
+      "ACID",
+      "RAZOR_LEAF"
+    ],
+    "chargedMoves": [
+      "MOONBLAST",
+      "SEED_BOMB",
+      "SLUDGE_BOMB"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -1417,7 +2089,34 @@
       "PETAL_BLIZZARD",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 44,
+    "speciesName": "Gloom (Shadow)",
+    "speciesId": "gloom_shadow",
+    "baseStats": {
+      "atk": 153,
+      "def": 136,
+      "hp": 155
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "fastMoves": [
+      "ACID",
+      "RAZOR_LEAF"
+    ],
+    "chargedMoves": [
+      "MOONBLAST",
+      "PETAL_BLIZZARD",
+      "SLUDGE_BOMB"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -1445,7 +2144,35 @@
       "SOLAR_BEAM",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 45,
+    "speciesName": "Vileplume (Shadow)",
+    "speciesId": "vileplume_shadow",
+    "baseStats": {
+      "atk": 202,
+      "def": 167,
+      "hp": 181
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "fastMoves": [
+      "ACID",
+      "RAZOR_LEAF"
+    ],
+    "chargedMoves": [
+      "MOONBLAST",
+      "PETAL_BLIZZARD",
+      "SOLAR_BEAM",
+      "SLUDGE_BOMB"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -1472,7 +2199,7 @@
       "SEED_BOMB",
       "X_SCISSOR"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -1498,7 +2225,7 @@
       "SOLAR_BEAM",
       "X_SCISSOR"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "BUG_BITE"
     ],
     "tags": []
@@ -1525,7 +2252,34 @@
       "PSYBEAM",
       "SIGNAL_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 48,
+    "speciesName": "Venonat (Shadow)",
+    "speciesId": "venonat_shadow",
+    "baseStats": {
+      "atk": 100,
+      "def": 100,
+      "hp": 155
+    },
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "POISON_FANG",
+      "PSYBEAM",
+      "SIGNAL_BEAM"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -1554,7 +2308,38 @@
       "PSYCHIC",
       "SILVER_WIND"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "BUG_BITE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 49,
+    "speciesName": "Venomoth (Shadow)",
+    "speciesId": "venomoth_shadow",
+    "baseStats": {
+      "atk": 179,
+      "def": 143,
+      "hp": 172
+    },
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "CONFUSION",
+      "INFESTATION"
+    ],
+    "chargedMoves": [
+      "BUG_BUZZ",
+      "POISON_FANG",
+      "PSYCHIC",
+      "SILVER_WIND"
+    ],
+    "eliteMoves": [
       "BUG_BITE"
     ],
     "tags": [
@@ -1584,12 +2369,8 @@
       "MUD_BOMB",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [
-      "MUD_SHOT"
-    ],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 50,
@@ -1613,7 +2394,7 @@
       "MUD_BOMB",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
     ]
@@ -1641,12 +2422,8 @@
       "MUD_BOMB",
       "STONE_EDGE"
     ],
-    "legacyMoves": [
-      "MUD_SHOT"
-    ],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 51,
@@ -1670,7 +2447,7 @@
       "IRON_HEAD",
       "MUD_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
     ]
@@ -1698,11 +2475,11 @@
       "FOUL_PLAY",
       "NIGHT_SLASH"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "BODY_SLAM"
     ],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -1727,9 +2504,66 @@
       "FOUL_PLAY",
       "NIGHT_SLASH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 52,
+    "speciesName": "Meowth (Galarian)",
+    "speciesId": "meowth_galarian",
+    "baseStats": {
+      "atk": 115,
+      "def": 92,
+      "hp": 137
+    },
+    "types": [
+      "steel",
+      "none"
+    ],
+    "fastMoves": [
+      "SCRATCH",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "NIGHT_SLASH",
+      "GYRO_BALL",
+      "DIG"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "galarian"
+    ]
+  },
+  {
+    "dex": 52,
+    "speciesName": "Meowth (Shadow)",
+    "speciesId": "meowth_shadow",
+    "baseStats": {
+      "atk": 92,
+      "def": 78,
+      "hp": 120
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "SCRATCH"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "DARK_PULSE",
+      "FOUL_PLAY",
+      "NIGHT_SLASH"
+    ],
+    "eliteMoves": [
+      "BODY_SLAM"
+    ],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -1755,11 +2589,11 @@
       "PLAY_ROUGH",
       "POWER_GEM"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "NIGHT_SLASH"
     ],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -1784,9 +2618,39 @@
       "FOUL_PLAY",
       "PLAY_ROUGH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 53,
+    "speciesName": "Persian (Shadow)",
+    "speciesId": "persian_shadow",
+    "baseStats": {
+      "atk": 150,
+      "def": 136,
+      "hp": 163
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "FEINT_ATTACK",
+      "SCRATCH"
+    ],
+    "chargedMoves": [
+      "FOUL_PLAY",
+      "NIGHT_SLASH",
+      "PLAY_ROUGH",
+      "POWER_GEM"
+    ],
+    "eliteMoves": [
+      "NIGHT_SLASH"
+    ],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -1811,7 +2675,34 @@
       "CROSS_CHOP",
       "PSYBEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 54,
+    "speciesName": "Psyduck (Shadow)",
+    "speciesId": "psyduck_shadow",
+    "baseStats": {
+      "atk": 122,
+      "def": 95,
+      "hp": 137
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "WATER_GUN",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "CROSS_CHOP",
+      "PSYBEAM"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -1841,7 +2732,37 @@
       "SYNCHRONOISE",
       "CROSS_CHOP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 55,
+    "speciesName": "Golduck (Shadow)",
+    "speciesId": "golduck_shadow",
+    "baseStats": {
+      "atk": 191,
+      "def": 162,
+      "hp": 190
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "CONFUSION",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "HYDRO_PUMP",
+      "ICE_BEAM",
+      "PSYCHIC",
+      "BUBBLE_BEAM",
+      "SYNCHRONOISE",
+      "CROSS_CHOP"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -1868,7 +2789,7 @@
       "CROSS_CHOP",
       "LOW_SWEEP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -1895,9 +2816,9 @@
       "LOW_SWEEP",
       "NIGHT_SLASH"
     ],
-    "legacyMoves": [
-      "CROSS_CHOP",
-      "KARATE_CHOP"
+    "eliteMoves": [
+      "KARATE_CHOP",
+      "CROSS_CHOP"
     ],
     "tags": []
   },
@@ -1923,7 +2844,34 @@
       "FLAME_WHEEL",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 58,
+    "speciesName": "Growlithe (Shadow)",
+    "speciesId": "growlithe_shadow",
+    "baseStats": {
+      "atk": 136,
+      "def": 93,
+      "hp": 146
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "EMBER"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "FLAME_WHEEL",
+      "FLAMETHROWER"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -1954,7 +2902,41 @@
       "FLAMETHROWER",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "BITE",
+      "BULLDOZE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 59,
+    "speciesName": "Arcanine (Shadow)",
+    "speciesId": "arcanine_shadow",
+    "baseStats": {
+      "atk": 227,
+      "def": 166,
+      "hp": 207
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "FIRE_FANG",
+      "SNARL",
+      "THUNDER_FANG"
+    ],
+    "chargedMoves": [
+      "BULLDOZE",
+      "CRUNCH",
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "WILD_CHARGE"
+    ],
+    "eliteMoves": [
       "BITE",
       "BULLDOZE"
     ],
@@ -1984,7 +2966,34 @@
       "BUBBLE_BEAM",
       "MUD_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 60,
+    "speciesName": "Poliwag (Shadow)",
+    "speciesId": "poliwag_shadow",
+    "baseStats": {
+      "atk": 101,
+      "def": 82,
+      "hp": 120
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "BUBBLE",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "BUBBLE_BEAM",
+      "MUD_BOMB"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -2012,7 +3021,37 @@
       "SCALD",
       "WATER_PULSE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "SCALD"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 61,
+    "speciesName": "Poliwhirl (Shadow)",
+    "speciesId": "poliwhirl_shadow",
+    "baseStats": {
+      "atk": 130,
+      "def": 123,
+      "hp": 163
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "BUBBLE",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "BUBBLE_BEAM",
+      "MUD_BOMB",
+      "SCALD",
+      "WATER_PULSE"
+    ],
+    "eliteMoves": [
       "SCALD"
     ],
     "tags": [
@@ -2044,7 +3083,39 @@
       "SUBMISSION",
       "POWER_UP_PUNCH"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "SUBMISSION"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 62,
+    "speciesName": "Poliwrath (Shadow)",
+    "speciesId": "poliwrath_shadow",
+    "baseStats": {
+      "atk": 182,
+      "def": 184,
+      "hp": 207
+    },
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "fastMoves": [
+      "BUBBLE",
+      "MUD_SHOT",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "DYNAMIC_PUNCH",
+      "HYDRO_PUMP",
+      "ICE_PUNCH",
+      "SUBMISSION",
+      "POWER_UP_PUNCH"
+    ],
+    "eliteMoves": [
       "SUBMISSION"
     ],
     "tags": [
@@ -2073,7 +3144,34 @@
       "SHADOW_BALL",
       "SIGNAL_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 63,
+    "speciesName": "Abra (Shadow)",
+    "speciesId": "abra_shadow",
+    "baseStats": {
+      "atk": 195,
+      "def": 82,
+      "hp": 93
+    },
+    "types": [
+      "psychic",
+      "none"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "PSYSHOCK",
+      "SHADOW_BALL",
+      "SIGNAL_BEAM"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -2100,7 +3198,34 @@
       "PSYBEAM",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 64,
+    "speciesName": "Kadabra (Shadow)",
+    "speciesId": "kadabra_shadow",
+    "baseStats": {
+      "atk": 232,
+      "def": 117,
+      "hp": 120
+    },
+    "types": [
+      "psychic",
+      "none"
+    ],
+    "fastMoves": [
+      "CONFUSION",
+      "PSYCHO_CUT"
+    ],
+    "chargedMoves": [
+      "DAZZLING_GLEAM",
+      "PSYBEAM",
+      "SHADOW_BALL"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -2120,7 +3245,8 @@
     ],
     "fastMoves": [
       "CONFUSION",
-      "PSYCHO_CUT"
+      "PSYCHO_CUT",
+      "COUNTER"
     ],
     "chargedMoves": [
       "DAZZLING_GLEAM",
@@ -2130,7 +3256,43 @@
       "PSYCHIC",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "COUNTER",
+      "DAZZLING_GLEAM",
+      "PSYCHIC"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 65,
+    "speciesName": "Alakazam (Shadow)",
+    "speciesId": "alakazam_shadow",
+    "baseStats": {
+      "atk": 271,
+      "def": 167,
+      "hp": 146
+    },
+    "types": [
+      "psychic",
+      "none"
+    ],
+    "fastMoves": [
+      "CONFUSION",
+      "PSYCHO_CUT",
+      "COUNTER"
+    ],
+    "chargedMoves": [
+      "DAZZLING_GLEAM",
+      "FIRE_PUNCH",
+      "FOCUS_BLAST",
+      "FUTURE_SIGHT",
+      "PSYCHIC",
+      "SHADOW_BALL"
+    ],
+    "eliteMoves": [
+      "COUNTER",
       "DAZZLING_GLEAM",
       "PSYCHIC"
     ],
@@ -2161,7 +3323,7 @@
       "CROSS_CHOP",
       "LOW_SWEEP"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "LOW_KICK"
     ],
     "tags": []
@@ -2189,7 +3351,7 @@
       "DYNAMIC_PUNCH",
       "SUBMISSION"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "CROSS_CHOP"
     ],
     "tags": []
@@ -2221,7 +3383,7 @@
       "STONE_EDGE",
       "SUBMISSION"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "KARATE_CHOP",
       "STONE_EDGE",
       "SUBMISSION"
@@ -2250,7 +3412,34 @@
       "SLUDGE_BOMB",
       "WRAP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 69,
+    "speciesName": "Bellsprout (Shadow)",
+    "speciesId": "bellsprout_shadow",
+    "baseStats": {
+      "atk": 139,
+      "def": 61,
+      "hp": 137
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "fastMoves": [
+      "ACID",
+      "VINE_WHIP"
+    ],
+    "chargedMoves": [
+      "POWER_WHIP",
+      "SLUDGE_BOMB",
+      "WRAP"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -2278,7 +3467,37 @@
       "SEED_BOMB",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "RAZOR_LEAF"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 70,
+    "speciesName": "Weepinbell (Shadow)",
+    "speciesId": "weepinbell_shadow",
+    "baseStats": {
+      "atk": 172,
+      "def": 92,
+      "hp": 163
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "fastMoves": [
+      "ACID",
+      "BULLET_SEED",
+      "RAZOR_LEAF"
+    ],
+    "chargedMoves": [
+      "POWER_WHIP",
+      "SEED_BOMB",
+      "SLUDGE_BOMB"
+    ],
+    "eliteMoves": [
       "RAZOR_LEAF"
     ],
     "tags": [
@@ -2309,7 +3528,36 @@
       "ACID_SPRAY",
       "LEAF_TORNADO"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 71,
+    "speciesName": "Victreebel (Shadow)",
+    "speciesId": "victreebel_shadow",
+    "baseStats": {
+      "atk": 207,
+      "def": 135,
+      "hp": 190
+    },
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "fastMoves": [
+      "ACID",
+      "RAZOR_LEAF"
+    ],
+    "chargedMoves": [
+      "LEAF_BLADE",
+      "SLUDGE_BOMB",
+      "SOLAR_BEAM",
+      "ACID_SPRAY",
+      "LEAF_TORNADO"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -2336,7 +3584,7 @@
       "WATER_PULSE",
       "WRAP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -2362,7 +3610,7 @@
       "SLUDGE_WAVE",
       "ACID_SPRAY"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -2387,9 +3635,9 @@
       "ROCK_SLIDE",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -2414,7 +3662,7 @@
       "ROCK_TOMB",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
     ]
@@ -2443,12 +3691,11 @@
       "ROCK_SLIDE",
       "STONE_EDGE"
     ],
-    "legacyMoves": [
-      "MUD_SHOT",
+    "eliteMoves": [
       "ROCK_SLIDE"
     ],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -2473,7 +3720,7 @@
       "STONE_EDGE",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
     ]
@@ -2502,11 +3749,9 @@
       "ROCK_BLAST",
       "STONE_EDGE"
     ],
-    "legacyMoves": [
-      "MUD_SHOT"
-    ],
+    "eliteMoves": [],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -2531,7 +3776,7 @@
       "STONE_EDGE",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
     ]
@@ -2559,7 +3804,7 @@
       "FLAME_WHEEL",
       "STOMP"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "FIRE_BLAST"
     ],
     "tags": []
@@ -2587,7 +3832,7 @@
       "FIRE_BLAST",
       "HEAT_WAVE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "EMBER"
     ],
     "tags": []
@@ -2614,7 +3859,7 @@
       "PSYSHOCK",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -2639,7 +3884,7 @@
       "PSYCHIC",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -2664,7 +3909,34 @@
       "MAGNET_BOMB",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 81,
+    "speciesName": "Magnemite (Shadow)",
+    "speciesId": "magnemite_shadow",
+    "baseStats": {
+      "atk": 165,
+      "def": 121,
+      "hp": 93
+    },
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "fastMoves": [
+      "SPARK",
+      "THUNDER_SHOCK"
+    ],
+    "chargedMoves": [
+      "DISCHARGE",
+      "MAGNET_BOMB",
+      "THUNDERBOLT"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -2693,7 +3965,36 @@
       "MAGNET_BOMB",
       "ZAP_CANNON"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 82,
+    "speciesName": "Magneton (Shadow)",
+    "speciesId": "magneton_shadow",
+    "baseStats": {
+      "atk": 223,
+      "def": 169,
+      "hp": 137
+    },
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "SPARK",
+      "THUNDER_SHOCK"
+    ],
+    "chargedMoves": [
+      "DISCHARGE",
+      "FLASH_CANNON",
+      "MAGNET_BOMB",
+      "ZAP_CANNON"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -2721,11 +4022,38 @@
       "AIR_CUTTER",
       "LEAF_BLADE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "CUT"
     ],
     "tags": [
       "regional"
+    ]
+  },
+  {
+    "dex": 83,
+    "speciesName": "Farfetchd (Galarian)",
+    "speciesId": "farfetchd_galarian",
+    "baseStats": {
+      "atk": 174,
+      "def": 114,
+      "hp": 141
+    },
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "fastMoves": [
+      "ROCK_SMASH",
+      "FURY_CUTTER"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "BRAVE_BIRD",
+      "LEAF_BLADE"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "galarian"
     ]
   },
   {
@@ -2751,7 +4079,7 @@
       "DRILL_PECK",
       "SWIFT"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "SWIFT"
     ],
     "tags": []
@@ -2779,7 +4107,7 @@
       "BRAVE_BIRD",
       "DRILL_PECK"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "AIR_CUTTER"
     ],
     "tags": []
@@ -2808,9 +4136,9 @@
       "AURORA_BEAM",
       "ICY_WIND"
     ],
-    "legacyMoves": [
-      "AQUA_JET",
-      "WATER_GUN"
+    "eliteMoves": [
+      "WATER_GUN",
+      "AQUA_JET"
     ],
     "tags": []
   },
@@ -2839,9 +4167,9 @@
       "ICY_WIND",
       "WATER_PULSE"
     ],
-    "legacyMoves": [
-      "AQUA_JET",
+    "eliteMoves": [
       "ICE_SHARD",
+      "AQUA_JET",
       "ICY_WIND"
     ],
     "tags": []
@@ -2869,11 +4197,9 @@
       "SLUDGE",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [
-      "ACID"
-    ],
+    "eliteMoves": [],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -2899,11 +4225,36 @@
       "GUNK_SHOT",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [
-      "ACID"
-    ],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 88,
+    "speciesName": "Grimer (Shadow)",
+    "speciesId": "grimer_shadow",
+    "baseStats": {
+      "atk": 135,
+      "def": 90,
+      "hp": 190
+    },
+    "types": [
+      "poison",
+      "none"
+    ],
+    "fastMoves": [
+      "MUD_SLAP",
+      "POISON_JAB"
+    ],
+    "chargedMoves": [
+      "MUD_BOMB",
+      "SLUDGE",
+      "SLUDGE_BOMB"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -2932,12 +4283,11 @@
       "THUNDER_PUNCH",
       "ACID_SPRAY"
     ],
-    "legacyMoves": [
-      "ACID",
+    "eliteMoves": [
       "LICK"
     ],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -2964,9 +4314,41 @@
       "SLUDGE_WAVE",
       "ACID_SPRAY"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 89,
+    "speciesName": "Muk (Shadow)",
+    "speciesId": "muk_shadow",
+    "baseStats": {
+      "atk": 190,
+      "def": 172,
+      "hp": 233
+    },
+    "types": [
+      "poison",
+      "none"
+    ],
+    "fastMoves": [
+      "INFESTATION",
+      "LICK",
+      "POISON_JAB"
+    ],
+    "chargedMoves": [
+      "DARK_PULSE",
+      "GUNK_SHOT",
+      "SLUDGE_WAVE",
+      "THUNDER_PUNCH",
+      "ACID_SPRAY"
+    ],
+    "eliteMoves": [
+      "LICK"
+    ],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -2991,7 +4373,34 @@
       "ICY_WIND",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 90,
+    "speciesName": "Shellder (Shadow)",
+    "speciesId": "shellder_shadow",
+    "baseStats": {
+      "atk": 116,
+      "def": 134,
+      "hp": 102
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "ICE_SHARD",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "BUBBLE_BEAM",
+      "ICY_WIND",
+      "WATER_PULSE"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -3020,7 +4429,38 @@
       "HYDRO_PUMP",
       "ICY_WIND"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "BLIZZARD"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 91,
+    "speciesName": "Cloyster (Shadow)",
+    "speciesId": "cloyster_shadow",
+    "baseStats": {
+      "atk": 186,
+      "def": 256,
+      "hp": 137
+    },
+    "types": [
+      "water",
+      "ice"
+    ],
+    "fastMoves": [
+      "FROST_BREATH",
+      "ICE_SHARD"
+    ],
+    "chargedMoves": [
+      "AURORA_BEAM",
+      "AVALANCHE",
+      "BLIZZARD",
+      "HYDRO_PUMP",
+      "ICY_WIND"
+    ],
+    "eliteMoves": [
       "BLIZZARD"
     ],
     "tags": [
@@ -3051,9 +4491,9 @@
       "OMINOUS_WIND",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [
-      "OMINOUS_WIND",
-      "SUCKER_PUNCH"
+    "eliteMoves": [
+      "SUCKER_PUNCH",
+      "OMINOUS_WIND"
     ],
     "tags": []
   },
@@ -3081,7 +4521,7 @@
       "SHADOW_PUNCH",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "LICK"
     ],
     "tags": []
@@ -3113,11 +4553,11 @@
       "SLUDGE_BOMB",
       "SLUDGE_WAVE"
     ],
-    "legacyMoves": [
-      "DARK_PULSE",
+    "eliteMoves": [
       "LICK",
-      "PSYCHIC",
-      "SLUDGE_WAVE"
+      "SLUDGE_WAVE",
+      "DARK_PULSE",
+      "PSYCHIC"
     ],
     "tags": []
   },
@@ -3145,12 +4585,12 @@
       "SAND_TOMB",
       "STONE_EDGE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "IRON_HEAD",
       "ROCK_SLIDE"
     ],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -3175,7 +4615,34 @@
       "PSYCHIC",
       "PSYSHOCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 96,
+    "speciesName": "Drowzee (Shadow)",
+    "speciesId": "drowzee_shadow",
+    "baseStats": {
+      "atk": 89,
+      "def": 136,
+      "hp": 155
+    },
+    "types": [
+      "psychic",
+      "none"
+    ],
+    "fastMoves": [
+      "CONFUSION",
+      "POUND"
+    ],
+    "chargedMoves": [
+      "PSYBEAM",
+      "PSYCHIC",
+      "PSYSHOCK"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -3207,7 +4674,41 @@
       "ICE_PUNCH",
       "THUNDER_PUNCH"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "PSYSHOCK"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 97,
+    "speciesName": "Hypno (Shadow)",
+    "speciesId": "hypno_shadow",
+    "baseStats": {
+      "atk": 144,
+      "def": 193,
+      "hp": 198
+    },
+    "types": [
+      "psychic",
+      "none"
+    ],
+    "fastMoves": [
+      "CONFUSION",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "FOCUS_BLAST",
+      "FUTURE_SIGHT",
+      "PSYCHIC",
+      "PSYSHOCK",
+      "SHADOW_BALL",
+      "FIRE_PUNCH",
+      "ICE_PUNCH",
+      "THUNDER_PUNCH"
+    ],
+    "eliteMoves": [
       "PSYSHOCK"
     ],
     "tags": [
@@ -3236,7 +4737,7 @@
       "VICE_GRIP",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -3263,7 +4764,7 @@
       "X_SCISSOR",
       "CRABHAMMER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "MUD_SHOT"
     ],
     "tags": []
@@ -3291,7 +4792,7 @@
       "SIGNAL_BEAM",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "SIGNAL_BEAM"
     ],
     "tags": []
@@ -3320,7 +4821,7 @@
       "THUNDERBOLT",
       "FOUL_PLAY"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "TACKLE"
     ],
     "tags": []
@@ -3347,7 +4848,34 @@
       "PSYCHIC",
       "SEED_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 102,
+    "speciesName": "Exeggcute (Shadow)",
+    "speciesId": "exeggcute_shadow",
+    "baseStats": {
+      "atk": 107,
+      "def": 125,
+      "hp": 155
+    },
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "fastMoves": [
+      "BULLET_SEED",
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "ANCIENT_POWER",
+      "PSYCHIC",
+      "SEED_BOMB"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -3376,11 +4904,11 @@
       "SEED_BOMB",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "ZEN_HEADBUTT"
     ],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -3405,9 +4933,40 @@
       "SEED_BOMB",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 103,
+    "speciesName": "Exeggutor (Shadow)",
+    "speciesId": "exeggutor_shadow",
+    "baseStats": {
+      "atk": 233,
+      "def": 149,
+      "hp": 216
+    },
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "fastMoves": [
+      "BULLET_SEED",
+      "CONFUSION",
+      "EXTRASENSORY",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "PSYCHIC",
+      "SEED_BOMB",
+      "SOLAR_BEAM"
+    ],
+    "eliteMoves": [
+      "ZEN_HEADBUTT"
+    ],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -3432,7 +4991,34 @@
       "BULLDOZE",
       "DIG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 104,
+    "speciesName": "Cubone (Shadow)",
+    "speciesId": "cubone_shadow",
+    "baseStats": {
+      "atk": 90,
+      "def": 144,
+      "hp": 137
+    },
+    "types": [
+      "ground",
+      "none"
+    ],
+    "fastMoves": [
+      "MUD_SLAP",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "BONE_CLUB",
+      "BULLDOZE",
+      "DIG"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -3459,9 +5045,9 @@
       "DIG",
       "EARTHQUAKE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -3488,9 +5074,36 @@
       "SHADOW_BALL",
       "FLAME_WHEEL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "alolan"
+    ]
+  },
+  {
+    "dex": 105,
+    "speciesName": "Marowak (Shadow)",
+    "speciesId": "marowak_shadow",
+    "baseStats": {
+      "atk": 144,
+      "def": 186,
+      "hp": 155
+    },
+    "types": [
+      "ground",
+      "none"
+    ],
+    "fastMoves": [
+      "MUD_SLAP",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "BONE_CLUB",
+      "DIG",
+      "EARTHQUAKE"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "shadow"
     ]
   },
   {
@@ -3517,9 +5130,41 @@
       "STOMP",
       "STONE_EDGE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "STOMP",
+      "BRICK_BREAK"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 106,
+    "speciesName": "Hitmonlee (Shadow)",
+    "speciesId": "hitmonlee_shadow",
+    "baseStats": {
+      "atk": 224,
+      "def": 181,
+      "hp": 137
+    },
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "fastMoves": [
+      "LOW_KICK",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
       "BRICK_BREAK",
-      "STOMP"
+      "CLOSE_COMBAT",
+      "LOW_SWEEP",
+      "STOMP",
+      "STONE_EDGE"
+    ],
+    "eliteMoves": [
+      "STOMP",
+      "BRICK_BREAK"
     ],
     "tags": [
       "shadow"
@@ -3551,9 +5196,43 @@
       "THUNDER_PUNCH",
       "POWER_UP_PUNCH"
     ],
-    "legacyMoves": [
-      "BRICK_BREAK",
+    "eliteMoves": [
+      "ROCK_SMASH",
+      "BRICK_BREAK"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 107,
+    "speciesName": "Hitmonchan (Shadow)",
+    "speciesId": "hitmonchan_shadow",
+    "baseStats": {
+      "atk": 193,
+      "def": 197,
+      "hp": 137
+    },
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "fastMoves": [
+      "BULLET_PUNCH",
+      "COUNTER",
       "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "CLOSE_COMBAT",
+      "FIRE_PUNCH",
+      "ICE_PUNCH",
+      "THUNDER_PUNCH",
+      "POWER_UP_PUNCH"
+    ],
+    "eliteMoves": [
+      "ROCK_SMASH",
+      "BRICK_BREAK"
     ],
     "tags": [
       "shadow"
@@ -3582,7 +5261,7 @@
       "STOMP",
       "BODY_SLAM"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "BODY_SLAM"
     ],
     "tags": []
@@ -3610,12 +5289,8 @@
       "SLUDGE",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [
-      "ACID"
-    ],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 110,
@@ -3641,12 +5316,8 @@
       "SLUDGE_BOMB",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [
-      "ACID"
-    ],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 110,
@@ -3670,7 +5341,7 @@
       "PLAY_ROUGH",
       "OVERHEAT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "galarian"
     ]
@@ -3697,10 +5368,8 @@
       "HORN_ATTACK",
       "STOMP"
     ],
-    "legacyMoves": [],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 112,
@@ -3725,12 +5394,10 @@
       "STONE_EDGE",
       "SURF"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "MEGAHORN"
     ],
-    "tags": [
-      "shadow"
-    ]
+    "tags": []
   },
   {
     "dex": 113,
@@ -3755,9 +5422,7 @@
       "PSYBEAM",
       "PSYCHIC"
     ],
-    "legacyMoves": [
-      "PSYBEAM"
-    ],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -3783,7 +5448,7 @@
       "SLUDGE_BOMB",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "POWER_WHIP"
     ],
     "tags": []
@@ -3813,13 +5478,12 @@
       "STOMP",
       "POWER_UP_PUNCH"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "BRICK_BREAK",
       "STOMP"
     ],
     "tags": [
-      "regional",
-      "shadow"
+      "regional"
     ]
   },
   {
@@ -3844,7 +5508,7 @@
       "DRAGON_PULSE",
       "FLASH_CANNON"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -3870,7 +5534,7 @@
       "DRAGON_PULSE",
       "HYDRO_PUMP"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "BLIZZARD"
     ],
     "tags": []
@@ -3897,7 +5561,7 @@
       "HORN_ATTACK",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -3925,10 +5589,10 @@
       "MEGAHORN",
       "WATER_PULSE"
     ],
-    "legacyMoves": [
-      "DRILL_RUN",
+    "eliteMoves": [
+      "POISON_JAB",
       "ICY_WIND",
-      "POISON_JAB"
+      "DRILL_RUN"
     ],
     "tags": []
   },
@@ -3955,9 +5619,7 @@
       "POWER_GEM",
       "SWIFT"
     ],
-    "legacyMoves": [
-      "QUICK_ATTACK"
-    ],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -4002,9 +5664,7 @@
       "PSYCHIC",
       "THUNDER"
     ],
-    "legacyMoves": [
-      "PSYBEAM",
-      "QUICK_ATTACK",
+    "eliteMoves": [
       "TACKLE"
     ],
     "tags": []
@@ -4031,7 +5691,7 @@
       "PSYCHIC",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -4060,9 +5720,41 @@
       "NIGHT_SLASH",
       "X_SCISSOR"
     ],
-    "legacyMoves": [
-      "BUG_BUZZ",
+    "eliteMoves": [
+      "STEEL_WING",
+      "BUG_BUZZ"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 123,
+    "speciesName": "Scyther (Shadow)",
+    "speciesId": "scyther_shadow",
+    "baseStats": {
+      "atk": 218,
+      "def": 170,
+      "hp": 172
+    },
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "fastMoves": [
+      "AIR_SLASH",
+      "FURY_CUTTER",
       "STEEL_WING"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "BUG_BUZZ",
+      "NIGHT_SLASH",
+      "X_SCISSOR"
+    ],
+    "eliteMoves": [
+      "STEEL_WING",
+      "BUG_BUZZ"
     ],
     "tags": [
       "shadow"
@@ -4093,9 +5785,9 @@
       "ICE_PUNCH",
       "PSYSHOCK"
     ],
-    "legacyMoves": [
-      "ICE_PUNCH",
-      "POUND"
+    "eliteMoves": [
+      "POUND",
+      "ICE_PUNCH"
     ],
     "tags": []
   },
@@ -4121,7 +5813,34 @@
       "THUNDER_PUNCH",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 125,
+    "speciesName": "Electabuzz (Shadow)",
+    "speciesId": "electabuzz_shadow",
+    "baseStats": {
+      "atk": 198,
+      "def": 158,
+      "hp": 163
+    },
+    "types": [
+      "electric",
+      "none"
+    ],
+    "fastMoves": [
+      "LOW_KICK",
+      "THUNDER_SHOCK"
+    ],
+    "chargedMoves": [
+      "THUNDER",
+      "THUNDER_PUNCH",
+      "THUNDERBOLT"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -4148,7 +5867,34 @@
       "FIRE_PUNCH",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 126,
+    "speciesName": "Magmar (Shadow)",
+    "speciesId": "magmar_shadow",
+    "baseStats": {
+      "atk": 206,
+      "def": 154,
+      "hp": 163
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "EMBER",
+      "KARATE_CHOP"
+    ],
+    "chargedMoves": [
+      "FIRE_BLAST",
+      "FIRE_PUNCH",
+      "FLAMETHROWER"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -4178,7 +5924,39 @@
       "X_SCISSOR",
       "SUPER_POWER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "SUBMISSION"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 127,
+    "speciesName": "Pinsir (Shadow)",
+    "speciesId": "pinsir_shadow",
+    "baseStats": {
+      "atk": 238,
+      "def": 182,
+      "hp": 163
+    },
+    "types": [
+      "bug",
+      "none"
+    ],
+    "fastMoves": [
+      "BUG_BITE",
+      "FURY_CUTTER",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "SUBMISSION",
+      "VICE_GRIP",
+      "X_SCISSOR",
+      "SUPER_POWER"
+    ],
+    "eliteMoves": [
       "SUBMISSION"
     ],
     "tags": [
@@ -4207,7 +5985,7 @@
       "HORN_ATTACK",
       "IRON_HEAD"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -4231,7 +6009,31 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 129,
+    "speciesName": "Magikarp (Shadow)",
+    "speciesId": "magikarp_shadow",
+    "baseStats": {
+      "atk": 29,
+      "def": 85,
+      "hp": 85
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "SPLASH"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -4262,9 +6064,43 @@
       "OUTRAGE",
       "TWISTER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "DRAGON_TAIL",
+      "DRAGON_PULSE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 130,
+    "speciesName": "Gyarados (Shadow)",
+    "speciesId": "gyarados_shadow",
+    "baseStats": {
+      "atk": 237,
+      "def": 186,
+      "hp": 216
+    },
+    "types": [
+      "water",
+      "flying"
+    ],
+    "fastMoves": [
+      "BITE",
+      "DRAGON_BREATH",
+      "DRAGON_TAIL",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "CRUNCH",
       "DRAGON_PULSE",
-      "DRAGON_TAIL"
+      "HYDRO_PUMP",
+      "OUTRAGE",
+      "TWISTER"
+    ],
+    "eliteMoves": [
+      "DRAGON_TAIL",
+      "DRAGON_PULSE"
     ],
     "tags": [
       "shadow"
@@ -4296,10 +6132,45 @@
       "SURF",
       "SKULL_BASH"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "ICE_SHARD",
       "DRAGON_PULSE",
+      "ICE_BEAM"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 131,
+    "speciesName": "Lapras (Shadow)",
+    "speciesId": "lapras_shadow",
+    "baseStats": {
+      "atk": 165,
+      "def": 174,
+      "hp": 277
+    },
+    "types": [
+      "water",
+      "ice"
+    ],
+    "fastMoves": [
+      "FROST_BREATH",
+      "ICE_SHARD",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "BLIZZARD",
+      "DRAGON_PULSE",
+      "HYDRO_PUMP",
       "ICE_BEAM",
-      "ICE_SHARD"
+      "SURF",
+      "SKULL_BASH"
+    ],
+    "eliteMoves": [
+      "ICE_SHARD",
+      "DRAGON_PULSE",
+      "ICE_BEAM"
     ],
     "tags": [
       "shadow"
@@ -4324,7 +6195,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -4350,9 +6221,9 @@
       "LAST_RESORT",
       "SWIFT"
     ],
-    "legacyMoves": [
-      "BODY_SLAM",
-      "LAST_RESORT"
+    "eliteMoves": [
+      "LAST_RESORT",
+      "BODY_SLAM"
     ],
     "tags": []
   },
@@ -4378,7 +6249,7 @@
       "LAST_RESORT",
       "WATER_PULSE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "LAST_RESORT"
     ],
     "tags": []
@@ -4406,7 +6277,7 @@
       "THUNDER",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "LAST_RESORT"
     ],
     "tags": []
@@ -4435,9 +6306,9 @@
       "LAST_RESORT",
       "OVERHEAT"
     ],
-    "legacyMoves": [
-      "HEAT_WAVE",
-      "LAST_RESORT"
+    "eliteMoves": [
+      "LAST_RESORT",
+      "HEAT_WAVE"
     ],
     "tags": []
   },
@@ -4484,13 +6355,65 @@
       "SOLAR_BEAM",
       "ZAP_CANNON"
     ],
-    "legacyMoves": [
-      "DISCHARGE",
-      "PSYBEAM",
-      "QUICK_ATTACK",
+    "eliteMoves": [
+      "TACKLE",
+      "ZEN_HEADBUTT",
       "SIGNAL_BEAM",
+      "PSYBEAM",
+      "DISCHARGE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 137,
+    "speciesName": "Porygon (Shadow)",
+    "speciesId": "porygon_shadow",
+    "baseStats": {
+      "atk": 153,
+      "def": 136,
+      "hp": 163
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER",
       "TACKLE",
       "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "DISCHARGE",
+      "HYPER_BEAM",
+      "PSYBEAM",
+      "SIGNAL_BEAM",
+      "SOLAR_BEAM",
+      "ZAP_CANNON"
+    ],
+    "eliteMoves": [
+      "TACKLE",
+      "ZEN_HEADBUTT",
+      "SIGNAL_BEAM",
+      "PSYBEAM",
+      "DISCHARGE"
     ],
     "tags": [
       "shadow"
@@ -4520,9 +6443,41 @@
       "ROCK_BLAST",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "ROCK_TOMB",
+      "BRINE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 138,
+    "speciesName": "Omanyte (Shadow)",
+    "speciesId": "omanyte_shadow",
+    "baseStats": {
+      "atk": 155,
+      "def": 153,
+      "hp": 111
+    },
+    "types": [
+      "rock",
+      "water"
+    ],
+    "fastMoves": [
+      "MUD_SHOT",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "ANCIENT_POWER",
       "BRINE",
+      "BUBBLE_BEAM",
+      "ROCK_BLAST",
       "ROCK_TOMB"
+    ],
+    "eliteMoves": [
+      "ROCK_TOMB",
+      "BRINE"
     ],
     "tags": [
       "shadow"
@@ -4552,9 +6507,41 @@
       "ROCK_BLAST",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [
-      "ROCK_SLIDE",
-      "ROCK_THROW"
+    "eliteMoves": [
+      "ROCK_THROW",
+      "ROCK_SLIDE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 139,
+    "speciesName": "Omastar (Shadow)",
+    "speciesId": "omastar_shadow",
+    "baseStats": {
+      "atk": 207,
+      "def": 201,
+      "hp": 172
+    },
+    "types": [
+      "rock",
+      "water"
+    ],
+    "fastMoves": [
+      "MUD_SHOT",
+      "ROCK_THROW",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "ANCIENT_POWER",
+      "HYDRO_PUMP",
+      "ROCK_BLAST",
+      "ROCK_SLIDE"
+    ],
+    "eliteMoves": [
+      "ROCK_THROW",
+      "ROCK_SLIDE"
     ],
     "tags": [
       "shadow"
@@ -4582,7 +6569,7 @@
       "AQUA_JET",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -4609,7 +6596,7 @@
       "STONE_EDGE",
       "WATER_PULSE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "FURY_CUTTER"
     ],
     "tags": []
@@ -4639,7 +6626,7 @@
       "ROCK_SLIDE",
       "EARTH_POWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -4669,7 +6656,41 @@
       "SKULL_BASH",
       "SUPER_POWER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "YAWN"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 143,
+    "speciesName": "Snorlax (Shadow)",
+    "speciesId": "snorlax_shadow",
+    "baseStats": {
+      "atk": 190,
+      "def": 169,
+      "hp": 330
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "LICK",
+      "ZEN_HEADBUTT",
+      "YAWN"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "EARTHQUAKE",
+      "HEAVY_SLAM",
+      "HYPER_BEAM",
+      "OUTRAGE",
+      "SKULL_BASH",
+      "SUPER_POWER"
+    ],
+    "eliteMoves": [
       "YAWN"
     ],
     "tags": [
@@ -4700,7 +6721,39 @@
       "ICY_WIND",
       "ANCIENT_POWER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "HURRICANE"
+    ],
+    "tags": [
+      "legendary",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 144,
+    "speciesName": "Articuno (Shadow)",
+    "speciesId": "articuno_shadow",
+    "baseStats": {
+      "atk": 192,
+      "def": 236,
+      "hp": 207
+    },
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "fastMoves": [
+      "FROST_BREATH",
+      "ICE_SHARD"
+    ],
+    "chargedMoves": [
+      "BLIZZARD",
+      "HURRICANE",
+      "ICE_BEAM",
+      "ICY_WIND",
+      "ANCIENT_POWER"
+    ],
+    "eliteMoves": [
       "HURRICANE"
     ],
     "tags": [
@@ -4732,7 +6785,39 @@
       "ANCIENT_POWER",
       "DRILL_PECK"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "THUNDER_SHOCK"
+    ],
+    "tags": [
+      "legendary",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 145,
+    "speciesName": "Zapdos (Shadow)",
+    "speciesId": "zapdos_shadow",
+    "baseStats": {
+      "atk": 253,
+      "def": 185,
+      "hp": 207
+    },
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "THUNDER_SHOCK"
+    ],
+    "chargedMoves": [
+      "THUNDER",
+      "THUNDERBOLT",
+      "ZAP_CANNON",
+      "ANCIENT_POWER",
+      "DRILL_PECK"
+    ],
+    "eliteMoves": [
       "THUNDER_SHOCK"
     ],
     "tags": [
@@ -4754,6 +6839,38 @@
       "flying"
     ],
     "fastMoves": [
+      "FIRE_SPIN",
+      "WING_ATTACK"
+    ],
+    "chargedMoves": [
+      "FIRE_BLAST",
+      "HEAT_WAVE",
+      "OVERHEAT",
+      "SKY_ATTACK",
+      "ANCIENT_POWER"
+    ],
+    "eliteMoves": [
+      "SKY_ATTACK"
+    ],
+    "tags": [
+      "legendary",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 146,
+    "speciesName": "Moltres (Shadow)",
+    "speciesId": "moltres_shadow",
+    "baseStats": {
+      "atk": 251,
+      "def": 181,
+      "hp": 207
+    },
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "fastMoves": [
       "EMBER",
       "FIRE_SPIN",
       "WING_ATTACK"
@@ -4765,7 +6882,7 @@
       "SKY_ATTACK",
       "ANCIENT_POWER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "EMBER",
       "SKY_ATTACK"
     ],
@@ -4796,7 +6913,34 @@
       "TWISTER",
       "WRAP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 147,
+    "speciesName": "Dratini (Shadow)",
+    "speciesId": "dratini_shadow",
+    "baseStats": {
+      "atk": 119,
+      "def": 91,
+      "hp": 121
+    },
+    "types": [
+      "dragon",
+      "none"
+    ],
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "IRON_TAIL"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "TWISTER",
+      "WRAP"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -4823,7 +6967,34 @@
       "DRAGON_PULSE",
       "WRAP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 148,
+    "speciesName": "Dragonair (Shadow)",
+    "speciesId": "dragonair_shadow",
+    "baseStats": {
+      "atk": 163,
+      "def": 135,
+      "hp": 156
+    },
+    "types": [
+      "dragon",
+      "none"
+    ],
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "IRON_TAIL"
+    ],
+    "chargedMoves": [
+      "AQUA_TAIL",
+      "DRAGON_PULSE",
+      "WRAP"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -4854,7 +7025,41 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "DRACO_METEOR",
+      "DRAGON_PULSE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 149,
+    "speciesName": "Dragonite (Shadow)",
+    "speciesId": "dragonite_shadow",
+    "baseStats": {
+      "atk": 263,
+      "def": 198,
+      "hp": 209
+    },
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "DRAGON_TAIL",
+      "STEEL_WING"
+    ],
+    "chargedMoves": [
+      "DRACO_METEOR",
+      "DRAGON_CLAW",
+      "DRAGON_PULSE",
+      "HURRICANE",
+      "HYPER_BEAM",
+      "OUTRAGE"
+    ],
+    "eliteMoves": [
       "DRACO_METEOR",
       "DRAGON_PULSE"
     ],
@@ -4889,10 +7094,10 @@
       "THUNDERBOLT",
       "PSYSTRIKE"
     ],
-    "legacyMoves": [
-      "HYPER_BEAM",
+    "eliteMoves": [
+      "PSYSTRIKE",
       "SHADOW_BALL",
-      "PSYSTRIKE"
+      "HYPER_BEAM"
     ],
     "tags": [
       "legendary"
@@ -4922,7 +7127,7 @@
       "FUTURE_SIGHT",
       "PSYSTRIKE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "PSYSTRIKE"
     ],
     "tags": [
@@ -4985,9 +7190,10 @@
       "THUNDERBOLT",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "mythical"
+      "mythical",
+      "untradeable"
     ]
   },
   {
@@ -5012,8 +7218,10 @@
       "ENERGY_BALL",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 153,
@@ -5037,8 +7245,10 @@
       "ENERGY_BALL",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 154,
@@ -5063,10 +7273,12 @@
       "PETAL_BLIZZARD",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "FRENZY_PLANT"
     ],
-    "tags": []
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 155,
@@ -5090,8 +7302,10 @@
       "FLAMETHROWER",
       "SWIFT"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 156,
@@ -5115,8 +7329,10 @@
       "FLAME_CHARGE",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 157,
@@ -5141,10 +7357,12 @@
       "OVERHEAT",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "BLAST_BURN"
     ],
-    "tags": []
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 158,
@@ -5168,8 +7386,10 @@
       "CRUNCH",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 159,
@@ -5193,8 +7413,10 @@
       "ICE_PUNCH",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 160,
@@ -5221,11 +7443,13 @@
       "HYDRO_PUMP",
       "ICE_BEAM"
     ],
-    "legacyMoves": [
-      "HYDRO_CANNON",
-      "WATER_GUN"
+    "eliteMoves": [
+      "WATER_GUN",
+      "HYDRO_CANNON"
     ],
-    "tags": []
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 161,
@@ -5249,8 +7473,10 @@
       "DIG",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 162,
@@ -5274,7 +7500,7 @@
       "DIG",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5299,7 +7525,7 @@
       "NIGHT_SHADE",
       "SKY_ATTACK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5324,7 +7550,7 @@
       "PSYCHIC",
       "SKY_ATTACK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5349,7 +7575,7 @@
       "SILVER_WIND",
       "SWIFT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5374,7 +7600,7 @@
       "BUG_BUZZ",
       "SILVER_WIND"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5399,7 +7625,7 @@
       "NIGHT_SLASH",
       "SIGNAL_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5424,7 +7650,7 @@
       "MEGAHORN",
       "SHADOW_SNEAK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5449,7 +7675,34 @@
       "SHADOW_BALL",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 169,
+    "speciesName": "Crobat (Shadow)",
+    "speciesId": "crobat_shadow",
+    "baseStats": {
+      "atk": 194,
+      "def": 178,
+      "hp": 198
+    },
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "fastMoves": [
+      "AIR_SLASH",
+      "BITE"
+    ],
+    "chargedMoves": [
+      "AIR_CUTTER",
+      "SHADOW_BALL",
+      "SLUDGE_BOMB"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -5476,7 +7729,7 @@
       "THUNDERBOLT",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5502,7 +7755,7 @@
       "THUNDER",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5527,9 +7780,7 @@
       "THUNDER_PUNCH",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [
-      "QUICK_ATTACK"
-    ],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5556,9 +7807,9 @@
       "PSYSHOCK",
       "SIGNAL_BEAM"
     ],
-    "legacyMoves": [
-      "BODY_SLAM",
-      "PSYCHIC"
+    "eliteMoves": [
+      "PSYCHIC",
+      "BODY_SLAM"
     ],
     "tags": []
   },
@@ -5585,7 +7836,7 @@
       "SHADOW_BALL",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "BODY_SLAM"
     ],
     "tags": []
@@ -5628,7 +7879,7 @@
       "DAZZLING_GLEAM",
       "PSYSHOCK"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "ZEN_HEADBUTT"
     ],
     "tags": []
@@ -5672,7 +7923,7 @@
       "ANCIENT_POWER",
       "DAZZLING_GLEAM"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "STEEL_WING",
       "ZEN_HEADBUTT"
     ],
@@ -5700,7 +7951,7 @@
       "NIGHT_SHADE",
       "PSYSHOCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5725,7 +7976,7 @@
       "FUTURE_SIGHT",
       "OMINOUS_WIND"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5750,7 +8001,34 @@
       "DISCHARGE",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 179,
+    "speciesName": "Mareep (Shadow)",
+    "speciesId": "mareep_shadow",
+    "baseStats": {
+      "atk": 114,
+      "def": 79,
+      "hp": 146
+    },
+    "types": [
+      "electric",
+      "none"
+    ],
+    "fastMoves": [
+      "TACKLE",
+      "THUNDER_SHOCK"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "DISCHARGE",
+      "THUNDERBOLT"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -5777,7 +8055,34 @@
       "POWER_GEM",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 180,
+    "speciesName": "Flaaffy (Shadow)",
+    "speciesId": "flaaffy_shadow",
+    "baseStats": {
+      "atk": 145,
+      "def": 109,
+      "hp": 172
+    },
+    "types": [
+      "electric",
+      "none"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "DISCHARGE",
+      "POWER_GEM",
+      "THUNDERBOLT"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -5807,7 +8112,39 @@
       "ZAP_CANNON",
       "THUNDER_PUNCH"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "DRAGON_PULSE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 181,
+    "speciesName": "Ampharos (Shadow)",
+    "speciesId": "ampharos_shadow",
+    "baseStats": {
+      "atk": 211,
+      "def": 169,
+      "hp": 207
+    },
+    "types": [
+      "electric",
+      "none"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "VOLT_SWITCH"
+    ],
+    "chargedMoves": [
+      "DRAGON_PULSE",
+      "FOCUS_BLAST",
+      "POWER_GEM",
+      "THUNDER",
+      "ZAP_CANNON",
+      "THUNDER_PUNCH"
+    ],
+    "eliteMoves": [
       "DRAGON_PULSE"
     ],
     "tags": [
@@ -5829,14 +8166,43 @@
     ],
     "fastMoves": [
       "ACID",
-      "RAZOR_LEAF"
+      "RAZOR_LEAF",
+      "BULLET_SEED"
     ],
     "chargedMoves": [
       "DAZZLING_GLEAM",
       "LEAF_BLADE",
       "PETAL_BLIZZARD"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 182,
+    "speciesName": "Bellossom (Shadow)",
+    "speciesId": "bellossom_shadow",
+    "baseStats": {
+      "atk": 169,
+      "def": 186,
+      "hp": 181
+    },
+    "types": [
+      "grass",
+      "none"
+    ],
+    "fastMoves": [
+      "ACID",
+      "RAZOR_LEAF",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "DAZZLING_GLEAM",
+      "LEAF_BLADE",
+      "PETAL_BLIZZARD"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -5863,7 +8229,7 @@
       "BODY_SLAM",
       "BUBBLE_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5888,7 +8254,7 @@
       "ICE_BEAM",
       "PLAY_ROUGH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5913,7 +8279,7 @@
       "ROCK_SLIDE",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5939,7 +8305,37 @@
       "HYDRO_PUMP",
       "SURF"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "EARTHQUAKE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 186,
+    "speciesName": "Politoed (Shadow)",
+    "speciesId": "politoed_shadow",
+    "baseStats": {
+      "atk": 174,
+      "def": 179,
+      "hp": 207
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "BUBBLE",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "BLIZZARD",
+      "EARTHQUAKE",
+      "HYDRO_PUMP",
+      "SURF"
+    ],
+    "eliteMoves": [
       "EARTHQUAKE"
     ],
     "tags": [
@@ -5968,7 +8364,7 @@
       "GRASS_KNOT",
       "SEED_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -5993,7 +8389,7 @@
       "ENERGY_BALL",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6016,9 +8412,10 @@
     "chargedMoves": [
       "DAZZLING_GLEAM",
       "ENERGY_BALL",
+      "AERIAL_ACE",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6043,7 +8440,7 @@
       "LOW_SWEEP",
       "SWIFT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6068,7 +8465,7 @@
       "GRASS_KNOT",
       "SEED_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6093,7 +8490,7 @@
       "SLUDGE_BOMB",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6118,7 +8515,7 @@
       "ANCIENT_POWER",
       "SILVER_WIND"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6143,7 +8540,7 @@
       "DIG",
       "MUD_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6169,7 +8566,7 @@
       "STONE_EDGE",
       "ACID_SPRAY"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6195,7 +8592,7 @@
       "PSYBEAM",
       "PSYCHIC"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "LAST_RESORT"
     ],
     "tags": []
@@ -6222,7 +8619,7 @@
       "FOUL_PLAY",
       "LAST_RESORT"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "LAST_RESORT"
     ],
     "tags": []
@@ -6249,10 +8646,8 @@
       "DRILL_PECK",
       "FOUL_PLAY"
     ],
-    "legacyMoves": [],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 199,
@@ -6276,7 +8671,7 @@
       "FIRE_BLAST",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6301,7 +8696,34 @@
       "OMINOUS_WIND",
       "SHADOW_SNEAK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 200,
+    "speciesName": "Misdreavus (Shadow)",
+    "speciesId": "misdreavus_shadow",
+    "baseStats": {
+      "atk": 167,
+      "def": 154,
+      "hp": 155
+    },
+    "types": [
+      "ghost",
+      "none"
+    ],
+    "fastMoves": [
+      "ASTONISH",
+      "HEX"
+    ],
+    "chargedMoves": [
+      "DARK_PULSE",
+      "OMINOUS_WIND",
+      "SHADOW_SNEAK"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -6340,7 +8762,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6364,7 +8786,33 @@
     "chargedMoves": [
       "MIRROR_COAT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 202,
+    "speciesName": "Wobbuffet (Shadow)",
+    "speciesId": "wobbuffet_shadow",
+    "baseStats": {
+      "atk": 60,
+      "def": 106,
+      "hp": 382
+    },
+    "types": [
+      "psychic",
+      "none"
+    ],
+    "fastMoves": [
+      "COUNTER",
+      "SPLASH",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "MIRROR_COAT"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -6391,7 +8839,7 @@
       "PSYCHIC",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6416,7 +8864,7 @@
       "ROCK_TOMB",
       "SAND_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6443,7 +8891,7 @@
       "SAND_TOMB",
       "MIRROR_SHOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6468,7 +8916,7 @@
       "DRILL_RUN",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6493,7 +8941,7 @@
       "DIG",
       "NIGHT_SLASH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6519,9 +8967,9 @@
       "EARTHQUAKE",
       "HEAVY_SLAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "shadow"
+      "shadoweligible"
     ]
   },
   {
@@ -6546,7 +8994,7 @@
       "CRUNCH",
       "DAZZLING_GLEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6572,7 +9020,7 @@
       "CRUNCH",
       "PLAY_ROUGH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6599,7 +9047,7 @@
       "ACID_SPRAY",
       "FELL_STINGER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6624,7 +9072,34 @@
       "NIGHT_SLASH",
       "X_SCISSOR"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 212,
+    "speciesName": "Scizor (Shadow)",
+    "speciesId": "scizor_shadow",
+    "baseStats": {
+      "atk": 236,
+      "def": 181,
+      "hp": 172
+    },
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "fastMoves": [
+      "BULLET_PUNCH",
+      "FURY_CUTTER"
+    ],
+    "chargedMoves": [
+      "IRON_HEAD",
+      "NIGHT_SLASH",
+      "X_SCISSOR"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -6651,7 +9126,7 @@
       "ROCK_BLAST",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6676,7 +9151,7 @@
       "EARTHQUAKE",
       "MEGAHORN"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -6703,7 +9178,34 @@
       "FOUL_PLAY",
       "ICE_PUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 215,
+    "speciesName": "Sneasel (Shadow)",
+    "speciesId": "sneasel_shadow",
+    "baseStats": {
+      "atk": 189,
+      "def": 146,
+      "hp": 146
+    },
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "fastMoves": [
+      "FEINT_ATTACK",
+      "ICE_SHARD"
+    ],
+    "chargedMoves": [
+      "AVALANCHE",
+      "FOUL_PLAY",
+      "ICE_PUNCH"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -6730,7 +9232,7 @@
       "CRUNCH",
       "PLAY_ROUGH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6756,7 +9258,7 @@
       "HYPER_BEAM",
       "PLAY_ROUGH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6781,7 +9283,7 @@
       "FLAME_CHARGE",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6806,7 +9308,7 @@
       "OVERHEAT",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6831,7 +9333,7 @@
       "ICY_WIND",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6856,7 +9358,7 @@
       "BULLDOZE",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6881,7 +9383,7 @@
       "POWER_GEM",
       "ROCK_BLAST"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -6908,7 +9410,7 @@
       "ROCK_BLAST",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6935,7 +9437,7 @@
       "ACID_SPRAY",
       "OCTAZOOKA"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -6961,7 +9463,35 @@
       "ICE_PUNCH",
       "ICY_WIND"
     ],
-    "legacyMoves": [
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 225,
+    "speciesName": "Delibird (Shadow)",
+    "speciesId": "delibird_shadow",
+    "baseStats": {
+      "atk": 128,
+      "def": 90,
+      "hp": 128
+    },
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "fastMoves": [
+      "ICE_SHARD",
+      "PRESENT",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "AERIAL_ACE",
+      "ICE_PUNCH",
+      "ICY_WIND"
+    ],
+    "eliteMoves": [
       "ICE_SHARD",
       "QUICK_ATTACK"
     ],
@@ -6993,7 +9523,7 @@
       "WATER_PULSE",
       "BUBBLE_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -7018,7 +9548,7 @@
       "FLASH_CANNON",
       "SKY_ATTACK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -7043,7 +9573,34 @@
       "DARK_PULSE",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 228,
+    "speciesName": "Houndour (Shadow)",
+    "speciesId": "houndour_shadow",
+    "baseStats": {
+      "atk": 152,
+      "def": 83,
+      "hp": 128
+    },
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "fastMoves": [
+      "EMBER",
+      "FEINT_ATTACK"
+    ],
+    "chargedMoves": [
+      "CRUNCH",
+      "DARK_PULSE",
+      "FLAMETHROWER"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -7071,7 +9628,35 @@
       "FLAMETHROWER",
       "FOUL_PLAY"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 229,
+    "speciesName": "Houndoom (Shadow)",
+    "speciesId": "houndoom_shadow",
+    "baseStats": {
+      "atk": 224,
+      "def": 144,
+      "hp": 181
+    },
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "fastMoves": [
+      "FIRE_FANG",
+      "SNARL"
+    ],
+    "chargedMoves": [
+      "CRUNCH",
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "FOUL_PLAY"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -7100,7 +9685,7 @@
       "OUTRAGE",
       "OCTAZOOKA"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "WATER_GUN"
     ],
     "tags": []
@@ -7127,7 +9712,7 @@
       "BULLDOZE",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -7154,7 +9739,7 @@
       "HEAVY_SLAM",
       "PLAY_ROUGH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -7195,7 +9780,50 @@
       "SOLAR_BEAM",
       "ZAP_CANNON"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 233,
+    "speciesName": "Porygon2 (Shadow)",
+    "speciesId": "porygon2_shadow",
+    "baseStats": {
+      "atk": 198,
+      "def": 180,
+      "hp": 198
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "LOCK_ON",
+      "CHARGE_BEAM",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER"
+    ],
+    "chargedMoves": [
+      "HYPER_BEAM",
+      "SOLAR_BEAM",
+      "ZAP_CANNON"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -7222,7 +9850,34 @@
       "STOMP",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 234,
+    "speciesName": "Stantler (Shadow)",
+    "speciesId": "stantler_shadow",
+    "baseStats": {
+      "atk": 192,
+      "def": 131,
+      "hp": 177
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "TACKLE",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "MEGAHORN",
+      "STOMP",
+      "WILD_CHARGE"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -7434,7 +10089,7 @@
       "LAST_RESORT",
       "METEOR_MASH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -7459,7 +10114,7 @@
       "LOW_SWEEP",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -7484,7 +10139,7 @@
       "GYRO_BALL",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -7510,7 +10165,7 @@
       "ICE_PUNCH",
       "PSYSHOCK"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "FROST_BREATH"
     ],
     "tags": []
@@ -7538,7 +10193,7 @@
       "THUNDER_PUNCH",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "THUNDERBOLT"
     ],
     "tags": []
@@ -7566,7 +10221,7 @@
       "FLAME_BURST",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "FLAMETHROWER"
     ],
     "tags": []
@@ -7595,7 +10250,7 @@
       "STOMP",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -7620,7 +10275,7 @@
       "HYPER_BEAM",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -7646,7 +10301,36 @@
       "THUNDERBOLT",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "legendary",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 243,
+    "speciesName": "Raikou (Shadow)",
+    "speciesId": "raikou_shadow",
+    "baseStats": {
+      "atk": 241,
+      "def": 195,
+      "hp": 207
+    },
+    "types": [
+      "electric",
+      "none"
+    ],
+    "fastMoves": [
+      "THUNDER_SHOCK",
+      "VOLT_SWITCH"
+    ],
+    "chargedMoves": [
+      "SHADOW_BALL",
+      "THUNDER",
+      "THUNDERBOLT",
+      "WILD_CHARGE"
+    ],
+    "eliteMoves": [],
     "tags": [
       "legendary",
       "shadow"
@@ -7675,9 +10359,39 @@
       "IRON_HEAD",
       "OVERHEAT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "legendary"
+      "legendary",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 244,
+    "speciesName": "Entei (Shadow)",
+    "speciesId": "entei_shadow",
+    "baseStats": {
+      "atk": 235,
+      "def": 171,
+      "hp": 251
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "FIRE_FANG",
+      "FIRE_SPIN"
+    ],
+    "chargedMoves": [
+      "FIRE_BLAST",
+      "FLAMETHROWER",
+      "IRON_HEAD",
+      "OVERHEAT"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "legendary",
+      "shadow"
     ]
   },
   {
@@ -7720,7 +10434,7 @@
       "ICE_BEAM",
       "WATER_PULSE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "HIDDEN_POWER_BUG",
       "HIDDEN_POWER_DARK",
       "HIDDEN_POWER_DRAGON",
@@ -7764,7 +10478,34 @@
       "CRUNCH",
       "STOMP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 246,
+    "speciesName": "Larvitar (Shadow)",
+    "speciesId": "larvitar_shadow",
+    "baseStats": {
+      "atk": 115,
+      "def": 93,
+      "hp": 137
+    },
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "fastMoves": [
+      "BITE",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "ANCIENT_POWER",
+      "CRUNCH",
+      "STOMP"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -7791,7 +10532,34 @@
       "CRUNCH",
       "DIG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 247,
+    "speciesName": "Pupitar (Shadow)",
+    "speciesId": "pupitar_shadow",
+    "baseStats": {
+      "atk": 155,
+      "def": 133,
+      "hp": 172
+    },
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "fastMoves": [
+      "BITE",
+      "ROCK_SMASH"
+    ],
+    "chargedMoves": [
+      "ANCIENT_POWER",
+      "CRUNCH",
+      "DIG"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -7819,7 +10587,37 @@
       "FIRE_BLAST",
       "STONE_EDGE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "SMACK_DOWN"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 248,
+    "speciesName": "Tyranitar (Shadow)",
+    "speciesId": "tyranitar_shadow",
+    "baseStats": {
+      "atk": 251,
+      "def": 207,
+      "hp": 225
+    },
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "fastMoves": [
+      "BITE",
+      "IRON_TAIL",
+      "SMACK_DOWN"
+    ],
+    "chargedMoves": [
+      "CRUNCH",
+      "FIRE_BLAST",
+      "STONE_EDGE"
+    ],
+    "eliteMoves": [
       "SMACK_DOWN"
     ],
     "tags": [
@@ -7848,7 +10646,7 @@
       "HYDRO_PUMP",
       "SKY_ATTACK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -7889,9 +10687,12 @@
     "chargedMoves": [
       "BRAVE_BIRD",
       "FIRE_BLAST",
-      "SOLAR_BEAM"
+      "SOLAR_BEAM",
+      "EARTHQUAKE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [
+      "EARTHQUAKE"
+    ],
     "tags": [
       "legendary"
     ]
@@ -7919,9 +10720,10 @@
       "PSYCHIC",
       "SEED_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "mythical"
+      "mythical",
+      "untradeable"
     ]
   },
   {
@@ -7946,8 +10748,10 @@
       "ENERGY_BALL",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 253,
@@ -7971,8 +10775,10 @@
       "GRASS_KNOT",
       "LEAF_BLADE"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 254,
@@ -7998,10 +10804,12 @@
       "FRENZY_PLANT",
       "DRAGON_CLAW"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "FRENZY_PLANT"
     ],
-    "tags": []
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 255,
@@ -8025,8 +10833,10 @@
       "FLAMETHROWER",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 256,
@@ -8050,8 +10860,10 @@
       "FLAMETHROWER",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 257,
@@ -8078,11 +10890,13 @@
       "BLAST_BURN",
       "BLAZE_KICK"
     ],
-    "legacyMoves": [
-      "STONE_EDGE",
-      "BLAST_BURN"
+    "eliteMoves": [
+      "BLAST_BURN",
+      "STONE_EDGE"
     ],
-    "tags": []
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 258,
@@ -8106,7 +10920,34 @@
       "SLUDGE",
       "STOMP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 258,
+    "speciesName": "Mudkip (Shadow)",
+    "speciesId": "mudkip_shadow",
+    "baseStats": {
+      "atk": 126,
+      "def": 93,
+      "hp": 137
+    },
+    "types": [
+      "water",
+      "none"
+    ],
+    "fastMoves": [
+      "TACKLE",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "DIG",
+      "SLUDGE",
+      "STOMP"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -8133,8 +10974,37 @@
       "SLUDGE",
       "SURF"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 259,
+    "speciesName": "Marshtomp (Shadow)",
+    "speciesId": "marshtomp_shadow",
+    "baseStats": {
+      "atk": 156,
+      "def": 133,
+      "hp": 172
+    },
+    "types": [
+      "water",
+      "ground"
+    ],
+    "fastMoves": [
+      "MUD_SHOT",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "MUD_BOMB",
+      "SLUDGE",
+      "SURF"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -8162,10 +11032,43 @@
       "HYDRO_CANNON",
       "MUDDY_WATER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "HYDRO_CANNON"
     ],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 260,
+    "speciesName": "Swampert (Shadow)",
+    "speciesId": "swampert_shadow",
+    "baseStats": {
+      "atk": 208,
+      "def": 175,
+      "hp": 225
+    },
+    "types": [
+      "water",
+      "ground"
+    ],
+    "fastMoves": [
+      "MUD_SHOT",
+      "WATER_GUN"
+    ],
+    "chargedMoves": [
+      "EARTHQUAKE",
+      "SLUDGE_WAVE",
+      "SURF",
+      "HYDRO_CANNON",
+      "MUDDY_WATER"
+    ],
+    "eliteMoves": [
+      "HYDRO_CANNON"
+    ],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -8191,7 +11094,7 @@
       "DIG",
       "POISON_FANG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8218,7 +11121,7 @@
       "PLAY_ROUGH",
       "POISON_FANG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8243,7 +11146,7 @@
       "GRASS_KNOT",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8256,19 +11159,19 @@
       "hp": 116
     },
     "types": [
-      "normal",
-      "dark"
+      "dark",
+      "normal"
     ],
     "fastMoves": [
-      "ROCK_SMASH",
-      "TACKLE"
+      "TACKLE",
+      "TAKE_DOWN"
     ],
     "chargedMoves": [
       "DIG",
-      "GRASS_KNOT",
-      "THUNDERBOLT"
+      "BODY_SLAM",
+      "SWIFT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "galarian"
     ]
@@ -8295,7 +11198,7 @@
       "GRASS_KNOT",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8308,19 +11211,19 @@
       "hp": 186
     },
     "types": [
-      "normal",
-      "dark"
+      "dark",
+      "normal"
     ],
     "fastMoves": [
-      "SHADOW_CLAW",
-      "TACKLE"
+      "SNARL",
+      "LICK"
     ],
     "chargedMoves": [
       "DIG",
-      "GRASS_KNOT",
-      "THUNDER"
+      "BODY_SLAM",
+      "GUNK_SHOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "galarian"
     ]
@@ -8345,7 +11248,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8368,7 +11271,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8393,7 +11296,7 @@
       "BUG_BUZZ",
       "SILVER_WIND"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8416,7 +11319,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8441,7 +11344,7 @@
       "SILVER_WIND",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8465,7 +11368,7 @@
       "BUBBLE_BEAM",
       "ENERGY_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8490,7 +11393,7 @@
       "GRASS_KNOT",
       "ICE_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8513,10 +11416,11 @@
     "chargedMoves": [
       "BLIZZARD",
       "HYDRO_PUMP",
+      "ENERGY_BALL",
       "ICE_BEAM",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8541,7 +11445,34 @@
       "FOUL_PLAY",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 273,
+    "speciesName": "Seedot (Shadow)",
+    "speciesId": "seedot_shadow",
+    "baseStats": {
+      "atk": 71,
+      "def": 77,
+      "hp": 120
+    },
+    "types": [
+      "grass",
+      "none"
+    ],
+    "fastMoves": [
+      "BULLET_SEED",
+      "QUICK_ATTACK"
+    ],
+    "chargedMoves": [
+      "ENERGY_BALL",
+      "FOUL_PLAY",
+      "GRASS_KNOT"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -8568,7 +11499,34 @@
       "GRASS_KNOT",
       "LEAF_BLADE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 274,
+    "speciesName": "Nuzleaf (Shadow)",
+    "speciesId": "nuzleaf_shadow",
+    "baseStats": {
+      "atk": 134,
+      "def": 78,
+      "hp": 172
+    },
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "fastMoves": [
+      "FEINT_ATTACK",
+      "RAZOR_LEAF"
+    ],
+    "chargedMoves": [
+      "FOUL_PLAY",
+      "GRASS_KNOT",
+      "LEAF_BLADE"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -8589,7 +11547,8 @@
     "fastMoves": [
       "FEINT_ATTACK",
       "RAZOR_LEAF",
-      "SNARL"
+      "SNARL",
+      "BULLET_SEED"
     ],
     "chargedMoves": [
       "FOUL_PLAY",
@@ -8597,7 +11556,41 @@
       "LEAF_BLADE",
       "LEAF_TORNADO"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [
+      "BULLET_SEED"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 275,
+    "speciesName": "Shiftry (Shadow)",
+    "speciesId": "shiftry_shadow",
+    "baseStats": {
+      "atk": 200,
+      "def": 121,
+      "hp": 207
+    },
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "fastMoves": [
+      "FEINT_ATTACK",
+      "RAZOR_LEAF",
+      "SNARL",
+      "BULLET_SEED"
+    ],
+    "chargedMoves": [
+      "FOUL_PLAY",
+      "HURRICANE",
+      "LEAF_BLADE",
+      "LEAF_TORNADO"
+    ],
+    "eliteMoves": [
+      "BULLET_SEED"
+    ],
     "tags": [
       "shadow"
     ]
@@ -8622,7 +11615,7 @@
     "chargedMoves": [
       "AERIAL_ACE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8647,7 +11640,7 @@
       "BRAVE_BIRD",
       "SKY_ATTACK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8672,7 +11665,7 @@
       "ICE_BEAM",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8697,7 +11690,7 @@
       "HURRICANE",
       "HYDRO_PUMP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8722,7 +11715,34 @@
       "PSYSHOCK",
       "SHADOW_SNEAK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 280,
+    "speciesName": "Ralts (Shadow)",
+    "speciesId": "ralts_shadow",
+    "baseStats": {
+      "atk": 79,
+      "def": 59,
+      "hp": 99
+    },
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "DISARMING_VOICE",
+      "PSYSHOCK",
+      "SHADOW_SNEAK"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -8749,7 +11769,34 @@
       "PSYCHIC",
       "SHADOW_SNEAK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 281,
+    "speciesName": "Kirlia (Shadow)",
+    "speciesId": "kirlia_shadow",
+    "baseStats": {
+      "atk": 117,
+      "def": 90,
+      "hp": 116
+    },
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "CONFUSION"
+    ],
+    "chargedMoves": [
+      "DISARMING_VOICE",
+      "PSYCHIC",
+      "SHADOW_SNEAK"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -8778,7 +11825,38 @@
       "SHADOW_BALL",
       "SYNCHRONOISE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "SYNCHRONOISE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 282,
+    "speciesName": "Gardevoir (Shadow)",
+    "speciesId": "gardevoir_shadow",
+    "baseStats": {
+      "atk": 237,
+      "def": 195,
+      "hp": 169
+    },
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "CONFUSION",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "DAZZLING_GLEAM",
+      "PSYCHIC",
+      "SHADOW_BALL",
+      "SYNCHRONOISE"
+    ],
+    "eliteMoves": [
       "SYNCHRONOISE"
     ],
     "tags": [
@@ -8807,7 +11885,7 @@
       "BUBBLE_BEAM",
       "SIGNAL_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8833,7 +11911,7 @@
       "SILVER_WIND",
       "BUBBLE_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8858,7 +11936,7 @@
       "GRASS_KNOT",
       "SEED_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8884,7 +11962,7 @@
       "SEED_BOMB",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "GRASS_KNOT"
     ],
     "tags": []
@@ -8910,7 +11988,7 @@
       "BRICK_BREAK",
       "NIGHT_SLASH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8935,7 +12013,7 @@
       "BRICK_BREAK",
       "BULLDOZE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -8960,7 +12038,9 @@
       "PLAY_ROUGH",
       "BODY_SLAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [
+      "BODY_SLAM"
+    ],
     "tags": []
   },
   {
@@ -8985,7 +12065,7 @@
       "BUG_BUZZ",
       "NIGHT_SLASH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9010,7 +12090,7 @@
       "BUG_BUZZ",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9028,14 +12108,17 @@
     ],
     "fastMoves": [
       "BUG_BITE",
-      "SHADOW_CLAW"
+      "SHADOW_CLAW",
+      "STRUGGLE_BUG"
     ],
     "chargedMoves": [
       "AERIAL_ACE",
       "DIG",
       "SHADOW_SNEAK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [
+      "STRUGGLE_BUG"
+    ],
     "tags": []
   },
   {
@@ -9060,7 +12143,7 @@
       "FLAMETHROWER",
       "STOMP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9086,9 +12169,7 @@
       "FLAMETHROWER",
       "STOMP"
     ],
-    "legacyMoves": [
-      "CRUNCH"
-    ],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9113,7 +12194,7 @@
       "DISARMING_VOICE",
       "FIRE_BLAST"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9138,7 +12219,7 @@
       "HEAVY_SLAM",
       "LOW_SWEEP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9164,7 +12245,7 @@
       "HEAVY_SLAM",
       "SUPER_POWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9189,7 +12270,7 @@
       "BUBBLE_BEAM",
       "ICE_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9214,7 +12295,7 @@
       "ROCK_SLIDE",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9239,7 +12320,7 @@
       "DISARMING_VOICE",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9265,7 +12346,7 @@
       "PLAY_ROUGH",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9290,7 +12371,34 @@
       "POWER_GEM",
       "SHADOW_SNEAK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 302,
+    "speciesName": "Sableye (Shadow)",
+    "speciesId": "sableye_shadow",
+    "baseStats": {
+      "atk": 141,
+      "def": 136,
+      "hp": 137
+    },
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "fastMoves": [
+      "FEINT_ATTACK",
+      "SHADOW_CLAW"
+    ],
+    "chargedMoves": [
+      "FOUL_PLAY",
+      "POWER_GEM",
+      "SHADOW_SNEAK"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -9320,7 +12428,37 @@
       "VICE_GRIP",
       "POWER_UP_PUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 303,
+    "speciesName": "Mawile (Shadow)",
+    "speciesId": "mawile_shadow",
+    "baseStats": {
+      "atk": 155,
+      "def": 141,
+      "hp": 137
+    },
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "fastMoves": [
+      "ASTONISH",
+      "BITE",
+      "FIRE_FANG",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "IRON_HEAD",
+      "PLAY_ROUGH",
+      "VICE_GRIP",
+      "POWER_UP_PUNCH"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -9347,7 +12485,7 @@
       "IRON_HEAD",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9372,7 +12510,7 @@
       "HEAVY_SLAM",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9398,7 +12536,7 @@
       "STONE_EDGE",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9423,7 +12561,7 @@
       "LOW_SWEEP",
       "PSYSHOCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9449,7 +12587,7 @@
       "PSYCHIC",
       "POWER_UP_PUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9474,7 +12612,7 @@
       "SWIFT",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9499,7 +12637,7 @@
       "THUNDER",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9525,7 +12663,7 @@
       "THUNDERBOLT",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9551,7 +12689,7 @@
       "THUNDERBOLT",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9576,8 +12714,10 @@
       "SIGNAL_BEAM",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 314,
@@ -9601,8 +12741,10 @@
       "DAZZLING_GLEAM",
       "SILVER_WIND"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 315,
@@ -9626,7 +12768,7 @@
       "PETAL_BLIZZARD",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9651,7 +12793,7 @@
       "ICE_BEAM",
       "SLUDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9677,7 +12819,7 @@
       "SLUDGE_BOMB",
       "ACID_SPRAY"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9702,7 +12844,34 @@
       "CRUNCH",
       "POISON_FANG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 318,
+    "speciesName": "Carvanha (Shadow)",
+    "speciesId": "carvanha_shadow",
+    "baseStats": {
+      "atk": 171,
+      "def": 39,
+      "hp": 128
+    },
+    "types": [
+      "water",
+      "dark"
+    ],
+    "fastMoves": [
+      "BITE",
+      "SNARL"
+    ],
+    "chargedMoves": [
+      "AQUA_JET",
+      "CRUNCH",
+      "POISON_FANG"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -9729,7 +12898,34 @@
       "HYDRO_PUMP",
       "POISON_FANG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 319,
+    "speciesName": "Sharpedo (Shadow)",
+    "speciesId": "sharpedo_shadow",
+    "baseStats": {
+      "atk": 243,
+      "def": 83,
+      "hp": 172
+    },
+    "types": [
+      "water",
+      "dark"
+    ],
+    "fastMoves": [
+      "BITE",
+      "WATERFALL"
+    ],
+    "chargedMoves": [
+      "CRUNCH",
+      "HYDRO_PUMP",
+      "POISON_FANG"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -9756,7 +12952,7 @@
       "HEAVY_SLAM",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9781,7 +12977,7 @@
       "HYPER_BEAM",
       "SURF"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9806,7 +13002,7 @@
       "HEAT_WAVE",
       "STOMP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9832,7 +13028,7 @@
       "SOLAR_BEAM",
       "EARTH_POWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9857,7 +13053,7 @@
       "OVERHEAT",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -9884,7 +13080,7 @@
       "PSYBEAM",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9909,7 +13105,7 @@
       "PSYCHIC",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9934,7 +13130,7 @@
       "ICY_WIND",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -9959,7 +13155,34 @@
       "DIG",
       "SAND_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 328,
+    "speciesName": "Trapinch (Shadow)",
+    "speciesId": "trapinch_shadow",
+    "baseStats": {
+      "atk": 162,
+      "def": 78,
+      "hp": 128
+    },
+    "types": [
+      "ground",
+      "none"
+    ],
+    "fastMoves": [
+      "MUD_SHOT",
+      "STRUGGLE_BUG"
+    ],
+    "chargedMoves": [
+      "CRUNCH",
+      "DIG",
+      "SAND_TOMB"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -9986,7 +13209,34 @@
       "BULLDOZE",
       "SAND_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 329,
+    "speciesName": "Vibrava (Shadow)",
+    "speciesId": "vibrava_shadow",
+    "baseStats": {
+      "atk": 134,
+      "def": 99,
+      "hp": 137
+    },
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "BUG_BUZZ",
+      "BULLDOZE",
+      "SAND_TOMB"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -10014,7 +13264,37 @@
       "STONE_EDGE",
       "EARTH_POWER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "EARTH_POWER"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 330,
+    "speciesName": "Flygon (Shadow)",
+    "speciesId": "flygon_shadow",
+    "baseStats": {
+      "atk": 205,
+      "def": 168,
+      "hp": 190
+    },
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "fastMoves": [
+      "DRAGON_TAIL",
+      "MUD_SHOT"
+    ],
+    "chargedMoves": [
+      "DRAGON_CLAW",
+      "EARTHQUAKE",
+      "STONE_EDGE",
+      "EARTH_POWER"
+    ],
+    "eliteMoves": [
       "EARTH_POWER"
     ],
     "tags": [
@@ -10043,7 +13323,34 @@
       "GRASS_KNOT",
       "SEED_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 331,
+    "speciesName": "Cacnea (Shadow)",
+    "speciesId": "cacnea_shadow",
+    "baseStats": {
+      "atk": 156,
+      "def": 74,
+      "hp": 137
+    },
+    "types": [
+      "grass",
+      "none"
+    ],
+    "fastMoves": [
+      "POISON_STING",
+      "SUCKER_PUNCH"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "GRASS_KNOT",
+      "SEED_BOMB"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -10070,7 +13377,34 @@
       "DYNAMIC_PUNCH",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 332,
+    "speciesName": "Cacturne (Shadow)",
+    "speciesId": "cacturne_shadow",
+    "baseStats": {
+      "atk": 221,
+      "def": 115,
+      "hp": 172
+    },
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "fastMoves": [
+      "POISON_JAB",
+      "SUCKER_PUNCH"
+    ],
+    "chargedMoves": [
+      "DARK_PULSE",
+      "DYNAMIC_PUNCH",
+      "GRASS_KNOT"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -10097,7 +13431,7 @@
       "DISARMING_VOICE",
       "ICE_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10122,7 +13456,7 @@
       "DRAGON_PULSE",
       "SKY_ATTACK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10147,8 +13481,10 @@
       "DIG",
       "NIGHT_SLASH"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 336,
@@ -10172,8 +13508,10 @@
       "POISON_FANG",
       "WRAP"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 337,
@@ -10197,8 +13535,10 @@
       "PSYCHIC",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 338,
@@ -10222,8 +13562,10 @@
       "ROCK_SLIDE",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 339,
@@ -10247,7 +13589,7 @@
       "ICE_BEAM",
       "MUD_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10272,7 +13614,7 @@
       "MUD_BOMB",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10297,7 +13639,7 @@
       "BUBBLE_BEAM",
       "VICE_GRIP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10323,7 +13665,7 @@
       "VICE_GRIP",
       "CRABHAMMER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10348,7 +13690,7 @@
       "GYRO_BALL",
       "PSYBEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10375,7 +13717,7 @@
       "PSYCHIC",
       "EARTH_POWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10393,14 +13735,15 @@
     ],
     "fastMoves": [
       "ACID",
-      "INFESTATION"
+      "INFESTATION",
+      "BULLET_SEED"
     ],
     "chargedMoves": [
       "ANCIENT_POWER",
       "GRASS_KNOT",
       "MIRROR_COAT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10418,14 +13761,15 @@
     ],
     "fastMoves": [
       "ACID",
-      "INFESTATION"
+      "INFESTATION",
+      "BULLET_SEED"
     ],
     "chargedMoves": [
       "BULLDOZE",
       "GRASS_KNOT",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10450,7 +13794,7 @@
       "AQUA_JET",
       "CROSS_POISON"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10475,7 +13819,7 @@
       "ROCK_BLAST",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10498,7 +13842,7 @@
     "chargedMoves": [
       "MIRROR_COAT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10523,7 +13867,7 @@
       "HYPER_BEAM",
       "SURF"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10548,7 +13892,7 @@
       "HURRICANE",
       "WEATHER_BALL_ROCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10573,7 +13917,7 @@
       "THUNDER",
       "WEATHER_BALL_WATER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10598,7 +13942,7 @@
       "ICE_BEAM",
       "WEATHER_BALL_ICE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10623,7 +13967,7 @@
       "SOLAR_BEAM",
       "WEATHER_BALL_FIRE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10651,7 +13995,7 @@
       "SHADOW_SNEAK",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10676,7 +14020,34 @@
       "OMINOUS_WIND",
       "SHADOW_SNEAK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 353,
+    "speciesName": "Shuppet (Shadow)",
+    "speciesId": "shuppet_shadow",
+    "baseStats": {
+      "atk": 138,
+      "def": 65,
+      "hp": 127
+    },
+    "types": [
+      "ghost",
+      "none"
+    ],
+    "fastMoves": [
+      "ASTONISH",
+      "FEINT_ATTACK"
+    ],
+    "chargedMoves": [
+      "NIGHT_SHADE",
+      "OMINOUS_WIND",
+      "SHADOW_SNEAK"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -10703,7 +14074,34 @@
       "SHADOW_BALL",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 354,
+    "speciesName": "Banette (Shadow)",
+    "speciesId": "banette_shadow",
+    "baseStats": {
+      "atk": 218,
+      "def": 126,
+      "hp": 162
+    },
+    "types": [
+      "ghost",
+      "none"
+    ],
+    "fastMoves": [
+      "HEX",
+      "SHADOW_CLAW"
+    ],
+    "chargedMoves": [
+      "DAZZLING_GLEAM",
+      "SHADOW_BALL",
+      "THUNDER"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -10730,7 +14128,34 @@
       "OMINOUS_WIND",
       "SHADOW_SNEAK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 355,
+    "speciesName": "Duskull (Shadow)",
+    "speciesId": "duskull_shadow",
+    "baseStats": {
+      "atk": 70,
+      "def": 162,
+      "hp": 85
+    },
+    "types": [
+      "ghost",
+      "none"
+    ],
+    "fastMoves": [
+      "ASTONISH",
+      "HEX"
+    ],
+    "chargedMoves": [
+      "NIGHT_SHADE",
+      "OMINOUS_WIND",
+      "SHADOW_SNEAK"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -10757,7 +14182,34 @@
       "ICE_PUNCH",
       "SHADOW_PUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 356,
+    "speciesName": "Dusclops (Shadow)",
+    "speciesId": "dusclops_shadow",
+    "baseStats": {
+      "atk": 124,
+      "def": 234,
+      "hp": 120
+    },
+    "types": [
+      "ghost",
+      "none"
+    ],
+    "fastMoves": [
+      "FEINT_ATTACK",
+      "HEX"
+    ],
+    "chargedMoves": [
+      "FIRE_PUNCH",
+      "ICE_PUNCH",
+      "SHADOW_PUNCH"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -10784,7 +14236,7 @@
       "LEAF_BLADE",
       "STOMP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -10811,7 +14263,7 @@
       "PSYSHOCK",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10836,7 +14288,34 @@
       "MEGAHORN",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 359,
+    "speciesName": "Absol (Shadow)",
+    "speciesId": "absol_shadow",
+    "baseStats": {
+      "atk": 246,
+      "def": 120,
+      "hp": 163
+    },
+    "types": [
+      "dark",
+      "none"
+    ],
+    "fastMoves": [
+      "PSYCHO_CUT",
+      "SNARL"
+    ],
+    "chargedMoves": [
+      "DARK_PULSE",
+      "MEGAHORN",
+      "THUNDER"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -10861,7 +14340,7 @@
     "chargedMoves": [
       "MIRROR_COAT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10886,7 +14365,7 @@
       "ICY_WIND",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10911,7 +14390,7 @@
       "GYRO_BALL",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10936,7 +14415,7 @@
       "BODY_SLAM",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10961,7 +14440,7 @@
       "BODY_SLAM",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -10986,7 +14465,7 @@
       "EARTHQUAKE",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -11010,7 +14489,7 @@
       "ICE_BEAM",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -11035,7 +14514,7 @@
       "CRUNCH",
       "ICE_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -11060,7 +14539,7 @@
       "PSYCHIC",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -11085,7 +14564,7 @@
       "AQUA_TAIL",
       "HYDRO_PUMP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -11112,7 +14591,7 @@
       "DRAINING_KISS",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -11137,7 +14616,34 @@
       "FLAMETHROWER",
       "TWISTER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 371,
+    "speciesName": "Bagon (Shadow)",
+    "speciesId": "bagon_shadow",
+    "baseStats": {
+      "atk": 134,
+      "def": 93,
+      "hp": 128
+    },
+    "types": [
+      "dragon",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "EMBER"
+    ],
+    "chargedMoves": [
+      "CRUNCH",
+      "FLAMETHROWER",
+      "TWISTER"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -11164,7 +14670,34 @@
       "FLAMETHROWER",
       "TWISTER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 372,
+    "speciesName": "Shelgon (Shadow)",
+    "speciesId": "shelgon_shadow",
+    "baseStats": {
+      "atk": 172,
+      "def": 155,
+      "hp": 163
+    },
+    "types": [
+      "dragon",
+      "none"
+    ],
+    "fastMoves": [
+      "DRAGON_BREATH",
+      "EMBER"
+    ],
+    "chargedMoves": [
+      "DRAGON_PULSE",
+      "FLAMETHROWER",
+      "TWISTER"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -11193,7 +14726,40 @@
       "HYDRO_PUMP",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [
+      "OUTRAGE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 373,
+    "speciesName": "Salamence (Shadow)",
+    "speciesId": "salamence_shadow",
+    "baseStats": {
+      "atk": 277,
+      "def": 168,
+      "hp": 216
+    },
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "fastMoves": [
+      "BITE",
+      "DRAGON_TAIL",
+      "FIRE_FANG"
+    ],
+    "chargedMoves": [
+      "DRACO_METEOR",
+      "FIRE_BLAST",
+      "HYDRO_PUMP",
+      "OUTRAGE"
+    ],
+    "eliteMoves": [
+      "OUTRAGE"
+    ],
     "tags": [
       "shadow"
     ]
@@ -11217,7 +14783,31 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 374,
+    "speciesName": "Beldum (Shadow)",
+    "speciesId": "beldum_shadow",
+    "baseStats": {
+      "atk": 96,
+      "def": 132,
+      "hp": 120
+    },
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "fastMoves": [
+      "TAKE_DOWN"
+    ],
+    "chargedMoves": [
+      "STRUGGLE"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -11244,7 +14834,34 @@
       "PSYCHIC",
       "PSYSHOCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 375,
+    "speciesName": "Metang (Shadow)",
+    "speciesId": "metang_shadow",
+    "baseStats": {
+      "atk": 138,
+      "def": 176,
+      "hp": 155
+    },
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "fastMoves": [
+      "METAL_CLAW",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "GYRO_BALL",
+      "PSYCHIC",
+      "PSYSHOCK"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -11272,7 +14889,37 @@
       "METEOR_MASH",
       "PSYCHIC"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "METEOR_MASH"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 376,
+    "speciesName": "Metagross (Shadow)",
+    "speciesId": "metagross_shadow",
+    "baseStats": {
+      "atk": 257,
+      "def": 228,
+      "hp": 190
+    },
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "fastMoves": [
+      "BULLET_PUNCH",
+      "ZEN_HEADBUTT"
+    ],
+    "chargedMoves": [
+      "EARTHQUAKE",
+      "FLASH_CANNON",
+      "METEOR_MASH",
+      "PSYCHIC"
+    ],
+    "eliteMoves": [
       "METEOR_MASH"
     ],
     "tags": [
@@ -11302,7 +14949,7 @@
       "STONE_EDGE",
       "ZAP_CANNON"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -11330,7 +14977,7 @@
       "EARTHQUAKE",
       "FOCUS_BLAST"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -11358,7 +15005,7 @@
       "FOCUS_BLAST",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -11386,7 +15033,7 @@
       "PSYCHIC",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -11413,7 +15060,7 @@
       "PSYCHIC",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -11440,7 +15087,7 @@
       "THUNDER",
       "SURF"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -11465,9 +15112,12 @@
     "chargedMoves": [
       "EARTHQUAKE",
       "FIRE_BLAST",
-      "SOLAR_BEAM"
+      "SOLAR_BEAM",
+      "FIRE_PUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [
+      "FIRE_PUNCH"
+    ],
     "tags": [
       "legendary"
     ]
@@ -11494,7 +15144,7 @@
       "ANCIENT_POWER",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -11521,9 +15171,10 @@
       "DOOM_DESIRE",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "mythical"
+      "mythical",
+      "untradeable"
     ]
   },
   {
@@ -11548,9 +15199,10 @@
       "PSYCHO_BOOST",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "mythical"
+      "mythical",
+      "untradeable"
     ]
   },
   {
@@ -11575,9 +15227,10 @@
       "PSYCHO_BOOST",
       "ZAP_CANNON"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "mythical"
+      "mythical",
+      "untradeable"
     ]
   },
   {
@@ -11602,9 +15255,10 @@
       "ROCK_SLIDE",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "mythical"
+      "mythical",
+      "untradeable"
     ]
   },
   {
@@ -11629,9 +15283,10 @@
       "SWIFT",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "mythical"
+      "mythical",
+      "untradeable"
     ]
   },
   {
@@ -11656,8 +15311,37 @@
       "ENERGY_BALL",
       "SEED_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 387,
+    "speciesName": "Turtwig (Shadow)",
+    "speciesId": "turtwig_shadow",
+    "baseStats": {
+      "atk": 119,
+      "def": 110,
+      "hp": 146
+    },
+    "types": [
+      "grass",
+      "none"
+    ],
+    "fastMoves": [
+      "RAZOR_LEAF",
+      "TACKLE"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "ENERGY_BALL",
+      "SEED_BOMB"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -11683,8 +15367,37 @@
       "ENERGY_BALL",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 388,
+    "speciesName": "Grotle (Shadow)",
+    "speciesId": "grotle_shadow",
+    "baseStats": {
+      "atk": 157,
+      "def": 143,
+      "hp": 181
+    },
+    "types": [
+      "grass",
+      "none"
+    ],
+    "fastMoves": [
+      "BITE",
+      "RAZOR_LEAF"
+    ],
+    "chargedMoves": [
+      "BODY_SLAM",
+      "ENERGY_BALL",
+      "SOLAR_BEAM"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -11712,10 +15425,43 @@
       "STONE_EDGE",
       "FRENZY_PLANT"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "FRENZY_PLANT"
     ],
     "tags": [
+      "starter",
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 389,
+    "speciesName": "Torterra (Shadow)",
+    "speciesId": "torterra_shadow",
+    "baseStats": {
+      "atk": 202,
+      "def": 188,
+      "hp": 216
+    },
+    "types": [
+      "grass",
+      "ground"
+    ],
+    "fastMoves": [
+      "BITE",
+      "RAZOR_LEAF"
+    ],
+    "chargedMoves": [
+      "EARTHQUAKE",
+      "SOLAR_BEAM",
+      "SAND_TOMB",
+      "STONE_EDGE",
+      "FRENZY_PLANT"
+    ],
+    "eliteMoves": [
+      "FRENZY_PLANT"
+    ],
+    "tags": [
+      "starter",
       "shadow"
     ]
   },
@@ -11741,9 +15487,9 @@
       "FLAME_WHEEL",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "shadow"
+      "starter"
     ]
   },
   {
@@ -11768,9 +15514,9 @@
       "FLAMETHROWER",
       "LOW_SWEEP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "shadow"
+      "starter"
     ]
   },
   {
@@ -11796,11 +15542,11 @@
       "SOLAR_BEAM",
       "BLAST_BURN"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "BLAST_BURN"
     ],
     "tags": [
-      "shadow"
+      "starter"
     ]
   },
   {
@@ -11825,8 +15571,10 @@
       "DRILL_PECK",
       "ICY_WIND"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 394,
@@ -11850,8 +15598,10 @@
       "HYDRO_PUMP",
       "ICY_WIND"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 395,
@@ -11876,10 +15626,12 @@
       "HYDRO_PUMP",
       "HYDRO_CANNON"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "HYDRO_CANNON"
     ],
-    "tags": []
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 396,
@@ -11902,7 +15654,7 @@
       "AERIAL_ACE",
       "BRAVE_BIRD"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -11927,7 +15679,7 @@
       "BRAVE_BIRD",
       "HEAT_WAVE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -11952,7 +15704,7 @@
       "CLOSE_COMBAT",
       "HEAT_WAVE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -11977,7 +15729,7 @@
       "GRASS_KNOT",
       "HYPER_FANG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12002,7 +15754,7 @@
       "HYPER_FANG",
       "SURF"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12025,7 +15777,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12050,7 +15802,7 @@
       "BUG_BUZZ",
       "X_SCISSOR"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12075,7 +15827,7 @@
       "SWIFT",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12100,7 +15852,7 @@
       "THUNDERBOLT",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12141,7 +15893,7 @@
       "HYPER_BEAM",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12180,7 +15932,7 @@
       "ENERGY_BALL",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12206,7 +15958,7 @@
       "SLUDGE_BOMB",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12231,7 +15983,7 @@
       "BULLDOZE",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12256,7 +16008,7 @@
       "OUTRAGE",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12281,7 +16033,7 @@
       "HEAVY_SLAM",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12306,7 +16058,7 @@
       "FLASH_CANNON",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12329,7 +16081,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12352,7 +16104,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12375,7 +16127,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12400,7 +16152,7 @@
       "ENERGY_BALL",
       "PSYBEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12425,7 +16177,7 @@
       "BULLDOZE",
       "PSYBEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12450,7 +16202,7 @@
       "IRON_HEAD",
       "PSYBEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12475,7 +16227,7 @@
       "BUG_BUZZ",
       "PSYBEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12497,7 +16249,7 @@
     "chargedMoves": [
       "BUG_BUZZ"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12525,7 +16277,7 @@
       "X_SCISSOR",
       "FELL_STINGER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12550,7 +16302,7 @@
       "THUNDER_PUNCH",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -12577,7 +16329,7 @@
       "SWIFT",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12602,7 +16354,7 @@
       "HYDRO_PUMP",
       "SWIFT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12628,9 +16380,7 @@
       "SEED_BOMB",
       "POWER_WHIP"
     ],
-    "legacyMoves": [
-      "POWER_WHIP"
-    ],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12655,7 +16405,7 @@
       "HYPER_BEAM",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12678,9 +16428,10 @@
     "chargedMoves": [
       "DAZZLING_GLEAM",
       "HYPER_BEAM",
-      "SOLAR_BEAM"
+      "SOLAR_BEAM",
+      "WEATHER_BALL_FIRE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12720,7 +16471,7 @@
       "MUD_BOMB",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12760,7 +16511,7 @@
       "MUD_BOMB",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12801,9 +16552,7 @@
       "EARTH_POWER",
       "EARTHQUAKE"
     ],
-    "legacyMoves": [
-      "EARTHQUAKE"
-    ],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12844,9 +16593,7 @@
       "EARTH_POWER",
       "EARTHQUAKE"
     ],
-    "legacyMoves": [
-      "EARTHQUAKE"
-    ],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12871,7 +16618,7 @@
       "HYPER_BEAM",
       "LOW_SWEEP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12896,7 +16643,7 @@
       "OMINOUS_WIND",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12921,7 +16668,7 @@
       "OMINOUS_WIND",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12945,7 +16692,7 @@
       "FIRE_PUNCH",
       "SWIFT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12970,7 +16717,7 @@
       "FOCUS_BLAST",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -12995,7 +16742,34 @@
       "DAZZLING_GLEAM",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 429,
+    "speciesName": "Mismagius (Shadow)",
+    "speciesId": "mismagius_shadow",
+    "baseStats": {
+      "atk": 211,
+      "def": 187,
+      "hp": 155
+    },
+    "types": [
+      "ghost",
+      "none"
+    ],
+    "fastMoves": [
+      "HEX",
+      "SUCKER_PUNCH"
+    ],
+    "chargedMoves": [
+      "DARK_PULSE",
+      "DAZZLING_GLEAM",
+      "SHADOW_BALL"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -13023,10 +16797,8 @@
       "PSYCHIC",
       "SKY_ATTACK"
     ],
-    "legacyMoves": [],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 431,
@@ -13050,7 +16822,7 @@
       "PLAY_ROUGH",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13075,7 +16847,7 @@
       "PLAY_ROUGH",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13100,7 +16872,7 @@
       "SHADOW_BALL",
       "WRAP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13125,7 +16897,7 @@
       "FLAMETHROWER",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13150,7 +16922,7 @@
       "FLAMETHROWER",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13175,7 +16947,7 @@
       "HEAVY_SLAM",
       "PSYSHOCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13202,7 +16974,7 @@
       "BULLDOZE",
       "PSYSHOCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13227,7 +16999,7 @@
       "ROCK_SLIDE",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13252,7 +17024,7 @@
       "PSYCHIC",
       "PSYSHOCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13275,7 +17047,7 @@
     "chargedMoves": [
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13300,7 +17072,7 @@
       "NIGHT_SHADE",
       "SKY_ATTACK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -13327,7 +17099,7 @@
       "SHADOW_BALL",
       "SHADOW_SNEAK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13352,10 +17124,8 @@
       "DIG",
       "TWISTER"
     ],
-    "legacyMoves": [],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 444,
@@ -13379,10 +17149,8 @@
       "FLAMETHROWER",
       "TWISTER"
     ],
-    "legacyMoves": [],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 445,
@@ -13407,10 +17175,8 @@
       "OUTRAGE",
       "SAND_TOMB"
     ],
-    "legacyMoves": [],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 446,
@@ -13434,7 +17200,7 @@
       "BULLDOZE",
       "GUNK_SHOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13459,7 +17225,7 @@
       "CROSS_CHOP",
       "LOW_SWEEP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13486,7 +17252,7 @@
       "POWER_UP_PUNCH",
       "AURA_SPHERE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13511,10 +17277,8 @@
       "DIG",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 450,
@@ -13541,10 +17305,8 @@
       "STONE_EDGE",
       "EARTH_POWER"
     ],
-    "legacyMoves": [],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [],
+    "tags": []
   },
   {
     "dex": 451,
@@ -13568,7 +17330,7 @@
       "CROSS_POISON",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13596,7 +17358,7 @@
       "SLUDGE_BOMB",
       "FELL_STINGER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13621,7 +17383,7 @@
       "LOW_SWEEP",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13646,7 +17408,7 @@
       "MUD_BOMB",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13671,7 +17433,7 @@
       "ENERGY_BALL",
       "POWER_WHIP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -13698,7 +17460,7 @@
       "SILVER_WIND",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13723,7 +17485,7 @@
       "SILVER_WIND",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13748,7 +17510,7 @@
       "ICE_BEAM",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13773,7 +17535,34 @@
       "ICE_BEAM",
       "STOMP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 459,
+    "speciesName": "Snover (Shadow)",
+    "speciesId": "snover_shadow",
+    "baseStats": {
+      "atk": 115,
+      "def": 105,
+      "hp": 155
+    },
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "fastMoves": [
+      "ICE_SHARD",
+      "POWDER_SNOW"
+    ],
+    "chargedMoves": [
+      "ENERGY_BALL",
+      "ICE_BEAM",
+      "STOMP"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -13800,7 +17589,34 @@
       "ENERGY_BALL",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 460,
+    "speciesName": "Abomasnow (Shadow)",
+    "speciesId": "abomasnow_shadow",
+    "baseStats": {
+      "atk": 178,
+      "def": 158,
+      "hp": 207
+    },
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "fastMoves": [
+      "POWDER_SNOW",
+      "RAZOR_LEAF"
+    ],
+    "chargedMoves": [
+      "BLIZZARD",
+      "ENERGY_BALL",
+      "OUTRAGE"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -13828,7 +17644,35 @@
       "FOCUS_BLAST",
       "FOUL_PLAY"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 461,
+    "speciesName": "Weavile (Shadow)",
+    "speciesId": "weavile_shadow",
+    "baseStats": {
+      "atk": 243,
+      "def": 171,
+      "hp": 172
+    },
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "fastMoves": [
+      "FEINT_ATTACK",
+      "ICE_SHARD",
+      "SNARL"
+    ],
+    "chargedMoves": [
+      "AVALANCHE",
+      "FOCUS_BLAST",
+      "FOUL_PLAY"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -13856,7 +17700,35 @@
       "ZAP_CANNON",
       "MIRROR_SHOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 462,
+    "speciesName": "Magnezone (Shadow)",
+    "speciesId": "magnezone_shadow",
+    "baseStats": {
+      "atk": 238,
+      "def": 205,
+      "hp": 172
+    },
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "fastMoves": [
+      "CHARGE_BEAM",
+      "SPARK"
+    ],
+    "chargedMoves": [
+      "FLASH_CANNON",
+      "WILD_CHARGE",
+      "ZAP_CANNON",
+      "MIRROR_SHOT"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -13885,7 +17757,7 @@
       "SHADOW_BALL",
       "BODY_SLAM"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "BODY_SLAM"
     ],
     "tags": []
@@ -13912,12 +17784,13 @@
       "STONE_EDGE",
       "SURF",
       "SKULL_BASH",
-      "SUPER_POWER"
+      "SUPER_POWER",
+      "ROCK_WRECKER"
     ],
-    "legacyMoves": [],
-    "tags": [
-      "shadow"
-    ]
+    "eliteMoves": [
+      "ROCK_WRECKER"
+    ],
+    "tags": []
   },
   {
     "dex": 465,
@@ -13938,11 +17811,12 @@
     ],
     "chargedMoves": [
       "ANCIENT_POWER",
+      "ROCK_SLIDE",
       "SLUDGE_BOMB",
       "SOLAR_BEAM",
       "POWER_WHIP"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -13968,7 +17842,35 @@
       "WILD_CHARGE",
       "ICE_PUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 466,
+    "speciesName": "Electivire (Shadow)",
+    "speciesId": "electivire_shadow",
+    "baseStats": {
+      "atk": 249,
+      "def": 163,
+      "hp": 181
+    },
+    "types": [
+      "electric",
+      "none"
+    ],
+    "fastMoves": [
+      "LOW_KICK",
+      "THUNDER_SHOCK"
+    ],
+    "chargedMoves": [
+      "THUNDER",
+      "THUNDER_PUNCH",
+      "WILD_CHARGE",
+      "ICE_PUNCH"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -13996,7 +17898,35 @@
       "FIRE_PUNCH",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 467,
+    "speciesName": "Magmortar (Shadow)",
+    "speciesId": "magmortar_shadow",
+    "baseStats": {
+      "atk": 247,
+      "def": 172,
+      "hp": 181
+    },
+    "types": [
+      "fire",
+      "none"
+    ],
+    "fastMoves": [
+      "FIRE_SPIN",
+      "KARATE_CHOP"
+    ],
+    "chargedMoves": [
+      "BRICK_BREAK",
+      "FIRE_BLAST",
+      "FIRE_PUNCH",
+      "PSYCHIC"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -14040,7 +17970,7 @@
       "DAZZLING_GLEAM",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14065,7 +17995,7 @@
       "ANCIENT_POWER",
       "BUG_BUZZ"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14091,7 +18021,7 @@
       "SOLAR_BEAM",
       "LAST_RESORT"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "LAST_RESORT"
     ],
     "tags": []
@@ -14119,7 +18049,7 @@
       "ICY_WIND",
       "LAST_RESORT"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "LAST_RESORT"
     ],
     "tags": []
@@ -14147,7 +18077,7 @@
       "NIGHT_SLASH",
       "SAND_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14173,7 +18103,7 @@
       "STONE_EDGE",
       "ANCIENT_POWER"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
       "ANCIENT_POWER"
     ],
     "tags": []
@@ -14217,7 +18147,51 @@
       "SOLAR_BEAM",
       "ZAP_CANNON"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 474,
+    "speciesName": "Porygon-Z (Shadow)",
+    "speciesId": "porygon_z_shadow",
+    "baseStats": {
+      "atk": 264,
+      "def": 150,
+      "hp": 198
+    },
+    "types": [
+      "normal",
+      "none"
+    ],
+    "fastMoves": [
+      "LOCK_ON",
+      "CHARGE_BEAM",
+      "HIDDEN_POWER_BUG",
+      "HIDDEN_POWER_DARK",
+      "HIDDEN_POWER_DRAGON",
+      "HIDDEN_POWER_ELECTRIC",
+      "HIDDEN_POWER_FIGHTING",
+      "HIDDEN_POWER_FIRE",
+      "HIDDEN_POWER_FLYING",
+      "HIDDEN_POWER_GHOST",
+      "HIDDEN_POWER_GRASS",
+      "HIDDEN_POWER_GROUND",
+      "HIDDEN_POWER_ICE",
+      "HIDDEN_POWER_POISON",
+      "HIDDEN_POWER_PSYCHIC",
+      "HIDDEN_POWER_ROCK",
+      "HIDDEN_POWER_STEEL",
+      "HIDDEN_POWER_WATER"
+    ],
+    "chargedMoves": [
+      "BLIZZARD",
+      "HYPER_BEAM",
+      "SOLAR_BEAM",
+      "ZAP_CANNON"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -14246,7 +18220,38 @@
       "PSYCHIC",
       "SYNCHRONOISE"
     ],
-    "legacyMoves": [
+    "eliteMoves": [
+      "SYNCHRONOISE"
+    ],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 475,
+    "speciesName": "Gallade (Shadow)",
+    "speciesId": "gallade_shadow",
+    "baseStats": {
+      "atk": 237,
+      "def": 195,
+      "hp": 169
+    },
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "fastMoves": [
+      "CONFUSION",
+      "LOW_KICK",
+      "CHARM"
+    ],
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "LEAF_BLADE",
+      "PSYCHIC",
+      "SYNCHRONOISE"
+    ],
+    "eliteMoves": [
       "SYNCHRONOISE"
     ],
     "tags": [
@@ -14275,7 +18280,7 @@
       "ROCK_SLIDE",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14300,7 +18305,34 @@
       "OMINOUS_WIND",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
+    "tags": [
+      "shadoweligible"
+    ]
+  },
+  {
+    "dex": 477,
+    "speciesName": "Dusknoir (Shadow)",
+    "speciesId": "dusknoir_shadow",
+    "baseStats": {
+      "atk": 180,
+      "def": 254,
+      "hp": 128
+    },
+    "types": [
+      "ghost",
+      "none"
+    ],
+    "fastMoves": [
+      "ASTONISH",
+      "HEX"
+    ],
+    "chargedMoves": [
+      "DARK_PULSE",
+      "OMINOUS_WIND",
+      "PSYCHIC"
+    ],
+    "eliteMoves": [],
     "tags": [
       "shadow"
     ]
@@ -14327,7 +18359,7 @@
       "CRUNCH",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14352,7 +18384,7 @@
       "THUNDER",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14377,7 +18409,7 @@
       "THUNDER",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14402,7 +18434,7 @@
       "THUNDER",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14427,7 +18459,7 @@
       "THUNDER",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14452,7 +18484,7 @@
       "THUNDER",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14477,7 +18509,7 @@
       "THUNDER",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14502,7 +18534,7 @@
       "SWIFT",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -14529,7 +18561,7 @@
       "FUTURE_SIGHT",
       "SWIFT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -14556,7 +18588,7 @@
       "FUTURE_SIGHT",
       "SWIFT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -14583,7 +18615,7 @@
       "IRON_HEAD",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -14608,9 +18640,10 @@
     "chargedMoves": [
       "DRACO_METEOR",
       "FIRE_BLAST",
-      "HYDRO_PUMP"
+      "HYDRO_PUMP",
+      "AQUA_TAIL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -14638,7 +18671,7 @@
       "STONE_EDGE",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -14680,7 +18713,7 @@
       "FOCUS_BLAST",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -14707,7 +18740,7 @@
       "DRAGON_CLAW",
       "SHADOW_SNEAK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -14734,7 +18767,7 @@
       "DRAGON_PULSE",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -14759,9 +18792,12 @@
     "chargedMoves": [
       "AURORA_BEAM",
       "FUTURE_SIGHT",
-      "MOONBLAST"
+      "MOONBLAST",
+      "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [
+      "GRASS_KNOT"
+    ],
     "tags": [
       "legendary"
     ]
@@ -14788,7 +18824,7 @@
       "SURF",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14813,7 +18849,7 @@
       "PSYCHIC",
       "SURF"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14838,9 +18874,10 @@
       "FOCUS_BLAST",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
-      "mythical"
+      "mythical",
+      "untradeable"
     ]
   },
   {
@@ -14880,7 +18917,7 @@
       "GRASS_KNOT",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14920,7 +18957,7 @@
       "GRASS_KNOT",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14945,7 +18982,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14970,7 +19007,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -14995,7 +19032,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15020,7 +19057,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15045,7 +19082,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15070,7 +19107,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15095,7 +19132,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15120,7 +19157,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15145,7 +19182,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15170,7 +19207,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15195,7 +19232,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15220,7 +19257,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15245,7 +19282,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15270,7 +19307,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15295,7 +19332,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15320,7 +19357,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15345,7 +19382,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15370,7 +19407,7 @@
       "HYPER_BEAM",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15395,7 +19432,7 @@
       "FOCUS_BLAST",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15420,8 +19457,10 @@
       "SEED_BOMB",
       "WRAP"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 496,
@@ -15445,8 +19484,10 @@
       "LEAF_TORNADO",
       "WRAP"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 497,
@@ -15470,8 +19511,10 @@
       "LEAF_TORNADO",
       "AERIAL_ACE"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 498,
@@ -15495,8 +19538,10 @@
       "FLAMETHROWER",
       "BODY_SLAM"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 499,
@@ -15520,8 +19565,10 @@
       "FLAMETHROWER",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 500,
@@ -15545,8 +19592,10 @@
       "ROCK_SLIDE",
       "FOCUS_BLAST"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 501,
@@ -15570,8 +19619,10 @@
       "WATER_PULSE",
       "NIGHT_SLASH"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 502,
@@ -15595,8 +19646,10 @@
       "WATER_PULSE",
       "X_SCISSOR"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 503,
@@ -15620,8 +19673,10 @@
       "BLIZZARD",
       "MEGAHORN"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "starter"
+    ]
   },
   {
     "dex": 504,
@@ -15645,7 +19700,7 @@
       "HYPER_FANG",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15670,7 +19725,7 @@
       "HYPER_FANG",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15695,7 +19750,7 @@
       "ROCK_TOMB",
       "DIG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15720,7 +19775,7 @@
       "PLAY_ROUGH",
       "DIG"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15746,7 +19801,7 @@
       "PLAY_ROUGH",
       "CRUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15771,7 +19826,7 @@
       "PLAY_ROUGH",
       "DARK_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15796,7 +19851,7 @@
       "PLAY_ROUGH",
       "DARK_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15821,8 +19876,10 @@
       "SEED_BOMB",
       "CRUNCH"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 512,
@@ -15846,8 +19903,10 @@
       "GRASS_KNOT",
       "CRUNCH"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 513,
@@ -15871,8 +19930,10 @@
       "FLAME_CHARGE",
       "CRUNCH"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 514,
@@ -15896,8 +19957,10 @@
       "FIRE_BLAST",
       "CRUNCH"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 515,
@@ -15921,8 +19984,10 @@
       "WATER_PULSE",
       "CRUNCH"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 516,
@@ -15946,8 +20011,10 @@
       "HYDRO_PUMP",
       "CRUNCH"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 517,
@@ -15971,7 +20038,7 @@
       "DAZZLING_GLEAM",
       "PSYSHOCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -15996,7 +20063,7 @@
       "DAZZLING_GLEAM",
       "PSYSHOCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16021,7 +20088,7 @@
       "AERIAL_ACE",
       "AIR_CUTTER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16046,7 +20113,7 @@
       "AERIAL_ACE",
       "SKY_ATTACK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16071,7 +20138,7 @@
       "HYPER_BEAM",
       "SKY_ATTACK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16096,7 +20163,7 @@
       "DISCHARGE",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16121,7 +20188,7 @@
       "DISCHARGE",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16146,7 +20213,7 @@
       "ROCK_BLAST",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16171,7 +20238,7 @@
       "BULLDOZE",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16197,7 +20264,7 @@
       "SUPER_POWER",
       "HEAVY_SLAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16222,7 +20289,7 @@
       "AERIAL_ACE",
       "PSYSHOCK"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16247,7 +20314,7 @@
       "AERIAL_ACE",
       "FUTURE_SIGHT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16272,7 +20339,7 @@
       "DIG",
       "DRILL_RUN"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16298,7 +20365,7 @@
       "DRILL_RUN",
       "IRON_HEAD"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16323,7 +20390,7 @@
       "DAZZLING_GLEAM",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16348,7 +20415,7 @@
       "BRICK_BREAK",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16373,7 +20440,7 @@
       "BRICK_BREAK",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16398,7 +20465,7 @@
       "FOCUS_BLAST",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16423,7 +20490,7 @@
       "MUD_BOMB",
       "SLUDGE_WAVE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16448,7 +20515,7 @@
       "EARTH_POWER",
       "SLUDGE_WAVE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16473,7 +20540,7 @@
       "EARTH_POWER",
       "SLUDGE_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16498,7 +20565,7 @@
       "LOW_SWEEP",
       "BODY_SLAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16523,7 +20590,7 @@
       "LOW_SWEEP",
       "BODY_SLAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16548,7 +20615,7 @@
       "SEED_BOMB",
       "SILVER_WIND"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16573,7 +20640,7 @@
       "BUG_BUZZ",
       "SILVER_WIND"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16598,7 +20665,7 @@
       "X_SCISSOR",
       "SILVER_WIND"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16623,7 +20690,7 @@
       "SLUDGE_BOMB",
       "GYRO_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16648,7 +20715,7 @@
       "SLUDGE_BOMB",
       "GYRO_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16674,7 +20741,7 @@
       "GYRO_BALL",
       "X_SCISSOR"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16699,7 +20766,7 @@
       "SEED_BOMB",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16724,7 +20791,7 @@
       "HURRICANE",
       "MOONBLAST"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16763,7 +20830,7 @@
       "ENERGY_BALL",
       "SEED_BOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16803,7 +20870,7 @@
       "HYPER_BEAM",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16828,8 +20895,10 @@
       "AQUA_TAIL",
       "MUDDY_WATER"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 551,
@@ -16853,7 +20922,7 @@
       "CRUNCH",
       "BULLDOZE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16878,7 +20947,7 @@
       "CRUNCH",
       "BULLDOZE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16903,7 +20972,7 @@
       "CRUNCH",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -16925,11 +20994,36 @@
     ],
     "chargedMoves": [
       "FIRE_PUNCH",
-      "FLAME_CHARGE",
-      "PSYCHIC"
+      "FLAME_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
+  },
+  {
+    "dex": 554,
+    "speciesName": "Darumaka (Galarian)",
+    "speciesId": "darumaka_galarian",
+    "baseStats": {
+      "atk": 153,
+      "def": 86,
+      "hp": 172
+    },
+    "types": [
+      "ice",
+      "none"
+    ],
+    "fastMoves": [
+      "TACKLE",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "ICE_PUNCH",
+      "ICE_BEAM"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "galarian"
+    ]
   },
   {
     "dex": 555,
@@ -16954,8 +21048,64 @@
       "PSYCHIC",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
+  },
+  {
+    "dex": 555,
+    "speciesName": "Darmanitan (Galarian)",
+    "speciesId": "darmanitan_galarian_standard",
+    "baseStats": {
+      "atk": 263,
+      "def": 114,
+      "hp": 233
+    },
+    "types": [
+      "ice",
+      "none"
+    ],
+    "fastMoves": [
+      "TACKLE",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "OVERHEAT",
+      "AVALANCHE",
+      "SUPER_POWER",
+      "ICE_PUNCH"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "galarian"
+    ]
+  },
+  {
+    "dex": 555,
+    "speciesName": "Darmanitan (Galarian Zen)",
+    "speciesId": "darmanitan_galarian_zen",
+    "baseStats": {
+      "atk": 323,
+      "def": 123,
+      "hp": 233
+    },
+    "types": [
+      "ice",
+      "fire"
+    ],
+    "fastMoves": [
+      "TACKLE",
+      "ICE_FANG"
+    ],
+    "chargedMoves": [
+      "OVERHEAT",
+      "AVALANCHE",
+      "SUPER_POWER",
+      "ICE_PUNCH"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "galarian"
+    ]
   },
   {
     "dex": 555,
@@ -16980,7 +21130,7 @@
       "PSYCHIC",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17005,8 +21155,10 @@
       "PETAL_BLIZZARD",
       "SOLAR_BEAM"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 557,
@@ -17030,7 +21182,7 @@
       "X_SCISSOR",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17055,7 +21207,7 @@
       "X_SCISSOR",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17080,7 +21232,7 @@
       "BRICK_BREAK",
       "FOUL_PLAY"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17105,7 +21257,7 @@
       "POWER_UP_PUNCH",
       "FOUL_PLAY"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17131,8 +21283,10 @@
       "ANCIENT_POWER",
       "SIGNAL_BEAM"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "regional"
+    ]
   },
   {
     "dex": 562,
@@ -17156,7 +21310,7 @@
       "DARK_PULSE",
       "OMINOUS_WIND"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17181,7 +21335,7 @@
       "DARK_PULSE",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17206,7 +21360,7 @@
       "ANCIENT_POWER",
       "BODY_SLAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17231,7 +21385,7 @@
       "ANCIENT_POWER",
       "BODY_SLAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17256,7 +21410,7 @@
       "ANCIENT_POWER",
       "CRUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17281,7 +21435,7 @@
       "ANCIENT_POWER",
       "CRUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17306,7 +21460,7 @@
       "SEED_BOMB",
       "GUNK_SHOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17332,7 +21486,7 @@
       "GUNK_SHOT",
       "BODY_SLAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17357,7 +21511,7 @@
       "AERIAL_ACE",
       "DARK_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17382,7 +21536,7 @@
       "SLUDGE_BOMB",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17407,7 +21561,7 @@
       "THUNDERBOLT",
       "AQUA_TAIL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17432,7 +21586,7 @@
       "THUNDERBOLT",
       "AQUA_TAIL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17457,7 +21611,7 @@
       "PSYSHOCK",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17482,7 +21636,7 @@
       "FUTURE_SIGHT",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17507,7 +21661,7 @@
       "FUTURE_SIGHT",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17547,7 +21701,7 @@
       "NIGHT_SHADE",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17587,7 +21741,7 @@
       "NIGHT_SHADE",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17627,7 +21781,7 @@
       "SHADOW_BALL",
       "THUNDER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17652,7 +21806,7 @@
       "BUBBLE_BEAM",
       "BRAVE_BIRD"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17677,7 +21831,7 @@
       "BUBBLE_BEAM",
       "HURRICANE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17702,7 +21856,7 @@
       "ICE_BEAM",
       "SIGNAL_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17727,7 +21881,7 @@
       "ICE_BEAM",
       "SIGNAL_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17752,7 +21906,7 @@
       "FLASH_CANNON",
       "SIGNAL_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17777,7 +21931,7 @@
       "SEED_BOMB",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17802,7 +21956,7 @@
       "SEED_BOMB",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17827,7 +21981,7 @@
       "SEED_BOMB",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17852,7 +22006,7 @@
       "SEED_BOMB",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17877,7 +22031,7 @@
       "SEED_BOMB",
       "WILD_CHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17903,7 +22057,7 @@
       "WILD_CHARGE",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17929,7 +22083,7 @@
       "WILD_CHARGE",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17955,7 +22109,7 @@
       "WILD_CHARGE",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -17981,7 +22135,7 @@
       "WILD_CHARGE",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18007,7 +22161,7 @@
       "WILD_CHARGE",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18032,7 +22186,7 @@
       "AERIAL_ACE",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18058,7 +22212,7 @@
       "DRILL_RUN",
       "AERIAL_ACE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18084,7 +22238,7 @@
       "DRILL_RUN",
       "AERIAL_ACE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18109,7 +22263,7 @@
       "BODY_SLAM",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18134,7 +22288,7 @@
       "SLUDGE_BOMB",
       "GRASS_KNOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18159,7 +22313,7 @@
       "ICE_BEAM",
       "OMINOUS_WIND"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18184,7 +22338,7 @@
       "ICE_BEAM",
       "BUBBLE_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18224,7 +22378,7 @@
       "BLIZZARD",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18249,7 +22403,7 @@
       "BUG_BUZZ",
       "DISCHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18275,7 +22429,7 @@
       "DISCHARGE",
       "ENERGY_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18300,7 +22454,7 @@
       "FLASH_CANNON",
       "IRON_HEAD"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18327,7 +22481,7 @@
       "THUNDER",
       "MIRROR_SHOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18352,7 +22506,7 @@
       "DISCHARGE",
       "ZAP_CANNON"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18377,7 +22531,7 @@
       "THUNDERBOLT",
       "ZAP_CANNON"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18403,7 +22557,7 @@
       "ZAP_CANNON",
       "MIRROR_SHOT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18426,7 +22580,7 @@
     "chargedMoves": [
       "STRUGGLE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18451,7 +22605,7 @@
       "THUNDERBOLT",
       "DISCHARGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18477,7 +22631,7 @@
       "ACID_SPRAY",
       "DRAGON_CLAW"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18502,7 +22656,7 @@
       "DARK_PULSE",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18527,7 +22681,7 @@
       "DARK_PULSE",
       "PSYCHIC"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18552,7 +22706,7 @@
       "FLAME_BURST",
       "HEAT_WAVE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18577,7 +22731,7 @@
       "FLAME_BURST",
       "HEAT_WAVE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18602,7 +22756,7 @@
       "SHADOW_BALL",
       "OVERHEAT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18627,7 +22781,7 @@
       "AQUA_TAIL",
       "DRAGON_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18652,7 +22806,7 @@
       "AQUA_TAIL",
       "NIGHT_SLASH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18678,7 +22832,7 @@
       "NIGHT_SLASH",
       "EARTHQUAKE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18703,7 +22857,7 @@
       "ICY_WIND",
       "PLAY_ROUGH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18728,7 +22882,7 @@
       "SURF",
       "PLAY_ROUGH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18754,7 +22908,7 @@
       "SOLAR_BEAM",
       "WATER_PULSE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18779,7 +22933,7 @@
       "BODY_SLAM",
       "SIGNAL_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18805,7 +22959,7 @@
       "SIGNAL_BEAM",
       "FOCUS_BLAST"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18830,8 +22984,36 @@
       "DISCHARGE",
       "MUDDY_WATER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
+  },
+  {
+    "dex": 618,
+    "speciesName": "Stunfisk (Galarian)",
+    "speciesId": "stunfisk_galarian",
+    "baseStats": {
+      "atk": 144,
+      "def": 171,
+      "hp": 240
+    },
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "fastMoves": [
+      "MUD_SHOT",
+      "METAL_CLAW"
+    ],
+    "chargedMoves": [
+      "EARTHQUAKE",
+      "FLASH_CANNON",
+      "MUDDY_WATER",
+      "ROCK_SLIDE"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "galarian"
+    ]
   },
   {
     "dex": 619,
@@ -18855,7 +23037,7 @@
       "LOW_SWEEP",
       "FOCUS_BLAST"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18880,7 +23062,7 @@
       "GRASS_KNOT",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18905,7 +23087,7 @@
       "NIGHT_SLASH",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18930,7 +23112,7 @@
       "BRICK_BREAK",
       "NIGHT_SHADE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18955,7 +23137,7 @@
       "DYNAMIC_PUNCH",
       "EARTH_POWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -18980,7 +23162,7 @@
       "IRON_HEAD",
       "X_SCISSOR"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19006,7 +23188,7 @@
       "X_SCISSOR",
       "FOCUS_BLAST"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19032,7 +23214,7 @@
       "SKULL_BASH",
       "EARTHQUAKE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19057,7 +23239,7 @@
       "BRAVE_BIRD",
       "ROCK_TOMB"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19082,7 +23264,7 @@
       "BRAVE_BIRD",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19107,7 +23289,7 @@
       "BRAVE_BIRD",
       "FOUL_PLAY"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19133,7 +23315,7 @@
       "FOUL_PLAY",
       "SHADOW_BALL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19158,7 +23340,7 @@
       "THUNDER_PUNCH",
       "POWER_UP_PUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -19185,7 +23367,7 @@
       "IRON_HEAD",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "regional"
     ]
@@ -19212,7 +23394,7 @@
       "CRUNCH",
       "BODY_SLAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19237,7 +23419,7 @@
       "DARK_PULSE",
       "BODY_SLAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19262,7 +23444,7 @@
       "DARK_PULSE",
       "FLASH_CANNON"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19287,7 +23469,7 @@
       "BUG_BUZZ",
       "FLAME_WHEEL"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19313,7 +23495,7 @@
       "SOLAR_BEAM",
       "HURRICANE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19336,9 +23518,12 @@
     "chargedMoves": [
       "CLOSE_COMBAT",
       "IRON_HEAD",
-      "STONE_EDGE"
+      "STONE_EDGE",
+      "SACRED_SWORD"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [
+      "SACRED_SWORD"
+    ],
     "tags": [
       "legendary"
     ]
@@ -19365,7 +23550,7 @@
       "EARTHQUAKE",
       "ROCK_SLIDE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19392,7 +23577,7 @@
       "LEAF_BLADE",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19420,7 +23605,7 @@
       "HYPER_BEAM",
       "HURRICANE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19448,7 +23633,7 @@
       "HYPER_BEAM",
       "HURRICANE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19476,7 +23661,7 @@
       "BRICK_BREAK",
       "THUNDER_PUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19504,7 +23689,7 @@
       "BRICK_BREAK",
       "THUNDER_PUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19532,7 +23717,7 @@
       "DRACO_METEOR",
       "STONE_EDGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19560,7 +23745,7 @@
       "FLASH_CANNON",
       "CRUNCH"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19588,7 +23773,7 @@
       "ROCK_SLIDE",
       "FOCUS_BLAST"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19616,7 +23801,7 @@
       "ROCK_SLIDE",
       "FOCUS_BLAST"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19624,7 +23809,7 @@
   {
     "dex": 646,
     "speciesName": "Kyurem",
-    "speciesId": "kyurem_normal",
+    "speciesId": "kyurem",
     "baseStats": {
       "atk": 246,
       "def": 170,
@@ -19641,10 +23826,9 @@
     "chargedMoves": [
       "DRAGON_CLAW",
       "BLIZZARD",
-      "ICY_WIND",
       "DRACO_METEOR"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19672,7 +23856,7 @@
       "STONE_EDGE",
       "OUTRAGE"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19700,7 +23884,7 @@
       "ANCIENT_POWER",
       "FOCUS_BLAST"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "legendary"
     ]
@@ -19728,7 +23912,7 @@
       "HYDRO_PUMP",
       "X_SCISSOR"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19754,7 +23938,7 @@
       "HYDRO_PUMP",
       "X_SCISSOR"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19780,7 +23964,7 @@
       "DAZZLING_GLEAM",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19806,7 +23990,7 @@
       "ICE_PUNCH",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": []
   },
   {
@@ -19831,8 +24015,11 @@
       "MAGNET_BOMB",
       "HYPER_BEAM"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "mythical",
+      "untradeable"
+    ]
   },
   {
     "dex": 649,
@@ -19856,8 +24043,11 @@
       "MAGNET_BOMB",
       "FLAMETHROWER"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "mythical",
+      "untradeable"
+    ]
   },
   {
     "dex": 649,
@@ -19881,8 +24071,11 @@
       "MAGNET_BOMB",
       "ICE_BEAM"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "mythical",
+      "untradeable"
+    ]
   },
   {
     "dex": 649,
@@ -19906,8 +24099,11 @@
       "MAGNET_BOMB",
       "GUNK_SHOT"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "mythical",
+      "untradeable"
+    ]
   },
   {
     "dex": 649,
@@ -19931,8 +24127,11 @@
       "MAGNET_BOMB",
       "ZAP_CANNON"
     ],
-    "legacyMoves": [],
-    "tags": []
+    "eliteMoves": [],
+    "tags": [
+      "mythical",
+      "untradeable"
+    ]
   },
   {
     "dex": 808,
@@ -19954,7 +24153,7 @@
       "FLASH_CANNON",
       "THUNDERBOLT"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "mythical"
     ]
@@ -19982,9 +24181,93 @@
       "THUNDERBOLT",
       "SUPER_POWER"
     ],
-    "legacyMoves": [],
+    "eliteMoves": [],
     "tags": [
       "mythical"
+    ]
+  },
+  {
+    "dex": 862,
+    "speciesName": "Obstagoon",
+    "speciesId": "obstagoon",
+    "baseStats": {
+      "atk": 180,
+      "def": 194,
+      "hp": 212
+    },
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "fastMoves": [
+      "COUNTER",
+      "LICK"
+    ],
+    "chargedMoves": [
+      "CROSS_CHOP",
+      "NIGHT_SLASH",
+      "HYPER_BEAM",
+      "GUNK_SHOT"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "galarian"
+    ]
+  },
+  {
+    "dex": 863,
+    "speciesName": "Perrserker",
+    "speciesId": "perrserker",
+    "baseStats": {
+      "atk": 195,
+      "def": 162,
+      "hp": 172
+    },
+    "types": [
+      "steel",
+      "none"
+    ],
+    "fastMoves": [
+      "METAL_CLAW",
+      "SHADOW_CLAW"
+    ],
+    "chargedMoves": [
+      "IRON_HEAD",
+      "CLOSE_COMBAT",
+      "PLAY_ROUGH",
+      "FOUL_PLAY"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "galarian"
+    ]
+  },
+  {
+    "dex": 865,
+    "speciesName": "Sirfetchd",
+    "speciesId": "sirfetchd",
+    "baseStats": {
+      "atk": 248,
+      "def": 176,
+      "hp": 158
+    },
+    "types": [
+      "fighting",
+      "none"
+    ],
+    "fastMoves": [
+      "COUNTER",
+      "FURY_CUTTER"
+    ],
+    "chargedMoves": [
+      "CLOSE_COMBAT",
+      "BRAVE_BIRD",
+      "LEAF_BLADE",
+      "NIGHT_SLASH"
+    ],
+    "eliteMoves": [],
+    "tags": [
+      "galarian"
     ]
   }
 ]
