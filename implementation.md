@@ -66,8 +66,93 @@ export type PokedexEntry = {
 ```
 
 It looks like pvpoke has renamed legacyMoves to eliteMoves since this was done,
-which makes more sense. We are currently ignoring the `defaultIVs` and 
-`level25CP` properties, as they can be calculated.
+which makes more sense. Also the `shadow` tag has been renamed `shadoweligible`. 
+We are currently ignoring the `defaultIVs` and `level25CP` properties, as they 
+can be calculated and/or cached elsewhere. 
+
+The pokedex is exported for use by other code here:
+
+[src/entities/pokedex/index.ts](src/entities/pokedex/index.ts)
+
+This file does a TypeScript JSON import
+
+It exports a function `getPokedex` to get the whole dex in one go - it returns
+this as a readonly array (only enforced in TypeScript, not at runtime!)
+
+It also loops over the dex once and creates some caches, ID -> pokedex
+entry and ID -> isShadowEligible
+
+These caches can be accessed through the exported functions 
+`getPokedexEntryById` and `isShadowPokemon`
+
+#### TODO
+
+- rename `legacyMoves` -> `eliteMoves`
+- where we check for `shadow` tag, check for `shadoweligible` instead
+- should `getPokedex` and `getPokemonById` return clones so that the end 
+  consumer doesn't inadvertantly mutate pokdex entries?
+
+### gamemaster.moves
+
+This array contains both fast and charge moves and looks like this in the raw 
+data:
+
+```json
+{
+  "moveId": "ACID",
+  "name": "Acid",
+  "type": "poison",
+  "power": 6,
+  "energy": 0,
+  "energyGain": 5,
+  "cooldown": 1000
+},
+{
+  "moveId": "ACID_SPRAY",
+  "name": "Acid Spray",
+  "type": "poison",
+  "power": 20,
+  "energy": 50,
+  "energyGain": 0,
+  "cooldown": 500,
+  "buffs": [ 0, -2 ],
+  "buffTarget": "opponent",
+  "buffApplyChance": "1"
+},
+```
+
+The easiest way to distinguish between the two is that fast moves have an 
+`energy` of `0`
+ 
+Charge moves can contain the optional buff properties - if one of these buff
+properties appears all of them must
+
+pvpoke for some reason uses a string for the `buffApplyChance`
+
+We use the raw data essentially as-is except `buffApplyChance` is a number
+
+The moves are exported for use by other code here:
+
+[src/entities/moves/index.ts](src/entities/moves/index.ts)
+
+It exports a function `getMoves` to get all of the moves in one go - it returns
+this as a readonly array (again, only enforced in TypeScript, not at runtime)
+
+It also loops over the moves once and creates a cache, ID -> move, and populates
+three arrays with fast moves, all charged moves, and just buffed charge moves
+
+The cache is accessible through `getMoveById`. There ìs also `getFastMoves`,
+`getChargeMoves` and `getBuffedChargeMoves`
+
+There are also some type guard functions that can narrow the type of a general
+move from the moveset array down to their specific type, eg fast, charge, 
+buffed:
+
+[src/entities/moves/predicates.ts](src/entities/moves/predicates.ts)
+
+We also have functionality to get the movepool for a pokedex entry:
+
+[src/entities/moves/pool.ts](src/entities/moves/pool.ts)
 
 ## `src/js`
 
