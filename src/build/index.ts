@@ -4,4 +4,4 @@ const build = async () => {
   await buildDataFromUpstream()
 }
 
-build()
+build().catch( console.error )

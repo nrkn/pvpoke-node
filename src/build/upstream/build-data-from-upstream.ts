@@ -14,13 +14,8 @@ export const buildDataFromUpstream = async () => {
   )
   await writeObjAsJson( './src/sandbox/data/pvpoke-moves.json', pvpokeMoves )
 
-  const pokedex = await Promise.all( 
-    pvpokePokemon.map( transformPvpokePokedexEntry ) 
-  )
-
-  const moves = await Promise.all(
-    pvpokeMoves.map( transformPvpokeMove )
-  )
+  const pokedex = pvpokePokemon.map( transformPvpokePokedexEntry ) 
+  const moves = pvpokeMoves.map( transformPvpokeMove )
 
   await writeObjAsJson( './src/data/pokedex.json', pokedex )
   await writeObjAsJson( './src/data/moves.json', moves )

@@ -8,6 +8,7 @@
  * ========================================================================= */
 
 import * as download from 'download'
+import { assertGamemaster } from '../validate/validate-gamemaster'
 
 const gamemasterUri =
   'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gamemaster.json'
@@ -17,6 +18,8 @@ export const sliceUpstreamGamemaster = async () => {
   const buffer = await download( gamemasterUri )
   const gamemasterJSON = buffer.toString( 'utf8' )
   const gamemaster = JSON.parse(gamemasterJSON)
+
+  assertGamemaster( gamemaster )
 
   const { pokemon, moves } = gamemaster
 

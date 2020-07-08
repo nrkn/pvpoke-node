@@ -2659,7 +2659,8 @@
         15,
         15
       ]
-    }
+    },
+    "searchPriority": 2
   },
   {
     "dex": 38,
@@ -5375,10 +5376,7 @@
         15
       ]
     },
-    "level25CP": 741,
-    "tags": [
-      "shadoweligible"
-    ]
+    "level25CP": 741
   },
   {
     "dex": 74,
@@ -5462,9 +5460,6 @@
       ]
     },
     "level25CP": 1132,
-    "tags": [
-      "shadoweligible"
-    ],
     "eliteMoves": [
       "ROCK_SLIDE"
     ]
@@ -5551,10 +5546,7 @@
         14
       ]
     },
-    "level25CP": 1825,
-    "tags": [
-      "shadoweligible"
-    ]
+    "level25CP": 1825
   },
   {
     "dex": 76,
@@ -6477,50 +6469,7 @@
         15
       ]
     },
-    "level25CP": 605,
-    "tags": [
-      "shadoweligible"
-    ]
-  },
-  {
-    "dex": 90,
-    "speciesName": "Shellder (Shadow)",
-    "speciesId": "shellder_shadow",
-    "baseStats": {
-      "atk": 116,
-      "def": 134,
-      "hp": 102
-    },
-    "types": [
-      "water",
-      "none"
-    ],
-    "fastMoves": [
-      "ICE_SHARD",
-      "TACKLE"
-    ],
-    "chargedMoves": [
-      "BUBBLE_BEAM",
-      "ICY_WIND",
-      "WATER_PULSE"
-    ],
-    "defaultIVs": {
-      "cp1500": [
-        40,
-        15,
-        15,
-        15
-      ],
-      "cp2500": [
-        40,
-        15,
-        15,
-        15
-      ]
-    },
-    "tags": [
-      "shadow"
-    ]
+    "level25CP": 605
   },
   {
     "dex": 91,
@@ -6561,54 +6510,6 @@
       ]
     },
     "level25CP": 1554,
-    "tags": [
-      "shadoweligible"
-    ],
-    "eliteMoves": [
-      "BLIZZARD"
-    ]
-  },
-  {
-    "dex": 91,
-    "speciesName": "Cloyster (Shadow)",
-    "speciesId": "cloyster_shadow",
-    "baseStats": {
-      "atk": 186,
-      "def": 256,
-      "hp": 137
-    },
-    "types": [
-      "water",
-      "ice"
-    ],
-    "fastMoves": [
-      "FROST_BREATH",
-      "ICE_SHARD"
-    ],
-    "chargedMoves": [
-      "AURORA_BEAM",
-      "AVALANCHE",
-      "BLIZZARD",
-      "HYDRO_PUMP",
-      "ICY_WIND"
-    ],
-    "defaultIVs": {
-      "cp1500": [
-        21,
-        12,
-        15,
-        14
-      ],
-      "cp2500": [
-        39.5,
-        13,
-        15,
-        13
-      ]
-    },
-    "tags": [
-      "shadow"
-    ],
     "eliteMoves": [
       "BLIZZARD"
     ]
@@ -6787,9 +6688,6 @@
       ]
     },
     "level25CP": 608,
-    "tags": [
-      "shadoweligible"
-    ],
     "eliteMoves": [
       "IRON_HEAD",
       "ROCK_SLIDE"
@@ -13202,10 +13100,7 @@
         15
       ]
     },
-    "level25CP": 1465,
-    "tags": [
-      "shadoweligible"
-    ]
+    "level25CP": 1465
   },
   {
     "dex": 209,
@@ -17384,7 +17279,8 @@
     ],
     "eliteMoves": [
       "SYNCHRONOISE"
-    ]
+    ],
+    "searchPriority": 2
   },
   {
     "dex": 283,

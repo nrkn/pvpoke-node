@@ -3636,9 +3636,7 @@
       "ROCK_TOMB"
     ],
     "eliteMoves": [],
-    "tags": [
-      "shadoweligible"
-    ]
+    "tags": []
   },
   {
     "dex": 74,
@@ -3694,9 +3692,7 @@
     "eliteMoves": [
       "ROCK_SLIDE"
     ],
-    "tags": [
-      "shadoweligible"
-    ]
+    "tags": []
   },
   {
     "dex": 75,
@@ -3750,9 +3746,7 @@
       "STONE_EDGE"
     ],
     "eliteMoves": [],
-    "tags": [
-      "shadoweligible"
-    ]
+    "tags": []
   },
   {
     "dex": 76,
@@ -4374,36 +4368,7 @@
       "WATER_PULSE"
     ],
     "eliteMoves": [],
-    "tags": [
-      "shadoweligible"
-    ]
-  },
-  {
-    "dex": 90,
-    "speciesName": "Shellder (Shadow)",
-    "speciesId": "shellder_shadow",
-    "baseStats": {
-      "atk": 116,
-      "def": 134,
-      "hp": 102
-    },
-    "types": [
-      "water",
-      "none"
-    ],
-    "fastMoves": [
-      "ICE_SHARD",
-      "TACKLE"
-    ],
-    "chargedMoves": [
-      "BUBBLE_BEAM",
-      "ICY_WIND",
-      "WATER_PULSE"
-    ],
-    "eliteMoves": [],
-    "tags": [
-      "shadow"
-    ]
+    "tags": []
   },
   {
     "dex": 91,
@@ -4432,40 +4397,7 @@
     "eliteMoves": [
       "BLIZZARD"
     ],
-    "tags": [
-      "shadoweligible"
-    ]
-  },
-  {
-    "dex": 91,
-    "speciesName": "Cloyster (Shadow)",
-    "speciesId": "cloyster_shadow",
-    "baseStats": {
-      "atk": 186,
-      "def": 256,
-      "hp": 137
-    },
-    "types": [
-      "water",
-      "ice"
-    ],
-    "fastMoves": [
-      "FROST_BREATH",
-      "ICE_SHARD"
-    ],
-    "chargedMoves": [
-      "AURORA_BEAM",
-      "AVALANCHE",
-      "BLIZZARD",
-      "HYDRO_PUMP",
-      "ICY_WIND"
-    ],
-    "eliteMoves": [
-      "BLIZZARD"
-    ],
-    "tags": [
-      "shadow"
-    ]
+    "tags": []
   },
   {
     "dex": 92,
@@ -4589,9 +4521,7 @@
       "IRON_HEAD",
       "ROCK_SLIDE"
     ],
-    "tags": [
-      "shadoweligible"
-    ]
+    "tags": []
   },
   {
     "dex": 96,
@@ -8968,9 +8898,7 @@
       "HEAVY_SLAM"
     ],
     "eliteMoves": [],
-    "tags": [
-      "shadoweligible"
-    ]
+    "tags": []
   },
   {
     "dex": 209,
