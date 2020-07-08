@@ -21,3 +21,18 @@ export type RosterPerformance = {
   scenarios: Scenario[]
   average: number
 }
+
+export enum DecisionOptionType {
+  BASIC,
+  BEST,
+  COUNTER,
+  UNBALANCED,
+  SAME_TEAM,
+  SAME_TEAM_DIFFERENT_LEAD,
+  COUNTER_LAST_LEAD
+}
+
+export type DecisionOption = {
+  decisionType: DecisionOptionType
+  weight: number
+}
