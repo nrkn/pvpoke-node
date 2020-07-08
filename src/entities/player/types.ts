@@ -1,7 +1,7 @@
-import { BattlePokemon } from '../pokemon/types'
+import { BattlePokemonTeam } from '../pokemon/types'
 
 export type BattlePlayer = {
-  team: [ BattlePokemon, BattlePokemon, BattlePokemon ]
+  team: BattlePokemonTeam
   shields: 0 | 1 | 2
   switchCooldown: number
 }

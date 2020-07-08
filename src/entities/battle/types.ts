@@ -1,4 +1,5 @@
 import { BattlePlayer } from '../player/types';
+import { Pokemon } from '../pokemon/types';
 
 export enum ScenarioType {
   BOTH_BAIT,
@@ -13,4 +14,10 @@ export type Scenario = {
   matchups: number[]
   average: number
   minShields: number
+}
+
+export type RosterPerformance = {
+  pokemon: Pokemon
+  scenarios: Scenario[]
+  average: number
 }
