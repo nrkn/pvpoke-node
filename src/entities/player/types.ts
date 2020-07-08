@@ -6,6 +6,8 @@ export type BattlePlayer = {
   switchCooldown: number
 }
 
+export enum AIDifficulty { NOVICE, RIVAL, ELITE, CHAMPION }
+
 export enum AIStrategy {
   DEFAULT,
 	SHIELD,
@@ -22,13 +24,17 @@ export enum AIStrategy {
 	SACRIFICIAL_SWAP
 }
 
-export type BattleAI = BattlePlayer & {
-  name: string
-  level: number
+export type AI = {
+  level: AIDifficulty
   chargedMoveCount: number
   energyGuessRange: number
   moveGuessCertainty: number
   reactionTime: number
   ivComboRange: number
   strategies: AIStrategy[]
+}
+
+export type BattleAI = BattlePlayer & AI & {
+  farmEnergy: boolean
+  baitShields: boolean
 }
