@@ -65,8 +65,6 @@ export type PokedexEntry = {
 }
 ```
 
-It looks like pvpoke has renamed legacyMoves to eliteMoves since this was done,
-which makes more sense. Also the `shadow` tag has been renamed `shadoweligible`. 
 We are currently ignoring the `defaultIVs` and `level25CP` properties, as they 
 can be calculated and/or cached elsewhere. 
 
@@ -87,8 +85,6 @@ These caches can be accessed through the exported functions
 
 #### TODO
 
-- rename `legacyMoves` -> `eliteMoves`
-- where we check for `shadow` tag, check for `shadoweligible` instead
 - should `getPokedex` and `getPokemonById` return clones so that the end 
   consumer doesn't inadvertantly mutate pokdex entries?
 

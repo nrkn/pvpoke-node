@@ -11,4 +11,4 @@ export const isBuffedChargeMove = ( move: Move ): move is BuffedChargeMove =>
   move.buffs !== undefined
 
 export const isLegacyMove = ( move: Move, dex: PokedexEntry ) =>
-  dex.legacyMoves.includes( move.moveId )
+  dex.eliteMoves.includes( move.moveId )

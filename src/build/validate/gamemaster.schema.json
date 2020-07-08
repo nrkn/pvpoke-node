@@ -1,0 +1,87 @@
+{
+  "type": "object",
+  "properties": {
+    "pokemon": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "dex": { "type": "integer" },
+          "speciesName": { "type": "string" },
+          "speciesId": { "type": "string" },
+          "baseStats": {
+            "type": "object",
+            "properties": {
+              "atk": { "type": "integer" },
+              "def": { "type": "integer" },
+              "hp": { "type": "integer" }
+            },
+            "required": [ "atk", "def", "hp" ]
+          },
+          "types": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minLength": 1,
+            "maxLength": 2
+          },
+          "fastMoves": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minLength": 1
+          },
+          "chargedMoves": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minLength": 1
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "eliteMoves": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minLength": 1
+          }
+        },
+        "required": [
+          "dex", "speciesName", "speciesId", "baseStats", "types", "fastMoves",
+          "chargedMoves"
+        ]
+      }
+    },
+    "moves": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "moveId": { "type": "string" },
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "power": { "type": "integer" },
+          "energy": { "type": "integer" },
+          "energyGain": { "type": "integer" },
+          "cooldown": { "type": "integer" },
+          "buffs": {
+            "type": "array",
+            "items": [
+              { "type": "integer" },
+              { "type": "integer" } 
+            ]
+          },
+          "buffTarget": {
+            "type": "string",
+            "enum": [ "opponent", "self" ]
+          },
+          "buffApplyChance": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "moveId", "name", "type", "power", "energy", "energyGain", "cooldown"          
+        ]
+      }
+    }
+  },
+  "required": [ "pokemon", "moves" ]
+}
