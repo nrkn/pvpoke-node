@@ -1,1 +1,1 @@
-export type TimelineAction = 'fast' | 'charged' | 'wait'
+export enum TimelineAction { FAST, CHARGED, WAIT }
