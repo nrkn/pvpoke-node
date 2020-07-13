@@ -6,22 +6,27 @@ export type BattlePlayer = {
   switchCooldown: number
 }
 
-export enum AIDifficulty { NOVICE, RIVAL, ELITE, CHAMPION }
+export enum AIDifficulty {
+  NOVICE   = 'novice',
+  RIVAL    = 'rival',
+  ELITE    = 'elite',
+  CHAMPION = 'champion'
+}
 
 export enum AIStrategy {
-  DEFAULT,
-	SHIELD,
-	SWITCH_BASIC,
-	SWITCH_FARM,
-	SWITCH_ADVANCED,
-	FARM_ENERGY,
-	OVERFARM,
-	BAIT_SHIELDS,
-	WAIT_CLOCK,
-	PRESERVE_SWITCH_ADVANTAGE,
-	ADVANCED_SHIELDING,
-	BAD_DECISION_PROTECTION,
-	SACRIFICIAL_SWAP
+  DEFAULT                   = 'default',
+  SHIELD                    = 'shield',
+  SWITCH_BASIC              = 'switch_basic',
+  SWITCH_FARM               = 'switch_farm',
+  SWITCH_ADVANCED           = 'switch_advanced',
+  FARM_ENERGY               = 'farm_energy',
+  OVERFARM                  = 'overfarm',
+  BAIT_SHIELDS              = 'bait_shields',
+  WAIT_CLOCK                = 'wait_clock',
+  PRESERVE_SWITCH_ADVANTAGE = 'preserve_switch_advantage',
+  ADVANCED_SHIELDING        = 'advanced_shielding',
+  BAD_DECISION_PROTECTION   = 'bad_decision_protection',
+  SACRIFICIAL_SWAP          = 'sacrificial_swap'
 }
 
 export type AI = {

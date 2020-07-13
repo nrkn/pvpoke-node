@@ -1,1 +1,5 @@
-export enum TimelineAction { FAST, CHARGED, WAIT }
+export enum TimelineAction {
+  FAST    = 'fast',
+  CHARGED = 'charged',
+  WAIT    = 'wait'
+}
