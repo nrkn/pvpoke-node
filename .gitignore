@@ -1,4 +1,9 @@
-# Logs
+# -*- mode: gitignore; -*-
+# =========================================================================== #
+
+
+# Logs: --------------------------------------------------------------------- #
+
 logs
 *.log
 npm-debug.log*
@@ -6,7 +11,30 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
+
+# Emacs Junk: --------------------------------------------------------------- #
+
+\#*\#
+*.elc
+.\#*
+.projectile
+
+
+# Vim Junk: ----------------------------------------------------------------- #
+
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+Session.vim
+
+
+# Other junk: --------------------------------------------------------------- #
+
+*~
+tags
+
+# Diagnostic Reports
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
@@ -25,7 +53,7 @@ coverage
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+# Grunt intermediate storage
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -102,3 +130,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# =========================================================================== #
+# vim: set filetype=gitignore :
