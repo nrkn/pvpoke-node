@@ -1,0 +1,94 @@
+[
+	{
+		"speciesId": "ferrothorn",
+		"chargedMoves": ["POWER_WHIP","FLASH_CANNON"],
+		"weight": 6
+	},
+	{
+		"speciesId": "venusaur",
+		"weight": 5
+	},
+	{
+		"speciesId": "leavanny",
+		"fastMove": "RAZOR_LEAF"
+	},
+	{
+		"speciesId": "flygon",
+		"fastMove": "DRAGON_TAIL"
+	},
+	{
+		"speciesId": "heracross",
+		"chargedMoves": ["ROCK_BLAST", "CLOSE_COMBAT"]
+	},
+	{
+		"speciesId": "ariados",
+		"chargedMoves": ["CROSS_POISON", "MEGAHORN"]
+	},
+	{
+		"speciesId": "lucario",
+		"chargedMoves": ["POWER_UP_PUNCH","SHADOW_BALL"]
+	},
+	{
+		"speciesId": "mawile",
+		"chargedMoves": ["POWER_UP_PUNCH","PLAY_ROUGH"]
+	},
+	{
+		"speciesId": "toxicroak",
+		"chargedMoves": ["MUD_BOMB","SLUDGE_BOMB"]
+	},
+	{
+		"speciesId": "dewgong",
+		"chargedMoves": ["ICY_WIND","WATER_PULSE"]
+	},
+	{
+		"speciesId": "ludicolo",
+		"chargedMoves": ["LEAF_STORM","ICE_BEAM"]
+	},
+	{
+		"speciesId": "jellicent",
+		"chargedMoves": ["BUBBLE_BEAM","SHADOW_BALL"],
+		"weight": 8
+	},
+	{
+		"speciesId": "mantine",
+		"fastMove": "WING_ATTACK",
+		"chargedMoves": ["BUBBLE_BEAM","ICE_BEAM"],
+		"weight": 4
+	},
+	{
+		"speciesId": "nidoqueen",
+		"weight": 2
+	},
+	{
+		"speciesId": "registeel",
+		"weight": 6
+	},
+	{
+		"speciesId": "swampert",
+		"weight": 6
+	},
+	{
+		"speciesId": "whiscash",
+		"weight": 2
+	},
+	{
+		"speciesId": "politoed",
+		"weight": 2
+	},
+	{
+		"speciesId": "escavalier",
+		"weight": 2
+	},
+	{
+		"speciesId": "galvantula",
+		"weight": 7
+	},
+	{
+		"speciesId": "pelipper",
+		"weight": 3
+	},
+	{
+		"speciesId": "wigglytuff",
+		"weight": 4
+	}
+]

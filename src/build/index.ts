@@ -1,7 +1,11 @@
-import { buildDataFromUpstream } from './upstream/build-data-from-upstream'
+import { promises } from 'fs'
 
-const build = async () => {
-  await buildDataFromUpstream()
+const { cp, rm } = promises
+
+const start = async () => {
+  await cp( './pvpoke/src/data', './public/data', { recursive: true } )
+  await cp( './pvpoke/src/js', './public/js', { recursive: true } )
+  await rm( './pvpoke', { recursive: true, force: true } )
 }
 
-build().catch( console.error )
+start().catch( console.error )
